@@ -2530,24 +2530,24 @@ textarea.form_control {
 */
 
 /*
-	Start onova_sponser section css
+	Start onova_sponsor section css
 */
-.onova_sponser_1 {
+.onova_sponsor_1 {
     padding-top: 220px;
     padding-bottom: 120px;
 }
 
-.single_sponser {
+.single_sponsor {
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.single_sponser img {
+.single_sponsor img {
     margin: 0 auto;
 }
 
 /*
-	End onova_sponser section css
+	End onova_sponsor section css
 */
 
 /*
@@ -3076,9 +3076,9 @@ textarea.form_control {
 }
 
 /*
-	Satrt onova_sponser section
+	Start onova_sponsor section
 */
-.onova_sponser_2 {
+.onova_sponsor_2 {
     padding: 120px 0 20px;
 }
 
@@ -3086,12 +3086,12 @@ textarea.form_control {
     background: #0d2335;
 }
 
-.sponser_contact_action {
+.sponsor_contact_action {
     margin-top: 100px;
     margin-bottom: -180px;
 }
 
-.sponser_contact_box {
+.sponsor_contact_box {
     background: #fff;
     display: flex;
     align-items: stretch;

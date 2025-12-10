@@ -235,7 +235,7 @@
         }
       ]
     });
-    $('.sponser_slide').slick({
+    $('.sponsor_slide').slick({
       dots: true,
       infinite: false,
       autoplay: false,
