@@ -29,7 +29,7 @@ voting_url: "https://www.instagram.com/hagenberg_gamejam/"
 voting_deadline: "2026-01-25T23:59:00"
 
 next_jam: "2025"
-registration_active: true
+registration_active: false
 registration_url: "https://forms.office.com/e/J0cpwNdunh"
 registration_deadline: "2025-12-07T23:59:00"
 
