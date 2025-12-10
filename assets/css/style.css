@@ -2544,6 +2544,7 @@ textarea.form_control {
 
 .single_sponsor img {
     margin: 0 auto;
+    max-height: 60px;
 }
 
 /*
