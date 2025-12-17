@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'url' => env('SITE_URL', 'http://localhost:8080'),
+    'url' => env('SITE_URL', 'http://hagenberg-gamejam.at.test'),
 
     /*
     |--------------------------------------------------------------------------
