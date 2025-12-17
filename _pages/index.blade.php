@@ -12,42 +12,28 @@
 @endphp
 
 <!-- Hero Section with Slider -->
-<section class="relative h-screen flex items-center justify-center overflow-hidden bg-gray-900" style="min-height: 100vh;">
-    <div class="hero-slider glide w-full h-full absolute inset-0" style="display: block; position: relative;">
-        <div class="glide__track" data-glide-el="track" style="overflow: hidden;">
-            <ul class="glide__slides" style="list-style: none; margin: 0; padding: 0; display: flex; height: 100vh;">
-                <li class="glide__slide" style="height: 100vh; min-width: 100%; position: relative; flex-shrink: 0;">
-                    <div class="absolute inset-0" style="background-image: url('/media/gamejam_index_1.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; width: 100%; height: 100%;">
-                        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
-                    </div>
-                </li>
-                <li class="glide__slide" style="height: 100vh; min-width: 100%; position: relative; flex-shrink: 0;">
-                    <div class="absolute inset-0" style="background-image: url('/media/gamejam_index_2.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; width: 100%; height: 100%;">
-                        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
-                    </div>
-                </li>
-                <li class="glide__slide" style="height: 100vh; min-width: 100%; position: relative; flex-shrink: 0;">
-                    <div class="absolute inset-0" style="background-image: url('/media/gamejam_index_3.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; width: 100%; height: 100%;">
-                        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
-                    </div>
-                </li>
-            </ul>
+<section class="relative h-screen flex items-center justify-center overflow-hidden" style="min-height: 100vh;">
+    <div class="hero-slider-container absolute inset-0 w-full h-full z-0">
+        <div class="hero-slider-track relative w-full h-full">
+            <div class="hero-slide active" data-slide="0" style="background-image: url('/media/gamejam_index_1.jpg');"></div>
+            <div class="hero-slide" data-slide="1" style="background-image: url('/media/gamejam_index_2.jpg');"></div>
+            <div class="hero-slide" data-slide="2" style="background-image: url('/media/gamejam_index_3.jpg');"></div>
         </div>
-        <div class="absolute inset-0 flex items-center justify-center z-10">
+        <div class="absolute inset-0 flex items-center justify-center z-20 pointer-events-none">
             <div class="container mx-auto px-4 text-center text-white drop-shadow-lg">
                 <span class="text-lg md:text-xl mb-4 block">Developing Games In No Time Since 2011</span>
                 <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-8">Hagenberg Game Jam</h1>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="/{{ $latestJam }}" class="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                    <a href="/{{ $latestJam }}" class="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors pointer-events-auto">
                         View the games of {{ $latestJam }}
                     </a>
                     @if($votingActive)
-                    <a href="{{ $votingUrl }}" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                    <a href="{{ $votingUrl }}" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors pointer-events-auto">
                         Vote for the games of {{ $latestJam }}
                     </a>
                     @endif
                     @if($registrationActive && $nextJam)
-                    <a href="{{ $registrationUrl }}" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                    <a href="{{ $registrationUrl }}" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors pointer-events-auto">
                         Register for {{ $nextJam }}
                     </a>
                     @endif
