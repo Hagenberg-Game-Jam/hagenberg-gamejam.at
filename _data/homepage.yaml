@@ -1,0 +1,52 @@
+about:
+  eyebrow: About
+  title: The Hagenberg Game Jam
+  subtitle: Creating a game in just one weekend?
+  image: gamejam_about.png
+  markdown: |
+    Game jams have become incredibly popular in recent years. These events require participants to create a working computer game within a very limited time, usually just 48 hours. The topic is announced at the beginning of the event, and teams start brainstorming and implementing their games as quickly as possible to finish in time. At the end of the event, the games are often demonstrated in a public context before the participants catch some much-needed sleep.
+
+    In 2011, a first attempt was made to bring this kind of event to Hagenberg. The rules were slightly changed to be compatible with the curriculum of the students. The time was limited to 36 hours to better fit a weekend schedule. The topic is announced the evening before, and teams are set up beforehand. The weekend before the Christmas holidays was chosen to run the event, held in the university's computer labs and accompanied online on a [Discord server](https://discord.gg/kh2rXBj8nr). Once finished, the games are put on this website, publicly available for download. Winners are determined through a voting process (jury and people's choice), and an award ceremony is held in January. After the success of the 2011 Game Jam, subsequent events have been held each year.
+
+    In 2017, the 7th edition took place with an even shorter duration: 24 hours. This was inspired by several game jams with shorter formats and was an attempt to avoid idle periods mostly during the night that occurred in the years before.
+
+    2018 returned to the well-established 36-hour format to give the teams more time to create their games. Feedback from the previous year had shown that 24 hours would limit the teams too much.
+
+    2020 was a special year in every aspect. A global pandemic, paired with lockdowns, made it impossible to conduct the game jam at the university. By switching to a virtual collaboration format with an extended time of 48 hours, the Hagenberg Game Jam nevertheless celebrated its 10th anniversary.
+
+    2021 saw yet another lockdown in December, and the organizers decided to skip this year's game jam. In 2022, a return to the established 36-hour format on Hagenberg Campus was possible, and 11 teams with over 40 people brought the Hagenberg Game Jam back to life.
+
+    2023 marked a new record: 82 people in 20 teams registered, making for the largest Hagenberg Game Jam since its start in 2011.
+
+    This website is an archive of all the games created during a Hagenberg Game Jam. You are free to download and play the games, but please give credit to the authors should you distribute them.
+
+    Hagenberg Game Jam is organized by people from the Playful Interactive Environments research group as well as the Department of Digital Media at the University of Applied Sciences Upper Austria, Hagenberg Campus.
+video:
+  eyebrow: intro video
+  title: |
+    Hagenberg Game Jam
+    in a Nutshell
+  description: Experience the feeling of a Hagenberg Game Jam in this short clip from 2019.
+  youtube_id: S4UBw5cPjfY
+sponsors:
+  title: Our Sponsors
+  items:
+    - name: Digital Media Campus Hagenberg
+      url: https://fh-ooe.at/campus-hagenberg/personen-kontakt/departments
+      logo: gamejam_logo_digital-media.svg
+    - name: University of Applied Sciences Logo
+      url: https://www.fh-ooe.at/campus-hagenberg/
+      logo: gamejam_logo_fhooe.svg
+    - name: Freistädter Bier Logo
+      url: https://www.freistaedter-bier.at/
+      logo: sponsor_freistaedter.png
+    - name: KEBA Logo
+      url: https://www.keba.com/
+      logo: sponsor_keba.svg
+    - name: LIWEST Logo
+      url: https://www.liwest.at/
+      logo: sponsor_liwest.svg
+    - name: RISC Software Logo
+      url: https://www.risc-software.at/
+      logo: sponsor_risc-software.svg
+
