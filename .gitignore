@@ -9,4 +9,8 @@
 
 .env
 
-# /_site
+# Do not include built site
+/_site
+
+# Exclude the jekyll worktree
+/jekyll-site
