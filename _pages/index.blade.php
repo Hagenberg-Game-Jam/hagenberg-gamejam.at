@@ -1,6 +1,5 @@
 @extends('layouts.app')
 
-@section('content')
 @php
     $latestJam = config('gamejam.latest_jam', '2024');
     $votingActive = (bool) config('gamejam.voting.active', false);
@@ -11,7 +10,8 @@
 @endphp
 
 <!-- Hero Section with Slider -->
-<section class="relative h-screen flex items-center justify-center overflow-hidden" style="min-height: 100vh;">
+@section('header')
+<section class="relative h-full flex items-center justify-center overflow-hidden">
     <div class="hero-slider-container absolute inset-0 w-full h-full z-0">
         <div class="hero-slider-track relative w-full h-full">
             <div class="hero-slide active" data-slide="0" style="background-image: url('/media/gamejam_index_1.jpg');"></div>
@@ -41,6 +41,9 @@
         </div>
     </div>
 </section>
+@endsection
+
+@section('content')
 
 <!-- Categories Section -->
 <section class="py-16 bg-gray-50 dark:bg-gray-800">
