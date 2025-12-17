@@ -2,13 +2,12 @@
 
 @section('content')
 @php
-    $siteConfig = \App\GameJamData::getSiteConfig();
-    $latestJam = $siteConfig['latest_jam'] ?? '2024';
-    $votingActive = $siteConfig['voting_active'] ?? false;
-    $votingUrl = $siteConfig['voting_url'] ?? '';
-    $nextJam = $siteConfig['next_jam'] ?? null;
-    $registrationActive = $siteConfig['registration_active'] ?? false;
-    $registrationUrl = $siteConfig['registration_url'] ?? '';
+    $latestJam = config('gamejam.latest_jam', '2024');
+    $votingActive = (bool) config('gamejam.voting.active', false);
+    $votingUrl = config('gamejam.voting.url', '');
+    $nextJam = config('gamejam.registration.next_jam');
+    $registrationActive = (bool) config('gamejam.registration.active', false);
+    $registrationUrl = config('gamejam.registration.url', '');
 @endphp
 
 <!-- Hero Section with Slider -->

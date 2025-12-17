@@ -1,0 +1,237 @@
+- game:
+    name: 'Brut Force'
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      This game is about a solicitous hen who just wants to keep her eggs warm. But the batteries for the so important heating lamp need to be recharged all the time! But watch out - don't let them in for too long! So this simple task turns into an action-packed adventure full of fun, obstacles and batteries!
+  team:
+    name: 'Curly Braces'
+    members:
+      - 'Florian Friedrich'
+      - 'Julia Hauptmann'
+      - 'Jaqueline Lowe'
+      - 'Lukas Paul'
+  winner: 'no'
+  headerimage: brutforce_header.jpg
+  images:
+    - file: brutforce_image1_full.jpg
+      thumb: brutforce_image1_thumb.jpg
+    - file: brutforce_image2_full.jpg
+      thumb: brutforce_image2_thumb.jpg
+    - file: brutforce_image3_full.jpg
+      thumb: brutforce_image3_thumb.jpg
+    - file: brutforce_image4_full.jpg
+      thumb: brutforce_image4_thumb.jpg
+  download:
+    - file: brutforceWin.zip
+      platform: Windows
+    - file: brutforceMac.zip
+      platform: 'Mac OS X'
+- game:
+    name: CATharsis
+    players: 1
+    controls:
+      - gamepad
+    description: |
+      You are a cat and your owner has neglected you for too long, so it's time for revenge! Cause as much mayhem as you can before the alarm clock wakes him up. While you're redecorating the room always keep an eye on the clock. If the timer is close to zero, punch the clock to press the snooze button, for it will give you additional time! Now go and do your duty as a vengeful cat!
+  team:
+    name: 'Byte my ASCII'
+    members:
+      - 'Niko Frenkenberger'
+      - 'Lisa Gonaus'
+      - 'Christine Pühringer'
+      - 'Moritz Rührlinger'
+      - 'Damiano Weidenhausen'
+  winner: 'no'
+  headerimage: catharsis_header.jpg
+  images:
+    - file: catharsis_image1_full.jpg
+      thumb: catharsis_image1_thumb.jpg
+    - file: catharsis_image2_full.jpg
+      thumb: catharsis_image2_thumb.jpg
+    - file: catharsis_image3_full.jpg
+      thumb: catharsis_image3_thumb.jpg
+    - file: catharsis_image4_full.jpg
+      thumb: catharsis_image4_thumb.jpg
+  download:
+    - file: catharsis.zip
+      platform: Windows
+- game:
+    name: Counttown
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      Space Engineer Nole got a last minute assignment: Fix the rocket while the countdown goes down and the rocket starts. Unfortunately the rocket is so rusty, that it continues to break - so don't stop hammering and fixing stuff because more repairing means more points! First Nole has to find one of the problems (could be a broken wing, tank, pipe, engine, ...), then fix it with the according tool. On the console at the bottom he can see how much time he has left.
+  team:
+    name: 'Rainbow Chilli Puppers'
+    members:
+      - 'Friedrich Bachinger'
+      - 'Niklas Guth'
+      - 'Eva-Maria Hobl'
+      - 'Daniel Lanner'
+      - 'Johannes Lugstein'
+      - 'Susanne Teufelauer'
+  winner: 'no'
+  headerimage: counttown_header.jpg
+  images:
+    - file: counttown_image1_full.jpg
+      thumb: counttown_image1_thumb.jpg
+    - file: counttown_image2_full.jpg
+      thumb: counttown_image2_thumb.jpg
+    - file: counttown_image3_full.jpg
+      thumb: counttown_image3_thumb.jpg
+    - file: counttown_image4_full.jpg
+      thumb: counttown_image4_thumb.jpg
+  download:
+    - file: counttownWin.zip
+      platform: Windows
+    - file: counttownMac.zip
+      platform: 'Mac OS X'
+- game:
+    name: 'Kraut und Rüben'
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      In this game King Kraut has to fight off monstrous Rüben with exploding crystals on a tiny magical planet. Survive the attacks as long as possible and kill off enemies.
+  team:
+    name: Final_final_v02
+    members:
+      - 'Markus Hadinger'
+      - 'Matthias Patscheider'
+      - 'Bianca Zankl'
+  winner: 'no'
+  headerimage: krautundrueben_header.jpg
+  images:
+    - file: krautundrueben_image1_full.jpg
+      thumb: krautundrueben_image1_thumb.jpg
+    - file: krautundrueben_image2_full.jpg
+      thumb: krautundrueben_image2_thumb.jpg
+    - file: krautundrueben_image3_full.jpg
+      thumb: krautundrueben_image3_thumb.jpg
+    - file: krautundrueben_image4_full.jpg
+      thumb: krautundrueben_image4_thumb.jpg
+  download:
+    - file: krautundrueben.zip
+      platform: Windows
+- game:
+    name: 'Last Minute Love'
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      Last Minute Love is a dating simulator in a nursing home. Don't waste your last chance to find true love and romance one of the available characters. Humor them with items or fulfill requests.
+  team:
+    name: 'I Thought This Was Speeddating'
+    members:
+      - 'Philip Caligagan'
+      - 'Sonja Futterknecht'
+      - 'Moritz Kubesch'
+      - 'Sebastian Tombor'
+  winner: people
+  headerimage: lastminutelove_header.jpg
+  images:
+    - file: lastminutelove_image1_full.jpg
+      thumb: lastminutelove_image1_thumb.jpg
+    - file: lastminutelove_image2_full.jpg
+      thumb: lastminutelove_image2_thumb.jpg
+    - file: lastminutelove_image3_full.jpg
+      thumb: lastminutelove_image3_thumb.jpg
+    - file: lastminutelove_image4_full.jpg
+      thumb: lastminutelove_image4_thumb.jpg
+  download:
+    - file: lastminuteloveWin.zip
+      platform: Windows
+    - file: lastminuteloveMac.zip
+      platform: 'Mac OS X'
+- game:
+    name: "Santa's Dash Driver"
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      It is Christmas Eve, joy and love fills every home, everybody is eager to open presents and enjoy their evening with family and friends. Well, everybody except you, because you forgot to do your job to deliver said presents and are now in danger of being fired... again. So hurry up and deliver as many presents as possible before time runs out and whatever God you believe in has mercy on your poor soul.
+  team:
+    name: 'Voxel Vikings'
+    members:
+      - 'Daniela Krückel'
+      - 'Pascal Pilat'
+      - 'Barbara Reiter'
+      - 'Elias Wagner'
+      - 'Andreas Ziegelwanger'
+  winner: 'no'
+  headerimage: santasdashdriver_header.jpg
+  images:
+    - file: santasdashdriver_image1_full.jpg
+      thumb: santasdashdriver_image1_thumb.jpg
+    - file: santasdashdriver_image2_full.jpg
+      thumb: santasdashdriver_image2_thumb.jpg
+    - file: santasdashdriver_image3_full.jpg
+      thumb: santasdashdriver_image3_thumb.jpg
+    - file: santasdashdriver_image4_full.jpg
+      thumb: santasdashdriver_image4_thumb.jpg
+  download:
+    - file: santasdashdriver.zip
+      platform: Windows
+- game:
+    name: Smashtronaut
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      A clumsy astronaut slept on the job on Mars and now they’re missing the rocket launch home! Your objective is to get to the rocket in time while struggling with (not so intuitive) controls and obstacles along the way.
+  team:
+    name: Toasty
+    members:
+      - 'Leoni Bassenge'
+      - 'Fabian Kainz'
+      - 'Theodor Knab'
+      - 'Marleigh Pach'
+  winner: 'no'
+  headerimage: smashtronaut_header.jpg
+  images:
+    - file: smashtronaut_image1_full.jpg
+      thumb: smashtronaut_image1_thumb.jpg
+    - file: smashtronaut_image2_full.jpg
+      thumb: smashtronaut_image2_thumb.jpg
+    - file: smashtronaut_image3_full.jpg
+      thumb: smashtronaut_image3_thumb.jpg
+    - file: smashtronaut_image4_full.jpg
+      thumb: smashtronaut_image4_thumb.jpg
+  download:
+    - file: smashtronaut.zip
+      platform: Windows
+- game:
+    name: 'You Only Die Once'
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      After you are diagnosed with an incurable illness you have precisely five minutes left to live. However, there are still plenty of things you need to do before you finally kick the bucket. Clean up as many of your life's loose ends as possible to increase you score - based on which your last day on earth will be rated. Also, you're a weasel.
+  team:
+    name: 'Robotic Weasel Assault'
+    members:
+      - 'Rene Buchmayer'
+      - 'Verena Mappes'
+      - 'Thomas Pichler'
+      - 'Florian Rath'
+      - 'Isabella Rathner'
+  winner: jury
+  headerimage: youonlydieonce_header.jpg
+  images:
+    - file: youonlydieonce_image1_full.jpg
+      thumb: youonlydieonce_image1_thumb.jpg
+    - file: youonlydieonce_image2_full.jpg
+      thumb: youonlydieonce_image2_thumb.jpg
+    - file: youonlydieonce_image3_full.jpg
+      thumb: youonlydieonce_image3_thumb.jpg
+    - file: youonlydieonce_image4_full.jpg
+      thumb: youonlydieonce_image4_thumb.jpg
+  download:
+    - file: youonlydieonceWin.zip
+      platform: Windows
+    - file: youonlydieonceMac.zip
+      platform: 'Mac OS X'
