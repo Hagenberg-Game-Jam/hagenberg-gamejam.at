@@ -1,107 +1,202 @@
-# HydePHP - Elegant and Powerful Static Site Generator
+# Hagenberg Game Jam Website (HydePHP)
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/hyde/framework?include_prereleases)](https://packagist.org/packages/hyde/framework)
-[![Total Downloads on Packagist](https://img.shields.io/packagist/dt/hyde/framework)](https://packagist.org/packages/hyde/framework)
-[![License MIT](https://img.shields.io/github/license/hydephp/hyde)](https://github.com/hydephp/hyde/blob/master/LICENSE.md)
-[![Test Coverage](https://codecov.io/gh/hydephp/develop/branch/master/graph/badge.svg?token=G6N2161TOT)](https://codecov.io/gh/hydephp/develop)
-[![Test Suite](https://github.com/hydephp/develop/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/hydephp/develop/actions/workflows/continuous-integration.yml)
+This repository contains the source for the **Hagenberg Game Jam** website, built with **HydePHP** (a Laravel-powered static site generator).
 
+The site is **data-driven**: Jam year pages and individual game detail pages are generated automatically during the build from files in `_data/`.
 
-## Make static websites, blogs, and documentation pages with the tools you already know and love.
+## Requirements
 
-### About HydePHP
+### PHP + Composer
 
-HydePHP is a content-first Laravel-powered console application that allows you to create static HTML pages, blog posts, and documentation sites,
-using your choice of Markdown and/or Blade.
+- **PHP**: 8.2+ (see `composer.json`)
+- **Composer**: latest stable
 
-Build sites in record-time with a full batteries-included TailwindCSS frontend that just works without any fuzz.
+**Easy option (recommended): Laravel Herd**
 
-### Speed & simplicity first, full control when you need it.
+- Herd installs and manages PHP for you and works great on **Windows** and **macOS**.
+- If you use Herd, you can either run Hyde’s dev server (`php hyde serve`) or serve the site through Herd using a custom driver.
 
-Hyde is all about letting you get started quickly by giving you a full-featured frontend starter kit, while also giving you the power and freedom of doing things the way you want to.
+Alternative options:
 
-Markdown purist? That's all you need. Blade artisan? Go for it.
-Hyde comes with hand-crafted frontend templates, so you can focus on your content.
-You don't _need_ to customize anything. But you _can_ customize everything.
+- Windows: install PHP via Herd, or via `winget`/Chocolatey, or manual install from `windows.php.net`.
+- macOS: install PHP via Herd, Homebrew (`brew install php`), or similar.
 
-See the documentation and learn more at https://hydephp.com/docs
+### Node.js + npm
 
+- **Node.js** (LTS recommended) and **npm**
 
-## Features
+Node is used for the frontend build pipeline (Vite + TailwindCSS + JS dependencies). You only need it when:
 
-### Content Creation
+- You change CSS/JS assets, Tailwind config, or add new Tailwind utility classes used in templates.
+- You want the live-reload frontend dev experience.
 
-- Create blog posts using Markdown and Front Matter.
-- Create documentation pages from plain Markdown, no front matter needed!
-- Create simple pages using Markdown, or create advanced ones using Laravel Blade.
-- You can scaffold blog posts and Markdown pages to automatically fill in the front matter.
-- You can also scaffold Blade pages to automatically use the default layout.
+## Setup
 
-### Built-in Frontend
-
-- Hyde comes with a TailwindCSS starter kit, so you can start making content right away.
-- The starter kit is fully responsive, has a dark mode theme, and is customizable.
-- The frontend is accessible to screen-readers and rich with semantic HTML and microdata.
-- Hyde automatically chooses the right layout to use depending on the content being rendered.
-- Hyde also fills in and creates content like navigation menus and sidebars automatically.
-
-### Easy Asset Managing
-
-- The Hyde starter comes with [HydeFront](https://github.com/hydephp/hydefront) to serve the base stylesheet and JavaScript through the jsDelivr CDN.
-- Hyde ships with precompiled and minified TailwindCSS styles in the app.css file, you can also load them through the CDN.
-- This means that all the styles you need are already installed. However, if you want to customize the included Tailwind config, or if you add new Tailwind classes through Blade files, you can simply run the `npm run build` command to recompile the styles using the pre-configured Tailwind and Vite setup.
-
-### Customization
-
-- You don't need to configure anything as Hyde is shipped with sensible defaults.
-- You can, however, customize nearly everything. Here are just a few out of many examples:
-- All frontend components and page layouts are created with Blade, so you
-  can publish the vendor views, just like in Laravel.
-- Override many of the dynamic content features like the menus and footer.
-
-
-## Getting Started - High-level overview
-
-> See [Installation Guide](https://hydephp.com/docs/1.x/installation) and [Getting Started](https://hydephp.com/docs/1.x/getting-started) for the full details.
-
-It's a breeze to get started with Hyde. Create a new Hyde project using Composer:
+1) Install PHP + Composer (see above)  
+2) Install Node.js + npm  
+3) Install PHP dependencies:
 
 ```bash
-composer create-project hyde/hyde
+composer install
 ```
 
-Next, place your Markdown files in one of the content directories:  `_posts`, `_docs`, and `_pages` which also accepts Blade files. You can also use the `hyde:make` commands to scaffold them.
+4) Install Node dependencies:
 
-When you're ready, run the build command to compile your static site which will save your HTML files in the `_site` directory.
+```bash
+npm install
+```
+
+5) Environment configuration  
+This project uses environment files for local vs production URLs and metadata. See `ENV_SETUP.md` for details.
+
+## Development
+
+### Option A: Hyde dev server (works everywhere)
+
+```bash
+php hyde serve
+```
+
+This starts Hyde’s local dev server (with the Hyde realtime compiler enabled in dev).
+
+### Option B: Laravel Herd (no Hyde server needed)
+
+If you have Herd set up with a custom driver for HydePHP, you can open the site directly via your Herd domain
+(for example: `http://hagenberg-gamejam.at.test`) without running `php hyde serve`.
+
+For the correct `.env` file to use with Herd, see `ENV_SETUP.md`.
+
+### When do I need npm during development?
+
+- If you only change content/data (YAML/Markdown), you can usually stick to `php hyde serve` (or Herd) without rebuilding assets.
+- If you change styles/scripts or introduce new Tailwind classes, rebuild frontend assets:
+
+```bash
+npm run build
+```
+
+If you want a frontend dev watcher (Vite), you can run:
+
+```bash
+npm run dev
+```
+
+## Building the site
+
+The static site output is generated into `_site/`:
 
 ```bash
 php hyde build
 ```
 
+### Automatic page generation (Jam years & games)
 
-## Resources
+During `php hyde build`, a pre-build task generates pages automatically:
 
-### Changelog
+- For every Jam year file in `_data/jams/YYYY.md` a year overview page `YYYY.html` is generated.
+- For every game entry in `_data/games/gamesYYYY.yaml` a game detail page under `YYYY/<game-slug>.html` is generated.
 
-Please see [CHANGELOG](https://github.com/hydephp/develop/blob/master/CHANGELOG.md) for more information on what has changed recently.
+You do **not** need to create `_pages/` files for years/games. The build task is implemented in:
 
-### Contributing
+- `app/Actions/GenerateGameJamPagesBuildTask.php`
 
-HydePHP is an open-source project, contributions are very welcome!
+## Upgrading dependencies
 
-Development is made in the HydePHP Monorepo, which you can find here https://github.com/hydephp/develop.
+### PHP (Composer) dependencies
 
-### Security
+Update packages:
 
-If you discover any security-related issues, please email emma@desilva.se instead of using the issue tracker,
-or use the GitHub [Security Advisory](https://github.com/hydephp/develop/security/advisories) page.
-All vulnerabilities will be promptly addressed.
+```bash
+composer update
+```
 
-### Credits
+If you want to upgrade HydePHP major versions, do it intentionally:
 
--   [Emma De Silva](https://github.com/emmadesilva), feel free to buy me a coffee! https://www.buymeacoffee.com/caen
--   [All Contributors](../../contributors)
+- Check `hyde/framework` constraints in `composer.json`
+- Read Hyde’s upgrade notes in their docs/releases
+- Run `php hyde build` afterwards and verify output
 
-### License
+### Node dependencies
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+Update packages:
+
+```bash
+npm update
+```
+
+For more thorough upgrades (including major versions), consider using:
+
+```bash
+npx npm-check-updates -u
+npm install
+```
+
+Then rebuild assets:
+
+```bash
+npm run build
+```
+
+## Content management (how to add/update a new Game Jam)
+
+### 1) Add the new Jam year metadata
+
+Create a new markdown file:
+
+- `_data/jams/YYYY.md`
+
+This file contains **front matter** (YAML between `---` blocks) used for the year page (theme, dates, etc.).
+
+### 2) Add the games list for that year
+
+Create a new YAML file:
+
+- `_data/games/gamesYYYY.yaml`
+
+Each entry should include the game name and all metadata needed for the year overview and game detail pages.
+
+### 3) Add media assets
+
+Put year-specific assets under:
+
+- `_media/YYYY/` (screenshots, etc.)
+
+Global shared assets (logos, homepage images, sponsor logos) live directly under:
+
+- `_media/`
+
+### 4) Mark the latest Jam (navigation + homepage CTA)
+
+Update:
+
+- `config/gamejam.php` → `latest_jam`
+
+This controls which year is shown as “latest” in the navigation and which years go under the “Archive” dropdown.
+
+### 5) Update the homepage content (annual)
+
+Edit:
+
+- `_data/homepage.yaml`
+
+This file is intended to be updated yearly and contains:
+
+- `about` (text + image filename)
+- `video` (YouTube ID + copy)
+- `sponsors` (name, url, logo filename)
+
+Note: In templates, `/media/` is prepended automatically for homepage images and sponsor logos.
+
+### 6) Update registration/voting state (optional)
+
+If needed, update:
+
+- `config/gamejam.php` → `registration.*` and `voting.*`
+
+### 7) Build & verify
+
+```bash
+php hyde build
+```
+
+Open `_site/index.html` and the new `YYYY.html` page to verify everything renders correctly.
