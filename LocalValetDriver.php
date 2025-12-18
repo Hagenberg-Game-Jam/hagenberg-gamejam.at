@@ -6,7 +6,7 @@ class LocalValetDriver extends ValetDriver
 {
     public function serves(string $sitePath, string $siteName, string $uri): bool
     {
-        // Prüfe, ob _site Verzeichnis existiert
+        // Check if the _site directory exists
         return is_dir($sitePath . '/_site');
     }
 
@@ -14,7 +14,7 @@ class LocalValetDriver extends ValetDriver
     {
         $siteRoot = $sitePath . '/_site';
 
-        // 1. SPEZIALFALL: Startseite
+        // 1. Special case: homepage
         if ($uri === '/' || $uri === '') {
             $index = $siteRoot . '/index.html';
             if (file_exists($index)) {
@@ -22,14 +22,14 @@ class LocalValetDriver extends ValetDriver
             }
         }
 
-        // 2. Normale statische Dateien (Bilder, CSS, JS, etc.)
-        // Prüfe direkt im _site Verzeichnis
+        // 2. Regular static files (images, CSS, JS, etc.)
+        // Check directly in the _site directory
         $staticPath = $siteRoot . $uri;
         if (file_exists($staticPath) && !is_dir($staticPath)) {
             return $staticPath;
         }
 
-        // 3. HTML-Dateien mit expliziter .html Endung
+        // 3. HTML files with an explicit .html extension
         if (preg_match('/\.html$/', $uri)) {
             $htmlPath = $siteRoot . $uri;
             if (file_exists($htmlPath)) {
@@ -37,17 +37,17 @@ class LocalValetDriver extends ValetDriver
             }
         }
 
-        // 4. Pretty URLs ohne Dateiendung (z.B. /rules -> /rules.html)
-        // Nur prüfen, wenn die URI keine Dateiendung hat
+        // 4. Pretty URLs without an extension (e.g. /rules -> /rules.html)
+        // Only check if the URI has no extension
         $basename = basename($uri);
         if ($basename && strpos($basename, '.') === false) {
-            // Versuche .html Datei
+            // Try .html file
             $htmlFile = $siteRoot . $uri . '.html';
             if (file_exists($htmlFile)) {
                 return $htmlFile;
             }
 
-            // Versuche index.html im Ordner
+            // Try index.html within the directory
             $indexHtml = $siteRoot . $uri . '/index.html';
             if (file_exists($indexHtml)) {
                 return $indexHtml;
@@ -61,8 +61,8 @@ class LocalValetDriver extends ValetDriver
     {
         $siteRoot = $sitePath . '/_site';
 
-        // Wenn isStaticFile false zurückgibt, versuchen wir es nochmal mit HTML
-        // 1. Startseite
+        // If isStaticFile returns false, try again with HTML fallbacks
+        // 1. Homepage
         if ($uri === '/' || $uri === '') {
             $index = $siteRoot . '/index.html';
             if (file_exists($index)) {
@@ -70,19 +70,19 @@ class LocalValetDriver extends ValetDriver
             }
         }
 
-        // 2. Pretty URL zu HTML
+        // 2. Pretty URL -> HTML
         $htmlFile = $siteRoot . $uri . '.html';
         if (file_exists($htmlFile)) {
             return $htmlFile;
         }
 
-        // 3. Ordner mit index.html
+        // 3. Directory with index.html
         $indexHtml = $siteRoot . $uri . '/index.html';
         if (file_exists($indexHtml)) {
             return $indexHtml;
         }
 
-        // 4. 404 Seite
+        // 4. 404 page
         if (file_exists($notFound = $siteRoot . '/404.html')) {
             return $notFound;
         }
