@@ -1,52 +1,52 @@
 # Environment Configuration Setup
 
-Dieses Projekt verwendet `.env`-Dateien zur Konfiguration der Umgebung. Es gibt drei Vorlagen:
+This project uses `.env` files to configure the environment. There are three templates:
 
-## Verfügbare .env-Dateien
+## Available `.env` files
 
-1. **`.env.example`** - Basis-Vorlage (Standard: localhost:8080)
-2. **`.env.local`** - Für lokale Entwicklung mit Herd (hagenberg-gamejam.at.test)
-3. **`.env.production`** - Für Produktion (https://hagenberg-gamejam.at)
+1. **`.env.example`** - Base template (default: localhost:8080)
+2. **`.env.local`** - Local development with Herd (`hagenberg-gamejam.at.test`)
+3. **`.env.production`** - Production (`https://hagenberg-gamejam.at`)
 
-## Verwendung
+## Usage
 
-### Lokale Entwicklung (Herd)
+### Local development (Herd)
 
 ```bash
-# Kopiere die lokale Konfiguration
+# Copy the local configuration
 cp .env.local .env
 
-# Oder unter Windows PowerShell:
+# Or on Windows PowerShell:
 Copy-Item .env.local .env
 ```
 
-### Produktion
+### Production
 
 ```bash
-# Kopiere die Produktions-Konfiguration
+# Copy the production configuration
 cp .env.production .env
 
-# Oder unter Windows PowerShell:
+# Or on Windows PowerShell:
 Copy-Item .env.production .env
 ```
 
-### Nach dem Kopieren
+### After copying
 
-Nachdem du die `.env`-Datei erstellt hast, baue die Seite neu:
+After creating the `.env` file, rebuild the site:
 
 ```bash
 php hyde build
 ```
 
-## Wichtige Konfigurationswerte
+## Important configuration values
 
-- **SITE_URL**: Die Basis-URL deiner Website
-  - Lokal: `http://hagenberg-gamejam.at.test`
-  - Produktion: `https://hagenberg-gamejam.at`
+- **SITE_URL**: The base URL of your website
+  - Local: `http://hagenberg-gamejam.at.test`
+  - Production: `https://hagenberg-gamejam.at`
 
-- **SITE_NAME**: Der Name der Website (wird in Meta-Tags verwendet)
+- **SITE_NAME**: The name of the website (used in meta tags)
 
-## Hinweis
+## Note
 
-Die `.env`-Datei ist in `.gitignore` eingetragen und wird nicht ins Repository committet. Stelle sicher, dass du die richtige `.env`-Datei für deine Umgebung verwendest.
+The `.env` file is listed in `.gitignore` and is not committed to the repository. Make sure you use the correct `.env` file for your environment.
 
