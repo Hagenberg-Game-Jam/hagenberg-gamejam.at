@@ -350,8 +350,11 @@ return [
         ],
 
         // These are the route keys of pages that should not show up in the navigation menu.
+        // Exclude all year pages and game pages as they are handled manually in layouts/navigation.blade.php
         'exclude' => [
             '404',
+            '2015', '2016', '2017', '2018', '2019', '2020', '2022', '2023', '2024',
+            'people',
         ],
 
         // Any extra links you want to add to the navigation menu can be added here.
@@ -363,8 +366,8 @@ return [
         ],
 
         // How should pages in subdirectories be displayed in the menu?
-        // You can choose between 'dropdown', 'flat', and 'hidden'.
-        'subdirectory_display' => 'dropdown',
+        // Set to 'hidden' because we handle navigation manually in layouts/navigation.blade.php
+        'subdirectory_display' => 'hidden',
     ],
 
     /*
