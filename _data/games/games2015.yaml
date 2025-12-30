@@ -1,4 +1,5 @@
-- game:
+-
+  game:
     name: 'Christmas Chaos: Home Edition'
     players: 2-4
     controls:
@@ -24,18 +25,25 @@
   winner: 'no'
   headerimage: christmaschaos_header.jpg
   images:
-    - file: christmaschaos_image1_full.jpg
+    -
+      file: christmaschaos_image1_full.jpg
       thumb: christmaschaos_image1_thumb.jpg
-    - file: christmaschaos_image2_full.jpg
+    -
+      file: christmaschaos_image2_full.jpg
       thumb: christmaschaos_image2_thumb.jpg
-    - file: christmaschaos_image3_full.jpg
+    -
+      file: christmaschaos_image3_full.jpg
       thumb: christmaschaos_image3_thumb.jpg
-    - file: christmaschaos_image4_full.jpg
+    -
+      file: christmaschaos_image4_full.jpg
       thumb: christmaschaos_image4_thumb.jpg
   download:
-    - file: christmaschaos.zip
+    -
+      file: christmaschaos.zip
       platform: Windows
-- game:
+      checksum: 85b5132b6e39d821fb567044daba3fecb8f95907b8b7e5c49847939413b3cff4
+-
+  game:
     name: 'Fuck Yeah, Bullets'
     players: 2
     controls:
@@ -51,20 +59,29 @@
   winner: 'no'
   headerimage: fuckyeahbullets_header.jpg
   images:
-    - file: fuckyeahbullets_image1_full.jpg
+    -
+      file: fuckyeahbullets_image1_full.jpg
       thumb: fuckyeahbullets_image1_thumb.jpg
-    - file: fuckyeahbullets_image2_full.jpg
+    -
+      file: fuckyeahbullets_image2_full.jpg
       thumb: fuckyeahbullets_image2_thumb.jpg
-    - file: fuckyeahbullets_image3_full.jpg
+    -
+      file: fuckyeahbullets_image3_full.jpg
       thumb: fuckyeahbullets_image3_thumb.jpg
-    - file: fuckyeahbullets_image4_full.jpg
+    -
+      file: fuckyeahbullets_image4_full.jpg
       thumb: fuckyeahbullets_image4_thumb.jpg
   download:
-    - file: fuckyeahbulletsWin.zip
+    -
+      file: fuckyeahbulletsWin.zip
       platform: Windows
-    - file: fuckyeahbulletsMac.zip
+      checksum: 4882ec2e16757c0721a6cbafc1fe8730c237f2634ebc16bc6fdb7522c9d13023
+    -
+      file: fuckyeahbulletsMac.zip
       platform: 'Mac OS X'
-- game:
+      checksum: 61a2625b416665414f2783fbfee0d2013de25fcc3f05b98cf22e1358038fdaf3
+-
+  game:
     name: 'Lanner die Waldfee'
     players: 1
     controls:
@@ -86,18 +103,25 @@
   winner: 'no'
   headerimage: lannerdiewaldfee_header.jpg
   images:
-    - file: lannerdiewaldfee_image1_full.jpg
+    -
+      file: lannerdiewaldfee_image1_full.jpg
       thumb: lannerdiewaldfee_image1_thumb.jpg
-    - file: lannerdiewaldfee_image2_full.jpg
+    -
+      file: lannerdiewaldfee_image2_full.jpg
       thumb: lannerdiewaldfee_image2_thumb.jpg
-    - file: lannerdiewaldfee_image3_full.jpg
+    -
+      file: lannerdiewaldfee_image3_full.jpg
       thumb: lannerdiewaldfee_image3_thumb.jpg
-    - file: lannerdiewaldfee_image4_full.jpg
+    -
+      file: lannerdiewaldfee_image4_full.jpg
       thumb: lannerdiewaldfee_image4_thumb.jpg
   download:
-    - file: lannerdiewaldfee.zip
+    -
+      file: lannerdiewaldfee.zip
       platform: Windows
-- game:
+      checksum: a71c39b4ccb8a7f5d7a8317da9c26595897c0f5ff4b6e7f3f8f83b11d2010ee2
+-
+  game:
     name: 'Magnomaster 3000'
     players: 2-4
     controls:
@@ -122,18 +146,25 @@
   winner: 'no'
   headerimage: magnomaster3000_header.jpg
   images:
-    - file: magnomaster3000_image1_full.jpg
+    -
+      file: magnomaster3000_image1_full.jpg
       thumb: magnomaster3000_image1_thumb.jpg
-    - file: magnomaster3000_image2_full.jpg
+    -
+      file: magnomaster3000_image2_full.jpg
       thumb: magnomaster3000_image2_thumb.jpg
-    - file: magnomaster3000_image3_full.jpg
+    -
+      file: magnomaster3000_image3_full.jpg
       thumb: magnomaster3000_image3_thumb.jpg
-    - file: magnomaster3000_image4_full.jpg
+    -
+      file: magnomaster3000_image4_full.jpg
       thumb: magnomaster3000_image4_thumb.jpg
   download:
-    - file: magnomaster3000.zip
+    -
+      file: magnomaster3000.zip
       platform: Windows
-- game:
+      checksum: a7d376f0040feff8703aef2ff06c63b87a109697cfb83404519f645f362acba8
+-
+  game:
     name: 'Notwendiges Übel'
     players: 1-4
     controls:
@@ -155,18 +186,25 @@
   winner: overall
   headerimage: notwendigesuebel_header.jpg
   images:
-    - file: notwendigesuebel_image1_full.jpg
+    -
+      file: notwendigesuebel_image1_full.jpg
       thumb: notwendigesuebel_image1_thumb.jpg
-    - file: notwendigesuebel_image2_full.jpg
+    -
+      file: notwendigesuebel_image2_full.jpg
       thumb: notwendigesuebel_image2_thumb.jpg
-    - file: notwendigesuebel_image3_full.jpg
+    -
+      file: notwendigesuebel_image3_full.jpg
       thumb: notwendigesuebel_image3_thumb.jpg
-    - file: notwendigesuebel_image4_full.jpg
+    -
+      file: notwendigesuebel_image4_full.jpg
       thumb: notwendigesuebel_image4_thumb.jpg
   download:
-    - file: notwendigesuebel.zip
+    -
+      file: notwendigesuebel.zip
       platform: Windows
-- game:
+      checksum: 58d2b4f6fcf7862620c8e6a631ebb6676edbf367a5401dad8fcd9dd9d4af170f
+-
+  game:
     name: 'One Push-Men'
     players: 1-2
     controls:
@@ -186,18 +224,25 @@
   winner: 'no'
   headerimage: onepushmen_header.jpg
   images:
-    - file: onepushmen_image1_full.jpg
+    -
+      file: onepushmen_image1_full.jpg
       thumb: onepushmen_image1_thumb.jpg
-    - file: onepushmen_image2_full.jpg
+    -
+      file: onepushmen_image2_full.jpg
       thumb: onepushmen_image2_thumb.jpg
-    - file: onepushmen_image3_full.jpg
+    -
+      file: onepushmen_image3_full.jpg
       thumb: onepushmen_image3_thumb.jpg
-    - file: onepushmen_image4_full.jpg
+    -
+      file: onepushmen_image4_full.jpg
       thumb: onepushmen_image4_thumb.jpg
   download:
-    - file: onepushmen.zip
+    -
+      file: onepushmen.zip
       platform: Windows
-- game:
+      checksum: c5daf72b46d4494ca2499f5993346df4f73090fa4fca09714d2f314cb7eb10a1
+-
+  game:
     name: 'Power Switch'
     players: 1
     controls:
@@ -228,18 +273,25 @@
   winner: 'no'
   headerimage: powerswitch_header.jpg
   images:
-    - file: powerswitch_image1_full.jpg
+    -
+      file: powerswitch_image1_full.jpg
       thumb: powerswitch_image1_thumb.jpg
-    - file: powerswitch_image2_full.jpg
+    -
+      file: powerswitch_image2_full.jpg
       thumb: powerswitch_image2_thumb.jpg
-    - file: powerswitch_image3_full.jpg
+    -
+      file: powerswitch_image3_full.jpg
       thumb: powerswitch_image3_thumb.jpg
-    - file: powerswitch_image4_full.jpg
+    -
+      file: powerswitch_image4_full.jpg
       thumb: powerswitch_image4_thumb.jpg
   download:
-    - file: powerswitch.zip
+    -
+      file: powerswitch.zip
       platform: Windows
-- game:
+      checksum: 6247e68f524692d91c5697c165720a41b2655f1a442fcbb7c69b69836ac41f0d
+-
+  game:
     name: 'Super Elemental Fighters'
     players: 1-4
     controls:
@@ -258,18 +310,24 @@
   winner: 'no'
   headerimage: superelementalfighters_header.jpg
   images:
-    - file: superelementalfighters_image1_full.jpg
+    -
+      file: superelementalfighters_image1_full.jpg
       thumb: superelementalfighters_image1_thumb.jpg
-    - file: superelementalfighters_image2_full.jpg
+    -
+      file: superelementalfighters_image2_full.jpg
       thumb: superelementalfighters_image2_thumb.jpg
-    - file: superelementalfighters_image3_full.jpg
+    -
+      file: superelementalfighters_image3_full.jpg
       thumb: superelementalfighters_image3_thumb.jpg
-    - file: superelementalfighters_image4_full.jpg
+    -
+      file: superelementalfighters_image4_full.jpg
       thumb: superelementalfighters_image4_thumb.jpg
   download:
-    - file: superelementalfighters.zip
+    -
+      file: superelementalfighters.zip
       platform: Windows
-- game:
+-
+  game:
     name: 'The Legend of Journey'
     players: 1
     controls:
@@ -288,24 +346,31 @@
   winner: 'no'
   headerimage: thelegendofjourney_header.jpg
   images:
-    - file: thelegendofjourney_image1_full.jpg
+    -
+      file: thelegendofjourney_image1_full.jpg
       thumb: thelegendofjourney_image1_thumb.jpg
-    - file: thelegendofjourney_image2_full.jpg
+    -
+      file: thelegendofjourney_image2_full.jpg
       thumb: thelegendofjourney_image2_thumb.jpg
-    - file: thelegendofjourney_image3_full.jpg
+    -
+      file: thelegendofjourney_image3_full.jpg
       thumb: thelegendofjourney_image3_thumb.jpg
-    - file: thelegendofjourney_image4_full.jpg
+    -
+      file: thelegendofjourney_image4_full.jpg
       thumb: thelegendofjourney_image4_thumb.jpg
   download:
-    - file: thelegendofjourney.zip
+    -
+      file: thelegendofjourney.zip
       platform: Windows
-- game:
+      checksum: 90f407381e60eff0aa1e61e77ebe07452cf450aefe0887774534e2caeecb2d3d
+-
+  game:
     name: 'We Heart Mom'
     players: 1-4
     controls:
       - gamepad
       - keyboard
-    description: |
+    description: |-
       Up to four players are thrown into the arena to prevail against the dreaded Mom as long as possible. Mom's in rage mode and spits fireballs and hurls lightning onto the arena.
 
       To support the players, the audience keeps throwing items into the arena which can be picked up and thrown on Mom. These items do damage, either on Mom, the other players or even other items.
@@ -322,14 +387,20 @@
   winner: 'no'
   headerimage: weheartmom_header.jpg
   images:
-    - file: weheartmom_image1_full.jpg
+    -
+      file: weheartmom_image1_full.jpg
       thumb: weheartmom_image1_thumb.jpg
-    - file: weheartmom_image2_full.jpg
+    -
+      file: weheartmom_image2_full.jpg
       thumb: weheartmom_image2_thumb.jpg
-    - file: weheartmom_image3_full.jpg
+    -
+      file: weheartmom_image3_full.jpg
       thumb: weheartmom_image3_thumb.jpg
-    - file: weheartmom_image4_full.jpg
+    -
+      file: weheartmom_image4_full.jpg
       thumb: weheartmom_image4_thumb.jpg
   download:
-    - file: weheartmom.zip
+    -
+      file: weheartmom.zip
       platform: Windows
+      checksum: 322c014aef2fc417fc0bfdcd7765dabf2cd01c11c5d7d9a4d04d60dd527990d8

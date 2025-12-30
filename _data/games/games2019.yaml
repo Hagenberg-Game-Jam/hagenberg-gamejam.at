@@ -1,4 +1,5 @@
-- game:
+-
+  game:
     name: 'A Bedtime Story'
     players: 1
     controls:
@@ -20,18 +21,25 @@
   winner: people
   headerimage: abedtimestory_header.jpg
   images:
-    - file: abedtimestory_image1_full.jpg
+    -
+      file: abedtimestory_image1_full.jpg
       thumb: abedtimestory_image1_thumb.jpg
-    - file: abedtimestory_image2_full.jpg
+    -
+      file: abedtimestory_image2_full.jpg
       thumb: abedtimestory_image2_thumb.jpg
-    - file: abedtimestory_image3_full.jpg
+    -
+      file: abedtimestory_image3_full.jpg
       thumb: abedtimestory_image3_thumb.jpg
-    - file: abedtimestory_image4_full.jpg
+    -
+      file: abedtimestory_image4_full.jpg
       thumb: abedtimestory_image4_thumb.jpg
   download:
-    - file: abedtimestory.zip
+    -
+      file: abedtimestory.zip
       platform: Windows
-- game:
+      checksum: d36d51edba383f397353beba17e15a4d91e390b242c8c6f739318b53ab500b08
+-
+  game:
     name: 'Block Western'
     players: 1
     controls:
@@ -50,18 +58,25 @@
   winner: 'no'
   headerimage: blockwestern_header.jpg
   images:
-    - file: blockwestern_image1_full.jpg
+    -
+      file: blockwestern_image1_full.jpg
       thumb: blockwestern_image1_thumb.jpg
-    - file: blockwestern_image2_full.jpg
+    -
+      file: blockwestern_image2_full.jpg
       thumb: blockwestern_image2_thumb.jpg
-    - file: blockwestern_image3_full.jpg
+    -
+      file: blockwestern_image3_full.jpg
       thumb: blockwestern_image3_thumb.jpg
-    - file: blockwestern_image4_full.jpg
+    -
+      file: blockwestern_image4_full.jpg
       thumb: blockwestern_image4_thumb.jpg
   download:
-    - file: blockwestern.zip
+    -
+      file: blockwestern.zip
       platform: Windows
-- game:
+      checksum: d743efca7723fff3227587b6e76c8ee83200c0d558bb4e96df0aba199be21ed0
+-
+  game:
     name: 'BLUT BLUT BLUT'
     players: 1
     controls:
@@ -84,18 +99,25 @@
   winner: 'no'
   headerimage: blutblutblut_header.jpg
   images:
-    - file: blutblutblut_image1_full.jpg
+    -
+      file: blutblutblut_image1_full.jpg
       thumb: blutblutblut_image1_thumb.jpg
-    - file: blutblutblut_image2_full.jpg
+    -
+      file: blutblutblut_image2_full.jpg
       thumb: blutblutblut_image2_thumb.jpg
-    - file: blutblutblut_image3_full.jpg
+    -
+      file: blutblutblut_image3_full.jpg
       thumb: blutblutblut_image3_thumb.jpg
-    - file: blutblutblut_image4_full.jpg
+    -
+      file: blutblutblut_image4_full.jpg
       thumb: blutblutblut_image4_thumb.jpg
   download:
-    - file: blutblutblut.zip
+    -
+      file: blutblutblut.zip
       platform: Windows
-- game:
+      checksum: 17fa17156b6b697d3dc6fe41f8bc00fdb82acc5408867da94cf84af590e4fdb6
+-
+  game:
     name: Erfrechung
     players: 1
     controls:
@@ -117,18 +139,25 @@
   winner: 'no'
   headerimage: erfrechung_header.jpg
   images:
-    - file: erfrechung_image1_full.jpg
+    -
+      file: erfrechung_image1_full.jpg
       thumb: erfrechung_image1_thumb.jpg
-    - file: erfrechung_image2_full.jpg
+    -
+      file: erfrechung_image2_full.jpg
       thumb: erfrechung_image2_thumb.jpg
-    - file: erfrechung_image3_full.jpg
+    -
+      file: erfrechung_image3_full.jpg
       thumb: erfrechung_image3_thumb.jpg
-    - file: erfrechung_image4_full.jpg
+    -
+      file: erfrechung_image4_full.jpg
       thumb: erfrechung_image4_thumb.jpg
   download:
-    - file: erfrechung.zip
+    -
+      file: erfrechung.zip
       platform: Windows
-- game:
+      checksum: c864ec330a8975ff2a8822a9b11dd68f36c6e3b1ccbb0be2395a1fee186401b8
+-
+  game:
     name: 'Eternal Duty'
     players: 1
     controls:
@@ -144,22 +173,33 @@
   winner: jury
   headerimage: eternalduty_header.jpg
   images:
-    - file: eternalduty_image1_full.jpg
+    -
+      file: eternalduty_image1_full.jpg
       thumb: eternalduty_image1_thumb.jpg
-    - file: eternalduty_image2_full.jpg
+    -
+      file: eternalduty_image2_full.jpg
       thumb: eternalduty_image2_thumb.jpg
-    - file: eternalduty_image3_full.jpg
+    -
+      file: eternalduty_image3_full.jpg
       thumb: eternalduty_image3_thumb.jpg
-    - file: eternalduty_image4_full.jpg
+    -
+      file: eternalduty_image4_full.jpg
       thumb: eternalduty_image4_thumb.jpg
   download:
-    - file: eternaldutyWin.zip
+    -
+      file: eternaldutyWin.zip
       platform: Windows
-    - file: eternaldutyMac.zip
+      checksum: 7050fe35fd4443cca93bfc756d0412df24f093a50c76eccf0bb99395f42aec39
+    -
+      file: eternaldutyMac.zip
       platform: 'Mac OS X'
-    - file: eternaldutyLinux.zip
+      checksum: e17159d88c2d56889e5e59b94df5250429d778b426c50307ff7e43e2093c72f1
+    -
+      file: eternaldutyLinux.zip
       platform: Linux
-- game:
+      checksum: fa0a083a31eba5d451c5c6cb7285639736964d440f69d4d634f2c9dfc012250a
+-
+  game:
     name: 'Santa, Baby!'
     players: 1
     controls:
@@ -179,18 +219,25 @@
   winner: 'no'
   headerimage: santababy_header.jpg
   images:
-    - file: santababy_image1_full.jpg
+    -
+      file: santababy_image1_full.jpg
       thumb: santababy_image1_thumb.jpg
-    - file: santababy_image2_full.jpg
+    -
+      file: santababy_image2_full.jpg
       thumb: santababy_image2_thumb.jpg
-    - file: santababy_image3_full.jpg
+    -
+      file: santababy_image3_full.jpg
       thumb: santababy_image3_thumb.jpg
-    - file: santababy_image4_full.jpg
+    -
+      file: santababy_image4_full.jpg
       thumb: santababy_image4_thumb.jpg
   download:
-    - file: santababy.zip
+    -
+      file: santababy.zip
       platform: Windows
-- game:
+      checksum: f318e2becd7bdb250f1ba5e2f6cae3c315d90d64d3d65f683c959d740b89fa87
+-
+  game:
     name: 'Space Politics'
     players: 1
     controls:
@@ -213,18 +260,25 @@
   winner: 'no'
   headerimage: spacepolitics_header.jpg
   images:
-    - file: spacepolitics_image1_full.jpg
+    -
+      file: spacepolitics_image1_full.jpg
       thumb: spacepolitics_image1_thumb.jpg
-    - file: spacepolitics_image2_full.jpg
+    -
+      file: spacepolitics_image2_full.jpg
       thumb: spacepolitics_image2_thumb.jpg
-    - file: spacepolitics_image3_full.jpg
+    -
+      file: spacepolitics_image3_full.jpg
       thumb: spacepolitics_image3_thumb.jpg
-    - file: spacepolitics_image4_full.jpg
+    -
+      file: spacepolitics_image4_full.jpg
       thumb: spacepolitics_image4_thumb.jpg
   download:
-    - file: spacepolitics.zip
+    -
+      file: spacepolitics.zip
       platform: Windows
-- game:
+      checksum: 7e39efc956e85b5c74dfb86ca0a9e4451ff077650932a45f43e7628a2171613d
+-
+  game:
     name: 'Summoning Pet Demons'
     players: 1
     controls:
@@ -245,22 +299,33 @@
   winner: 'no'
   headerimage: summoningpetdemons_header.jpg
   images:
-    - file: summoningpetdemons_image1_full.jpg
+    -
+      file: summoningpetdemons_image1_full.jpg
       thumb: summoningpetdemons_image1_thumb.jpg
-    - file: summoningpetdemons_image2_full.jpg
+    -
+      file: summoningpetdemons_image2_full.jpg
       thumb: summoningpetdemons_image2_thumb.jpg
-    - file: summoningpetdemons_image3_full.jpg
+    -
+      file: summoningpetdemons_image3_full.jpg
       thumb: summoningpetdemons_image3_thumb.jpg
-    - file: summoningpetdemons_image4_full.jpg
+    -
+      file: summoningpetdemons_image4_full.jpg
       thumb: summoningpetdemons_image4_thumb.jpg
   download:
-    - file: summoningpetdemonsWin.zip
+    -
+      file: summoningpetdemonsWin.zip
       platform: Windows
-    - file: summoningpetdemonsMac.zip
+      checksum: 22f93f693d08fe1838ff35fe4b0a0c0da9a973d87f5e3bd0276a032b45ef6c85
+    -
+      file: summoningpetdemonsMac.zip
       platform: 'Mac OS X'
-    - file: summoningpetdemonsLinux.zip
+      checksum: ef6caac90f6df31f0df761d0821afd413bc4cc4b82508f3aa7de3dd2bb4258cb
+    -
+      file: summoningpetdemonsLinux.zip
       platform: Linux
-- game:
+      checksum: 484e54114545ccde7bfa51c55545a13c6b89f18298bfa3525ba67f1794dc758d
+-
+  game:
     name: 'The Blame Game'
     players: 1
     controls:
@@ -282,22 +347,33 @@
   winner: 'no'
   headerimage: theblamegame_header.jpg
   images:
-    - file: theblamegame_image1_full.jpg
+    -
+      file: theblamegame_image1_full.jpg
       thumb: theblamegame_image1_thumb.jpg
-    - file: theblamegame_image2_full.jpg
+    -
+      file: theblamegame_image2_full.jpg
       thumb: theblamegame_image2_thumb.jpg
-    - file: theblamegame_image3_full.jpg
+    -
+      file: theblamegame_image3_full.jpg
       thumb: theblamegame_image3_thumb.jpg
-    - file: theblamegame_image4_full.jpg
+    -
+      file: theblamegame_image4_full.jpg
       thumb: theblamegame_image4_thumb.jpg
   download:
-    - file: theblamegameWin.zip
+    -
+      file: theblamegameWin.zip
       platform: Windows
-    - file: theblamegameMac.zip
+      checksum: 080227897ede1c50a0c7a6be5291560dfe8288fdef5bde4fd3b63bc9abcaf7cd
+    -
+      file: theblamegameMac.zip
       platform: 'Mac OS X'
-    - file: theblamegameLinux.zip
+      checksum: a5764e8ad09f2a2d5e75b58d3864a5132c4990330e5b89770c7e3b55ea3c2171
+    -
+      file: theblamegameLinux.zip
       platform: Linux
-- game:
+      checksum: 1679d956631756569fa43a2f3733458fec85b89999a927d59f9ae5f0e7c8a772
+-
+  game:
     name: 'Time - emiT'
     players: 1
     controls:
@@ -324,24 +400,31 @@
   winner: 'no'
   headerimage: timeemit_header.jpg
   images:
-    - file: timeemit_image1_full.jpg
+    -
+      file: timeemit_image1_full.jpg
       thumb: timeemit_image1_thumb.jpg
-    - file: timeemit_image2_full.jpg
+    -
+      file: timeemit_image2_full.jpg
       thumb: timeemit_image2_thumb.jpg
-    - file: timeemit_image3_full.jpg
+    -
+      file: timeemit_image3_full.jpg
       thumb: timeemit_image3_thumb.jpg
-    - file: timeemit_image4_full.jpg
+    -
+      file: timeemit_image4_full.jpg
       thumb: timeemit_image4_thumb.jpg
   download:
-    - file: timeemit.zip
+    -
+      file: timeemit.zip
       platform: Windows
-- game:
+      checksum: c148531dbb11d861afa081c9e329a9b2e54d5fc850326d50a4a21f74a85eb6a5
+-
+  game:
     name: Valhella
     players: 1
     controls:
       - keyboard
       - mouse
-    description: |
+    description: |-
       Valhella is a top-down 2D game about a Viking that gets sent to hell instead of Valhalla and accidentally starts an uprising by convincing prisoners, breaking down doors and dancing with demons.
 
       The game consists of an overworld, where the player can move by using the WASD controls and the mouse for interaction, and three different minigames.
@@ -359,14 +442,20 @@
   winner: 'no'
   headerimage: valhella_header.jpg
   images:
-    - file: valhella_image1_full.jpg
+    -
+      file: valhella_image1_full.jpg
       thumb: valhella_image1_thumb.jpg
-    - file: valhella_image2_full.jpg
+    -
+      file: valhella_image2_full.jpg
       thumb: valhella_image2_thumb.jpg
-    - file: valhella_image3_full.jpg
+    -
+      file: valhella_image3_full.jpg
       thumb: valhella_image3_thumb.jpg
-    - file: valhella_image4_full.jpg
+    -
+      file: valhella_image4_full.jpg
       thumb: valhella_image4_thumb.jpg
   download:
-    - file: valhella.zip
+    -
+      file: valhella.zip
       platform: Windows
+      checksum: 0764fa9c11e39de21ced7a7f2eaaefa97321fcca16c0c99e031419fc5507be94

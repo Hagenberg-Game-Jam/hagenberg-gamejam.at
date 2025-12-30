@@ -1,4 +1,5 @@
-- game:
+-
+  game:
     name: 'Call Your Mom'
     players: 2
     controls:
@@ -16,18 +17,25 @@
   winner: 'no'
   headerimage: callyourmom_header.jpg
   images:
-    - file: callyourmom_image1_full.jpg
+    -
+      file: callyourmom_image1_full.jpg
       thumb: callyourmom_image1_thumb.jpg
-    - file: callyourmom_image2_full.jpg
+    -
+      file: callyourmom_image2_full.jpg
       thumb: callyourmom_image2_thumb.jpg
-    - file: callyourmom_image3_full.jpg
+    -
+      file: callyourmom_image3_full.jpg
       thumb: callyourmom_image3_thumb.jpg
-    - file: callyourmom_image4_full.jpg
+    -
+      file: callyourmom_image4_full.jpg
       thumb: callyourmom_image4_thumb.jpg
   download:
-    - file: callyourmom.zip
+    -
+      file: callyourmom.zip
       platform: Windows
-- game:
+      checksum: 33ba401a3069a9cbcfe0fc8e8f1ab8dc44c89545dafb3dfb61de07e3b1697fbd
+-
+  game:
     name: 'Dark Booty'
     players: 2-4
     controls:
@@ -45,18 +53,25 @@
   winner: 'no'
   headerimage: darkbooty_header.jpg
   images:
-    - file: darkbooty_image1_full.jpg
+    -
+      file: darkbooty_image1_full.jpg
       thumb: darkbooty_image1_thumb.jpg
-    - file: darkbooty_image2_full.jpg
+    -
+      file: darkbooty_image2_full.jpg
       thumb: darkbooty_image2_thumb.jpg
-    - file: darkbooty_image3_full.jpg
+    -
+      file: darkbooty_image3_full.jpg
       thumb: darkbooty_image3_thumb.jpg
-    - file: darkbooty_image4_full.jpg
+    -
+      file: darkbooty_image4_full.jpg
       thumb: darkbooty_image4_thumb.jpg
   download:
-    - file: darkbooty.zip
+    -
+      file: darkbooty.zip
       platform: Windows
-- game:
+      checksum: 04e3458da1e7989d0ca61fe2a284ff39b3ab487498aed7ed281beaf1b5923c6a
+-
+  game:
     name: 'Divided We Stand'
     players: 1
     controls:
@@ -74,18 +89,25 @@
   winner: 'no'
   headerimage: dividedwestand_header.jpg
   images:
-    - file: dividedwestand_image1_full.jpg
+    -
+      file: dividedwestand_image1_full.jpg
       thumb: dividedwestand_image1_thumb.jpg
-    - file: dividedwestand_image2_full.jpg
+    -
+      file: dividedwestand_image2_full.jpg
       thumb: dividedwestand_image2_thumb.jpg
-    - file: dividedwestand_image3_full.jpg
+    -
+      file: dividedwestand_image3_full.jpg
       thumb: dividedwestand_image3_thumb.jpg
-    - file: dividedwestand_image4_full.jpg
+    -
+      file: dividedwestand_image4_full.jpg
       thumb: dividedwestand_image4_thumb.jpg
   download:
-    - file: dividedwestand.zip
+    -
+      file: dividedwestand.zip
       platform: Windows
-- game:
+      checksum: 3fb1808376ef36555b6cefbdf21d197dc597a523a1f53c7d288a144cfe37702f
+-
+  game:
     name: 'Drop Down For What'
     players: 2-4
     controls:
@@ -104,20 +126,29 @@
   winner: 'no'
   headerimage: dropdownforwhat_header.jpg
   images:
-    - file: dropdownforwhat_image1_full.jpg
+    -
+      file: dropdownforwhat_image1_full.jpg
       thumb: dropdownforwhat_image1_thumb.jpg
-    - file: dropdownforwhat_image2_full.jpg
+    -
+      file: dropdownforwhat_image2_full.jpg
       thumb: dropdownforwhat_image2_thumb.jpg
-    - file: dropdownforwhat_image3_full.jpg
+    -
+      file: dropdownforwhat_image3_full.jpg
       thumb: dropdownforwhat_image3_thumb.jpg
-    - file: dropdownforwhat_image4_full.jpg
+    -
+      file: dropdownforwhat_image4_full.jpg
       thumb: dropdownforwhat_image4_thumb.jpg
   download:
-    - file: dropdownforwhatWin.zip
+    -
+      file: dropdownforwhatWin.zip
       platform: Windows
-    - file: dropdownforwhatMac.zip
+      checksum: bb94004e5948fdb2fca405f2e1f5bd76c5d7a929bbf5c98a1ef3a235e1292681
+    -
+      file: dropdownforwhatMac.zip
       platform: 'Mac OS X'
-- game:
+      checksum: 973b54dcaa6a639e154fb656335902b3a9f95a252d6450ee1dc88f373203af1f
+-
+  game:
     name: 'Elevator Pitch'
     players: 2
     controls:
@@ -135,18 +166,25 @@
   winner: 'no'
   headerimage: elevatorpitch_header.jpg
   images:
-    - file: elevatorpitch_image1_full.jpg
+    -
+      file: elevatorpitch_image1_full.jpg
       thumb: elevatorpitch_image1_thumb.jpg
-    - file: elevatorpitch_image2_full.jpg
+    -
+      file: elevatorpitch_image2_full.jpg
       thumb: elevatorpitch_image2_thumb.jpg
-    - file: elevatorpitch_image3_full.jpg
+    -
+      file: elevatorpitch_image3_full.jpg
       thumb: elevatorpitch_image3_thumb.jpg
-    - file: elevatorpitch_image4_full.jpg
+    -
+      file: elevatorpitch_image4_full.jpg
       thumb: elevatorpitch_image4_thumb.jpg
   download:
-    - file: elevatorpitch.zip
+    -
+      file: elevatorpitch.zip
       platform: Windows
-- game:
+      checksum: 8bea1b57e93cbdb24b5cd675fe662d0f23a5593e21906f3aa771dc0f57f76adf
+-
+  game:
     name: 'Elevator Rush'
     players: 1
     controls:
@@ -166,18 +204,25 @@
   winner: 'jury, people'
   headerimage: elevatorrush_header.jpg
   images:
-    - file: elevatorrush_image1_full.jpg
+    -
+      file: elevatorrush_image1_full.jpg
       thumb: elevatorrush_image1_thumb.jpg
-    - file: elevatorrush_image2_full.jpg
+    -
+      file: elevatorrush_image2_full.jpg
       thumb: elevatorrush_image2_thumb.jpg
-    - file: elevatorrush_image3_full.jpg
+    -
+      file: elevatorrush_image3_full.jpg
       thumb: elevatorrush_image3_thumb.jpg
-    - file: elevatorrush_image4_full.jpg
+    -
+      file: elevatorrush_image4_full.jpg
       thumb: elevatorrush_image4_thumb.jpg
   download:
-    - file: elevatorrush.zip
+    -
+      file: elevatorrush.zip
       platform: Windows
-- game:
+      checksum: b615140b7ec5f7be6238198c932d1ce887285d8de4d55a2d04a5b695c20a1017
+-
+  game:
     name: 'Falling in Love'
     players: 2
     controls:
@@ -195,18 +240,24 @@
   winner: 'no'
   headerimage: fallinginlove_header.jpg
   images:
-    - file: fallinginlove_image1_full.jpg
+    -
+      file: fallinginlove_image1_full.jpg
       thumb: fallinginlove_image1_thumb.jpg
-    - file: fallinginlove_image2_full.jpg
+    -
+      file: fallinginlove_image2_full.jpg
       thumb: fallinginlove_image2_thumb.jpg
-    - file: fallinginlove_image3_full.jpg
+    -
+      file: fallinginlove_image3_full.jpg
       thumb: fallinginlove_image3_thumb.jpg
-    - file: fallinginlove_image4_full.jpg
+    -
+      file: fallinginlove_image4_full.jpg
       thumb: fallinginlove_image4_thumb.jpg
   playonline:
-    - url: 'http://playcanv.as/p/lgvUkAuU/'
+    -
+      url: 'http://playcanv.as/p/lgvUkAuU/'
       platform: PlayCanvas
-- game:
+-
+  game:
     name: 'Flunkyball Simulator'
     players: 2-4
     controls:
@@ -226,18 +277,25 @@
   winner: 'no'
   headerimage: flunkyballsimulator_header.jpg
   images:
-    - file: flunkyballsimulator_image1_full.jpg
+    -
+      file: flunkyballsimulator_image1_full.jpg
       thumb: flunkyballsimulator_image1_thumb.jpg
-    - file: flunkyballsimulator_image2_full.jpg
+    -
+      file: flunkyballsimulator_image2_full.jpg
       thumb: flunkyballsimulator_image2_thumb.jpg
-    - file: flunkyballsimulator_image3_full.jpg
+    -
+      file: flunkyballsimulator_image3_full.jpg
       thumb: flunkyballsimulator_image3_thumb.jpg
-    - file: flunkyballsimulator_image4_full.jpg
+    -
+      file: flunkyballsimulator_image4_full.jpg
       thumb: flunkyballsimulator_image4_thumb.jpg
   download:
-    - file: flunkyballsimulator.zip
+    -
+      file: flunkyballsimulator.zip
       platform: Windows
-- game:
+      checksum: be2711552392b1de3cf51b7cec966422568fbebb7d0ef7ab15afe2da31f08c23
+-
+  game:
     name: 'Panda Punch'
     players: 1
     controls:
@@ -255,18 +313,25 @@
   winner: 'no'
   headerimage: pandapunch_header.jpg
   images:
-    - file: pandapunch_image1_full.jpg
+    -
+      file: pandapunch_image1_full.jpg
       thumb: pandapunch_image1_thumb.jpg
-    - file: pandapunch_image2_full.jpg
+    -
+      file: pandapunch_image2_full.jpg
       thumb: pandapunch_image2_thumb.jpg
-    - file: pandapunch_image3_full.jpg
+    -
+      file: pandapunch_image3_full.jpg
       thumb: pandapunch_image3_thumb.jpg
-    - file: pandapunch_image4_full.jpg
+    -
+      file: pandapunch_image4_full.jpg
       thumb: pandapunch_image4_thumb.jpg
   download:
-    - file: pandapunch.zip
+    -
+      file: pandapunch.zip
       platform: Windows
-- game:
+      checksum: 6a76f82c521044f7a5c1e33036fc31146ab2e2a3f1ef4d4f331720b7b784eb59
+-
+  game:
     name: Ram-Hog-Boom
     players: 2-8
     controls:
@@ -287,18 +352,25 @@
   winner: 'no'
   headerimage: ram-hog-boom_header.jpg
   images:
-    - file: ram-hog-boom_image1_full.jpg
+    -
+      file: ram-hog-boom_image1_full.jpg
       thumb: ram-hog-boom_image1_thumb.jpg
-    - file: ram-hog-boom_image2_full.jpg
+    -
+      file: ram-hog-boom_image2_full.jpg
       thumb: ram-hog-boom_image2_thumb.jpg
-    - file: ram-hog-boom_image3_full.jpg
+    -
+      file: ram-hog-boom_image3_full.jpg
       thumb: ram-hog-boom_image3_thumb.jpg
-    - file: ram-hog-boom_image4_full.jpg
+    -
+      file: ram-hog-boom_image4_full.jpg
       thumb: ram-hog-boom_image4_thumb.jpg
   download:
-    - file: ram-hog-boom.zip
+    -
+      file: ram-hog-boom.zip
       platform: Windows
-- game:
+      checksum: c299a96ed2520d4601339328f0cf89e5abf5f113959a11285d2b19e40a5f0711
+-
+  game:
     name: Shields
     players: 2
     controls:
@@ -314,18 +386,25 @@
   winner: 'no'
   headerimage: shields_header.jpg
   images:
-    - file: shields_image1_full.jpg
+    -
+      file: shields_image1_full.jpg
       thumb: shields_image1_thumb.jpg
-    - file: shields_image2_full.jpg
+    -
+      file: shields_image2_full.jpg
       thumb: shields_image2_thumb.jpg
-    - file: shields_image3_full.jpg
+    -
+      file: shields_image3_full.jpg
       thumb: shields_image3_thumb.jpg
-    - file: shields_image4_full.jpg
+    -
+      file: shields_image4_full.jpg
       thumb: shields_image4_thumb.jpg
   download:
-    - file: shields.zip
+    -
+      file: shields.zip
       platform: Windows
-- game:
+      checksum: c75f9b23282f46999534cfad899683bf5c1278e1cc0fd55dfd5baa3b0990fa07
+-
+  game:
     name: 'Stoned 2 Death'
     players: 2-4
     controls:
@@ -344,24 +423,31 @@
   winner: 'no'
   headerimage: stoned2death_header.jpg
   images:
-    - file: stoned2death_image1_full.jpg
+    -
+      file: stoned2death_image1_full.jpg
       thumb: stoned2death_image1_thumb.jpg
-    - file: stoned2death_image2_full.jpg
+    -
+      file: stoned2death_image2_full.jpg
       thumb: stoned2death_image2_thumb.jpg
-    - file: stoned2death_image3_full.jpg
+    -
+      file: stoned2death_image3_full.jpg
       thumb: stoned2death_image3_thumb.jpg
-    - file: stoned2death_image4_full.jpg
+    -
+      file: stoned2death_image4_full.jpg
       thumb: stoned2death_image4_thumb.jpg
   download:
-    - file: stoned2death.zip
+    -
+      file: stoned2death.zip
       platform: Windows
-- game:
+      checksum: fe8682da98ca4e3dd5fbcd650395a435a8d39f6430e7912f79622922452726ab
+-
+  game:
     name: 'Urtica Marina'
     players: 3
     controls:
       - gamepad
       - keyboard
-    description: |
+    description: |-
       One out of three jellyfish has an infection. It has to touch another one to pass it on. The healthy jellyfish can collect the pickup boni spawned by the infected jellyfish to gain points. They can also bump into each other to create a wave that throws back the infected jellyfish. All jellyfish naturally attract each other and can further pull in boni by blinging up.
 
       The goal is to collect as many points as possible. Points are gained from picking up bonus objects, hitting another healthy jellyfish or giving the infection to another jellyfish when infected.
@@ -374,14 +460,20 @@
   winner: 'no'
   headerimage: urticamarina_header.jpg
   images:
-    - file: urticamarina_image1_full.jpg
+    -
+      file: urticamarina_image1_full.jpg
       thumb: urticamarina_image1_thumb.jpg
-    - file: urticamarina_image2_full.jpg
+    -
+      file: urticamarina_image2_full.jpg
       thumb: urticamarina_image2_thumb.jpg
-    - file: urticamarina_image3_full.jpg
+    -
+      file: urticamarina_image3_full.jpg
       thumb: urticamarina_image3_thumb.jpg
-    - file: urticamarina_image4_full.jpg
+    -
+      file: urticamarina_image4_full.jpg
       thumb: urticamarina_image4_thumb.jpg
   download:
-    - file: urticamarina.zip
+    -
+      file: urticamarina.zip
       platform: Windows
+      checksum: 6733fbdf3ba5842e1a81a66c09e3fe64a06a2016fa613dec9a458c03eb37f502

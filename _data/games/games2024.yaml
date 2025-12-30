@@ -1,4 +1,5 @@
-- game:
+-
+  game:
     name: 'A Heist Through the Past'
     players: 1
     controls:
@@ -17,18 +18,25 @@
   winner: 'no'
   headerimage: aheistthroughthepast_header.webp
   images:
-    - file: aheistthroughthepast_image1_full.webp
+    -
+      file: aheistthroughthepast_image1_full.webp
       thumb: aheistthroughthepast_thumb.webp
-    - file: aheistthroughthepast_image2_full.webp
+    -
+      file: aheistthroughthepast_image2_full.webp
       thumb: aheistthroughthepast_image2_thumb.webp
-    - file: aheistthroughthepast_image3_full.webp
+    -
+      file: aheistthroughthepast_image3_full.webp
       thumb: aheistthroughthepast_image3_thumb.webp
-    - file: aheistthroughthepast_image4_full.webp
+    -
+      file: aheistthroughthepast_image4_full.webp
       thumb: aheistthroughthepast_image4_thumb.webp
   download:
-    - file: aheistthroughthepast.zip
+    -
+      file: aheistthroughthepast.zip
       platform: Windows
-- game:
+      checksum: cf1191d2964ff1e1063dcf11572a3d0e9f1f1b7fb3be7e6376afd0317f926c7c
+-
+  game:
     name: 'Blurred Thoughts'
     players: 1
     controls:
@@ -47,18 +55,25 @@
   winner: 'no'
   headerimage: blurredthoughts_header.webp
   images:
-    - file: blurredthoughts_image1_full.webp
+    -
+      file: blurredthoughts_image1_full.webp
       thumb: blurredthoughts_thumb.webp
-    - file: blurredthoughts_image2_full.webp
+    -
+      file: blurredthoughts_image2_full.webp
       thumb: blurredthoughts_image2_thumb.webp
-    - file: blurredthoughts_image3_full.webp
+    -
+      file: blurredthoughts_image3_full.webp
       thumb: blurredthoughts_image3_thumb.webp
-    - file: blurredthoughts_image4_full.webp
+    -
+      file: blurredthoughts_image4_full.webp
       thumb: blurredthoughts_image4_thumb.webp
   download:
-    - file: blurredthoughts.zip
+    -
+      file: blurredthoughts.zip
       platform: Windows
-- game:
+      checksum: c4bcca86665ff2836734301fd6e8825f045710392ffbe75e2cffde15dc0ac45b
+-
+  game:
     name: 'Box of Blocks'
     players: 1
     controls:
@@ -76,18 +91,25 @@
   winner: 'no'
   headerimage: boxofblocks_header.webp
   images:
-    - file: boxofblocks_image1_full.webp
+    -
+      file: boxofblocks_image1_full.webp
       thumb: boxofblocks_thumb.webp
-    - file: boxofblocks_image2_full.webp
+    -
+      file: boxofblocks_image2_full.webp
       thumb: boxofblocks_image2_thumb.webp
-    - file: boxofblocks_image3_full.webp
+    -
+      file: boxofblocks_image3_full.webp
       thumb: boxofblocks_image3_thumb.webp
-    - file: boxofblocks_image4_full.webp
+    -
+      file: boxofblocks_image4_full.webp
       thumb: boxofblocks_image4_thumb.webp
   download:
-    - file: boxofblocks.zip
+    -
+      file: boxofblocks.zip
       platform: Windows
-- game:
+      checksum: e00e57850d233fd26bbfa716a3c5605ccca4ecf62505655e563fb80ef70c47cb
+-
+  game:
     name: 'Der Herr Lumpus'
     players: 1
     controls:
@@ -102,18 +124,25 @@
   winner: 'no'
   headerimage: derherrlumpus_header.webp
   images:
-    - file: derherrlumpus_image1_full.webp
+    -
+      file: derherrlumpus_image1_full.webp
       thumb: derherrlumpus_thumb.webp
-    - file: derherrlumpus_image2_full.webp
+    -
+      file: derherrlumpus_image2_full.webp
       thumb: derherrlumpus_image2_thumb.webp
-    - file: derherrlumpus_image3_full.webp
+    -
+      file: derherrlumpus_image3_full.webp
       thumb: derherrlumpus_image3_thumb.webp
-    - file: derherrlumpus_image4_full.webp
+    -
+      file: derherrlumpus_image4_full.webp
       thumb: derherrlumpus_image4_thumb.webp
   download:
-    - file: derherrlumpus.zip
+    -
+      file: derherrlumpus.zip
       platform: Windows
-- game:
+      checksum: a6347f3ff22985b7fa7779fc322e6361d411f2cc09cf21e2f7a92703d2934e28
+-
+  game:
     name: Faeground
     players: 1
     controls:
@@ -131,18 +160,25 @@
   winner: risingstars
   headerimage: faeground_header.webp
   images:
-    - file: faeground_image1_full.webp
+    -
+      file: faeground_image1_full.webp
       thumb: faeground_thumb.webp
-    - file: faeground_image2_full.webp
+    -
+      file: faeground_image2_full.webp
       thumb: faeground_image2_thumb.webp
-    - file: faeground_image3_full.webp
+    -
+      file: faeground_image3_full.webp
       thumb: faeground_image3_thumb.webp
-    - file: faeground_image4_full.webp
+    -
+      file: faeground_image4_full.webp
       thumb: faeground_image4_thumb.webp
   download:
-    - file: faeground.zip
+    -
+      file: faeground.zip
       platform: Windows
-- game:
+      checksum: 090bde4626748ba160680e48a260449ab0dea0dbe8d67f0a3f9b07b52e6cd215
+-
+  game:
     name: 'Götschka 2077'
     players: 1
     controls:
@@ -158,24 +194,37 @@
   winner: 'no'
   headerimage: goetschka2077_header.webp
   images:
-    - file: goetschka2077_image1_full.webp
+    -
+      file: goetschka2077_image1_full.webp
       thumb: goetschka2077_thumb.webp
-    - file: goetschka2077_image2_full.webp
+    -
+      file: goetschka2077_image2_full.webp
       thumb: goetschka2077_image2_thumb.webp
-    - file: goetschka2077_image3_full.webp
+    -
+      file: goetschka2077_image3_full.webp
       thumb: goetschka2077_image3_thumb.webp
-    - file: goetschka2077_image4_full.webp
+    -
+      file: goetschka2077_image4_full.webp
       thumb: goetschka2077_image4_thumb.webp
   download:
-    - file: goetschka2077Win.zip
+    -
+      file: goetschka2077Win.zip
       platform: Windows
-    - file: goetschka2077Mac.zip
+      checksum: 2a61730b0ced9ced75cdad94f4c62ffb1a6e58f455fc240341e9ad47545ec49c
+    -
+      file: goetschka2077Mac.zip
       platform: macOS
-    - file: goetschka2077Linux.zip
+      checksum: fb2857a26cc49fa991704eb9ff7325530529282332bfd4f1805b809361954ffb
+    -
+      file: goetschka2077Linux.zip
       platform: Linux
-    - file: goetschka2077Web.zip
+      checksum: fdbdda30a71c7c4a47a9b8fab584cf110b5aee5487345bbc3502b6092a0c652a
+    -
+      file: goetschka2077Web.zip
       platform: Web
-- game:
+      checksum: e27f3c1d46c0e23c1125a1a55e3e4e4e910e4db9076b9012691df6038ca880e1
+-
+  game:
     name: HomsTimyWimyAdventure
     players: 1
     controls:
@@ -193,18 +242,25 @@
   winner: 'no'
   headerimage: homstimywimyadventure_header.webp
   images:
-    - file: homstimywimyadventure_image1_full.webp
+    -
+      file: homstimywimyadventure_image1_full.webp
       thumb: homstimywimyadventure_thumb.webp
-    - file: homstimywimyadventure_image2_full.webp
+    -
+      file: homstimywimyadventure_image2_full.webp
       thumb: homstimywimyadventure_image2_thumb.webp
-    - file: homstimywimyadventure_image3_full.webp
+    -
+      file: homstimywimyadventure_image3_full.webp
       thumb: homstimywimyadventure_image3_thumb.webp
-    - file: homstimywimyadventure_image4_full.webp
+    -
+      file: homstimywimyadventure_image4_full.webp
       thumb: homstimywimyadventure_image4_thumb.webp
   download:
-    - file: homstimywimyadventure.zip
+    -
+      file: homstimywimyadventure.zip
       platform: Windows
-- game:
+      checksum: a1655fc1a24c8b84059bf57ff8db1b6d3ce4a1d284f74896b71c365808a5f6f9
+-
+  game:
     name: 'Killing Time'
     players: 1
     controls:
@@ -223,18 +279,25 @@
   winner: 'no'
   headerimage: killingtime_header.webp
   images:
-    - file: killingtime_image1_full.webp
+    -
+      file: killingtime_image1_full.webp
       thumb: killingtime_thumb.webp
-    - file: killingtime_image2_full.webp
+    -
+      file: killingtime_image2_full.webp
       thumb: killingtime_image2_thumb.webp
-    - file: killingtime_image3_full.webp
+    -
+      file: killingtime_image3_full.webp
       thumb: killingtime_image3_thumb.webp
-    - file: killingtime_image4_full.webp
+    -
+      file: killingtime_image4_full.webp
       thumb: killingtime_image4_thumb.webp
   download:
-    - file: killingtime.zip
+    -
+      file: killingtime.zip
       platform: Windows
-- game:
+      checksum: c1f9f7c890d938b7724a23f223372cabc393fcb50f41cdbc25e72bdf76ade203
+-
+  game:
     name: 'Lost Knightlings'
     players: 1
     controls:
@@ -252,18 +315,25 @@
   winner: 'no'
   headerimage: lostknightlings_header.webp
   images:
-    - file: lostknightlings_image1_full.webp
+    -
+      file: lostknightlings_image1_full.webp
       thumb: lostknightlings_thumb.webp
-    - file: lostknightlings_image2_full.webp
+    -
+      file: lostknightlings_image2_full.webp
       thumb: lostknightlings_image2_thumb.webp
-    - file: lostknightlings_image3_full.webp
+    -
+      file: lostknightlings_image3_full.webp
       thumb: lostknightlings_image3_thumb.webp
-    - file: lostknightlings_image4_full.webp
+    -
+      file: lostknightlings_image4_full.webp
       thumb: lostknightlings_image4_thumb.webp
   download:
-    - file: lostknightlings.zip
+    -
+      file: lostknightlings.zip
       platform: Windows
-- game:
+      checksum: 23531b2eccb9bf286847077ac575c3f2b04e97b708e61bccb6195422c9317a01
+-
+  game:
     name: 'Night Drive'
     players: 1
     controls:
@@ -282,20 +352,29 @@
   winner: 'no'
   headerimage: nightdrive_header.webp
   images:
-    - file: nightdrive_image1_full.webp
+    -
+      file: nightdrive_image1_full.webp
       thumb: nightdrive_thumb.webp
-    - file: nightdrive_image2_full.webp
+    -
+      file: nightdrive_image2_full.webp
       thumb: nightdrive_image2_thumb.webp
-    - file: nightdrive_image3_full.webp
+    -
+      file: nightdrive_image3_full.webp
       thumb: nightdrive_image3_thumb.webp
-    - file: nightdrive_image4_full.webp
+    -
+      file: nightdrive_image4_full.webp
       thumb: nightdrive_image4_thumb.webp
   download:
-    - file: nightdriveWin.zip
+    -
+      file: nightdriveWin.zip
       platform: Windows
-    - file: nightdriveMac.zip
+      checksum: 73d27178771e92f2221949ccf64a670916dd557d080186111d84cd104d68d5dd
+    -
+      file: nightdriveMac.zip
       platform: macOS
-- game:
+      checksum: d9a9ad2c399e924c1edb809113c988b93308e6d66dcb08f367da4f601187c69e
+-
+  game:
     name: 'Ölige Fische putzen Spiele für Mädchen gratis online'
     players: 1
     controls:
@@ -314,18 +393,25 @@
   winner: masterminds
   headerimage: oeligefischeputzen_header.webp
   images:
-    - file: oeligefischeputzen_image1_full.webp
+    -
+      file: oeligefischeputzen_image1_full.webp
       thumb: oeligefischeputzen_thumb.webp
-    - file: oeligefischeputzen_image2_full.webp
+    -
+      file: oeligefischeputzen_image2_full.webp
       thumb: oeligefischeputzen_image2_thumb.webp
-    - file: oeligefischeputzen_image3_full.webp
+    -
+      file: oeligefischeputzen_image3_full.webp
       thumb: oeligefischeputzen_image3_thumb.webp
-    - file: oeligefischeputzen_image4_full.webp
+    -
+      file: oeligefischeputzen_image4_full.webp
       thumb: oeligefischeputzen_image4_thumb.webp
   download:
-    - file: oeligefischeputzen.zip
+    -
+      file: oeligefischeputzen.zip
       platform: Windows
-- game:
+      checksum: 456c3cc711acfb28ed3dd5be25a4e8db2247c29f438220119c545f17c156ba4d
+-
+  game:
     name: "One Night at Furby's"
     players: 1
     controls:
@@ -345,18 +431,25 @@
   winner: 'no'
   headerimage: onenightatfurbys_header.webp
   images:
-    - file: onenightatfurbys_image1_full.webp
+    -
+      file: onenightatfurbys_image1_full.webp
       thumb: onenightatfurbys_thumb.webp
-    - file: onenightatfurbys_image2_full.webp
+    -
+      file: onenightatfurbys_image2_full.webp
       thumb: onenightatfurbys_image2_thumb.webp
-    - file: onenightatfurbys_image3_full.webp
+    -
+      file: onenightatfurbys_image3_full.webp
       thumb: onenightatfurbys_image3_thumb.webp
-    - file: onenightatfurbys_image4_full.webp
+    -
+      file: onenightatfurbys_image4_full.webp
       thumb: onenightatfurbys_image4_thumb.webp
   download:
-    - file: onenightatfurbys.zip
+    -
+      file: onenightatfurbys.zip
       platform: Windows
-- game:
+      checksum: 2d20111f2eca0daeabd772da8bb2d47c74ae780f79064122203e5c129bdd2de0
+-
+  game:
     name: 'Pac-Man – Blast from the Past'
     players: 1
     controls:
@@ -371,18 +464,25 @@
   winner: 'no'
   headerimage: pacmanblastfromthepast_header.webp
   images:
-    - file: pacmanblastfromthepast_image1_full.webp
+    -
+      file: pacmanblastfromthepast_image1_full.webp
       thumb: pacmanblastfromthepast_thumb.webp
-    - file: pacmanblastfromthepast_image2_full.webp
+    -
+      file: pacmanblastfromthepast_image2_full.webp
       thumb: pacmanblastfromthepast_image2_thumb.webp
-    - file: pacmanblastfromthepast_image3_full.webp
+    -
+      file: pacmanblastfromthepast_image3_full.webp
       thumb: pacmanblastfromthepast_image3_thumb.webp
-    - file: pacmanblastfromthepast_image4_full.webp
+    -
+      file: pacmanblastfromthepast_image4_full.webp
       thumb: pacmanblastfromthepast_image4_thumb.webp
   download:
-    - file: pacmanblastfromthepast.zip
+    -
+      file: pacmanblastfromthepast.zip
       platform: Windows
-- game:
+      checksum: 08a826bae5ee75b0b32532fdcbe3c7aee48f28934c1bc50972951a87a94480c0
+-
+  game:
     name: 'Pasta from the Blasta'
     players: 1
     controls:
@@ -400,18 +500,25 @@
   winner: 'no'
   headerimage: pastafromtheblasta_header.webp
   images:
-    - file: pastafromtheblasta_image1_full.webp
+    -
+      file: pastafromtheblasta_image1_full.webp
       thumb: pastafromtheblasta_thumb.webp
-    - file: pastafromtheblasta_image2_full.webp
+    -
+      file: pastafromtheblasta_image2_full.webp
       thumb: pastafromtheblasta_image2_thumb.webp
-    - file: pastafromtheblasta_image3_full.webp
+    -
+      file: pastafromtheblasta_image3_full.webp
       thumb: pastafromtheblasta_image3_thumb.webp
-    - file: pastafromtheblasta_image4_full.webp
+    -
+      file: pastafromtheblasta_image4_full.webp
       thumb: pastafromtheblasta_image4_thumb.webp
   download:
-    - file: pastafromtheblasta.zip
+    -
+      file: pastafromtheblasta.zip
       platform: Windows
-- game:
+      checksum: 02c205d98e0fdd069dccf89f57ffefd3dc3176cf6c0e6f62b4d4186b51168915
+-
+  game:
     name: Pipe.exe
     players: 1
     controls:
@@ -430,18 +537,25 @@
   winner: 'no'
   headerimage: pipeexe_header.webp
   images:
-    - file: pipeexe_image1_full.webp
+    -
+      file: pipeexe_image1_full.webp
       thumb: pipeexe_thumb.webp
-    - file: pipeexe_image2_full.webp
+    -
+      file: pipeexe_image2_full.webp
       thumb: pipeexe_image2_thumb.webp
-    - file: pipeexe_image3_full.webp
+    -
+      file: pipeexe_image3_full.webp
       thumb: pipeexe_image3_thumb.webp
-    - file: pipeexe_image4_full.webp
+    -
+      file: pipeexe_image4_full.webp
       thumb: pipeexe_image4_thumb.webp
   download:
-    - file: pipeexe.zip
+    -
+      file: pipeexe.zip
       platform: Windows
-- game:
+      checksum: f1881068572a85e03a50afe5087fed12ef847ea0d9b2321276d29a66c0f48411
+-
+  game:
     name: RetroRex
     players: 1
     controls:
@@ -460,18 +574,25 @@
   winner: 'no'
   headerimage: retrorex_header.webp
   images:
-    - file: retrorex_image1_full.webp
+    -
+      file: retrorex_image1_full.webp
       thumb: retrorex_thumb.webp
-    - file: retrorex_image2_full.webp
+    -
+      file: retrorex_image2_full.webp
       thumb: retrorex_image2_thumb.webp
-    - file: retrorex_image3_full.webp
+    -
+      file: retrorex_image3_full.webp
       thumb: retrorex_image3_thumb.webp
-    - file: retrorex_image4_full.webp
+    -
+      file: retrorex_image4_full.webp
       thumb: retrorex_image4_thumb.webp
   download:
-    - file: retrorex.zip
+    -
+      file: retrorex.zip
       platform: Windows
-- game:
+      checksum: d866af9a137b4adbb52e3498a1ca2e6ebeba4dc957248d5e15c1781537d5350a
+-
+  game:
     name: Rexplosion
     players: 1
     controls:
@@ -490,18 +611,25 @@
   winner: 'no'
   headerimage: rexplosion_header.webp
   images:
-    - file: rexplosion_image1_full.webp
+    -
+      file: rexplosion_image1_full.webp
       thumb: rexplosion_thumb.webp
-    - file: rexplosion_image2_full.webp
+    -
+      file: rexplosion_image2_full.webp
       thumb: rexplosion_image2_thumb.webp
-    - file: rexplosion_image3_full.webp
+    -
+      file: rexplosion_image3_full.webp
       thumb: rexplosion_image3_thumb.webp
-    - file: rexplosion_image4_full.webp
+    -
+      file: rexplosion_image4_full.webp
       thumb: rexplosion_image4_thumb.webp
   download:
-    - file: rexplosion.zip
+    -
+      file: rexplosion.zip
       platform: Windows
-- game:
+      checksum: 0201ec9ffb5d0e6e8a4cbdcace73016a84eee23e933236d2713a56d5ff18a6c3
+-
+  game:
     name: 'Sands of the Ancient'
     players: 1
     controls:
@@ -520,18 +648,25 @@
   winner: 'no'
   headerimage: sandsoftheancient_header.webp
   images:
-    - file: sandsoftheancient_image1_full.webp
+    -
+      file: sandsoftheancient_image1_full.webp
       thumb: sandsoftheancient_thumb.webp
-    - file: sandsoftheancient_image2_full.webp
+    -
+      file: sandsoftheancient_image2_full.webp
       thumb: sandsoftheancient_image2_thumb.webp
-    - file: sandsoftheancient_image3_full.webp
+    -
+      file: sandsoftheancient_image3_full.webp
       thumb: sandsoftheancient_image3_thumb.webp
-    - file: sandsoftheancient_image4_full.webp
+    -
+      file: sandsoftheancient_image4_full.webp
       thumb: sandsoftheancient_image4_thumb.webp
   download:
-    - file: sandsoftheancient.zip
+    -
+      file: sandsoftheancient.zip
       platform: Windows
-- game:
+      checksum: b401ab031b7137ee4190d5f6019aa1dd18f523506087e1000367e05bf0cb4046
+-
+  game:
     name: 'The Last Blast'
     players: 1
     controls:
@@ -547,18 +682,25 @@
   winner: 'no'
   headerimage: thelastblast_header.webp
   images:
-    - file: thelastblast_image1_full.webp
+    -
+      file: thelastblast_image1_full.webp
       thumb: thelastblast_thumb.webp
-    - file: thelastblast_image2_full.webp
+    -
+      file: thelastblast_image2_full.webp
       thumb: thelastblast_image2_thumb.webp
-    - file: thelastblast_image3_full.webp
+    -
+      file: thelastblast_image3_full.webp
       thumb: thelastblast_image3_thumb.webp
-    - file: thelastblast_image4_full.webp
+    -
+      file: thelastblast_image4_full.webp
       thumb: thelastblast_image4_thumb.webp
   download:
-    - file: thelastblast.zip
+    -
+      file: thelastblast.zip
       platform: Windows
-- game:
+      checksum: df75344d11a5de6305e5a29e1d01ac0f86919f18de76f204043c87cee0367399
+-
+  game:
     name: 'The Last Jerboa – Surviving Mesozoic'
     players: 1
     controls:
@@ -577,18 +719,25 @@
   winner: 'no'
   headerimage: thelastjerboa_header.webp
   images:
-    - file: thelastjerboa_image1_full.webp
+    -
+      file: thelastjerboa_image1_full.webp
       thumb: thelastjerboa_thumb.webp
-    - file: thelastjerboa_image2_full.webp
+    -
+      file: thelastjerboa_image2_full.webp
       thumb: thelastjerboa_image2_thumb.webp
-    - file: thelastjerboa_image3_full.webp
+    -
+      file: thelastjerboa_image3_full.webp
       thumb: thelastjerboa_image3_thumb.webp
-    - file: thelastjerboa_image4_full.webp
+    -
+      file: thelastjerboa_image4_full.webp
       thumb: thelastjerboa_image4_thumb.webp
   download:
-    - file: thelastjerboa.zip
+    -
+      file: thelastjerboa.zip
       platform: Windows
-- game:
+      checksum: ebc6f337ed3a4a60b0c711b1ef5ec6928ed7d8f3f5ef9f52af980dec2abfce8e
+-
+  game:
     name: 'The Whimsical Adventures Of Sir Trips A Lot'
     players: 1
     controls:
@@ -607,24 +756,30 @@
   winner: youngblood
   headerimage: sirtripsalot_header.webp
   images:
-    - file: sirtripsalot_image1_full.webp
+    -
+      file: sirtripsalot_image1_full.webp
       thumb: sirtripsalot_thumb.webp
-    - file: sirtripsalot_image2_full.webp
+    -
+      file: sirtripsalot_image2_full.webp
       thumb: sirtripsalot_image2_thumb.webp
-    - file: sirtripsalot_image3_full.webp
+    -
+      file: sirtripsalot_image3_full.webp
       thumb: sirtripsalot_image3_thumb.webp
-    - file: sirtripsalot_image4_full.webp
+    -
+      file: sirtripsalot_image4_full.webp
       thumb: sirtripsalot_image4_thumb.webp
   download:
-    - file: sirtripsalot.zip
+    -
+      file: sirtripsalot.zip
       platform: Windows
-- game:
+      checksum: 834a396d827dc8c48f4885cf4a9850e9f570feedfa93cda4fcfda7fc8d2e8198
+-
+  game:
     name: 'Timelines Apart'
     players: 2
     controls:
       - keyboard
-    description: |
-      In Timelines Apart, a couple is torn apart by a rift in time—he is sent to the past, and she to the future. To reunite, they must navigate three challenging levels, solving puzzles and overcoming obstacles by exchanging clues and actions across their timelines. Their only hope lies in their ability to work together, bridging centuries to rewrite fate.
+    description: 'In Timelines Apart, a couple is torn apart by a rift in time—he is sent to the past, and she to the future. To reunite, they must navigate three challenging levels, solving puzzles and overcoming obstacles by exchanging clues and actions across their timelines. Their only hope lies in their ability to work together, bridging centuries to rewrite fate.'
   team:
     name: Pixies
     members:
@@ -637,14 +792,20 @@
   winner: 'no'
   headerimage: timelinesapart_header.webp
   images:
-    - file: timelinesapart_image1_full.webp
+    -
+      file: timelinesapart_image1_full.webp
       thumb: timelinesapart_thumb.webp
-    - file: timelinesapart_image2_full.webp
+    -
+      file: timelinesapart_image2_full.webp
       thumb: timelinesapart_image2_thumb.webp
-    - file: timelinesapart_image3_full.webp
+    -
+      file: timelinesapart_image3_full.webp
       thumb: timelinesapart_image3_thumb.webp
-    - file: timelinesapart_image4_full.webp
+    -
+      file: timelinesapart_image4_full.webp
       thumb: timelinesapart_image4_thumb.webp
   download:
-    - file: timelinesapart.zip
+    -
+      file: timelinesapart.zip
       platform: Windows
+      checksum: 7b2a26de7e50efa478445bd264e992a8d3e9d087687994c0b30e06d1e0c32c43

@@ -1,4 +1,5 @@
-- game:
+-
+  game:
     name: 'Barnaby B. Brixton and His Bedazzeling Bean Belt Contra the Machines'
     players: 1
     controls:
@@ -17,22 +18,33 @@
   winner: 'no'
   headerimage: barnaby-b-brixton_header.webp
   images:
-    - file: barnaby-b-brixton_image1_full.webp
+    -
+      file: barnaby-b-brixton_image1_full.webp
       thumb: barnaby-b-brixton_image1_thumb.webp
-    - file: barnaby-b-brixton_image2_full.webp
+    -
+      file: barnaby-b-brixton_image2_full.webp
       thumb: barnaby-b-brixton_image2_thumb.webp
-    - file: barnaby-b-brixton_image3_full.webp
+    -
+      file: barnaby-b-brixton_image3_full.webp
       thumb: barnaby-b-brixton_image3_thumb.webp
-    - file: barnaby-b-brixton_image4_full.webp
+    -
+      file: barnaby-b-brixton_image4_full.webp
       thumb: barnaby-b-brixton_image4_thumb.webp
   download:
-    - file: barnaby-b-brixtonWin.zip
+    -
+      file: barnaby-b-brixtonWin.zip
       platform: Windows
-    - file: barnaby-b-brixtonMac.zip
+      checksum: 794409658c64d8f8094bf4f24928b940fd071886a43cabd18dc0218d0b1e54cb
+    -
+      file: barnaby-b-brixtonMac.zip
       platform: macOS
-    - file: barnaby-b-brixtonLinux.zip
+      checksum: 8bcdbad1eb87df6ff807cbb4a67bcc47ed5997099199d2ca56f9d647a5bf5735
+    -
+      file: barnaby-b-brixtonLinux.zip
       platform: Linux
-- game:
+      checksum: bcf14136e38ea6fe060f5f003aae704eb7b8b8b4b29770786bd5cfe3b19442f1
+-
+  game:
     name: 'Broomba Brawl'
     players: 4
     controls:
@@ -47,18 +59,25 @@
   winner: 'no'
   headerimage: broombabrawl_header.webp
   images:
-    - file: broombabrawl_image1_full.webp
+    -
+      file: broombabrawl_image1_full.webp
       thumb: broombabrawl_image1_thumb.webp
-    - file: broombabrawl_image2_full.webp
+    -
+      file: broombabrawl_image2_full.webp
       thumb: broombabrawl_image2_thumb.webp
-    - file: broombabrawl_image3_full.webp
+    -
+      file: broombabrawl_image3_full.webp
       thumb: broombabrawl_image3_thumb.webp
-    - file: broombabrawl_image4_full.webp
+    -
+      file: broombabrawl_image4_full.webp
       thumb: broombabrawl_image4_thumb.webp
   download:
-    - file: broombabrawl.zip
+    -
+      file: broombabrawl.zip
       platform: Windows
-- game:
+      checksum: 0cd48dfea112cd3180712661ca67a472fe2dc9a947904507264ec2792733d367
+-
+  game:
     name: 'Cognitive Conflict'
     players: 2
     controls:
@@ -75,18 +94,25 @@
   winner: 'no'
   headerimage: cognitiveconflict_header.webp
   images:
-    - file: cognitiveconflict_image1_full.webp
+    -
+      file: cognitiveconflict_image1_full.webp
       thumb: cognitiveconflict_image1_thumb.webp
-    - file: cognitiveconflict_image2_full.webp
+    -
+      file: cognitiveconflict_image2_full.webp
       thumb: cognitiveconflict_image2_thumb.webp
-    - file: cognitiveconflict_image3_full.webp
+    -
+      file: cognitiveconflict_image3_full.webp
       thumb: cognitiveconflict_image3_thumb.webp
-    - file: cognitiveconflict_image4_full.webp
+    -
+      file: cognitiveconflict_image4_full.webp
       thumb: cognitiveconflict_image4_thumb.webp
   download:
-    - file: cognitiveconflict.zip
+    -
+      file: cognitiveconflict.zip
       platform: Windows
-- game:
+      checksum: 853d66b72ab2712447537671ad4f0258fccb7a222772f7fb046f7b543e14eb61
+-
+  game:
     name: 'Cyberprincess: Scheils Revenge'
     players: 1
     controls:
@@ -105,20 +131,29 @@
   winner: people
   headerimage: cyberprincess_header.webp
   images:
-    - file: cyberprincess_image1_full.webp
+    -
+      file: cyberprincess_image1_full.webp
       thumb: cyberprincess_image1_thumb.webp
-    - file: cyberprincess_image2_full.webp
+    -
+      file: cyberprincess_image2_full.webp
       thumb: cyberprincess_image2_thumb.webp
-    - file: cyberprincess_image3_full.webp
+    -
+      file: cyberprincess_image3_full.webp
       thumb: cyberprincess_image3_thumb.webp
-    - file: cyberprincess_image4_full.webp
+    -
+      file: cyberprincess_image4_full.webp
       thumb: cyberprincess_image4_thumb.webp
   download:
-    - file: cyberprincessWin.zip
+    -
+      file: cyberprincessWin.zip
       platform: Windows
-    - file: cyberprincessMac.zip
+      checksum: e8bb3b97ba4236f3dc5d3c4c5656ec988ad0706d2c76f542b59ef8da3c206ffb
+    -
+      file: cyberprincessMac.zip
       platform: macOS
-- game:
+      checksum: 2918c4aec9d8465ea644322a55b9402563bcb43e1e464429d981550c97317da6
+-
+  game:
     name: 'Factory Reset'
     players: 1
     controls:
@@ -136,18 +171,25 @@
   winner: 'no'
   headerimage: factoryreset_header.webp
   images:
-    - file: factoryreset_image1_full.webp
+    -
+      file: factoryreset_image1_full.webp
       thumb: factoryreset_image1_thumb.webp
-    - file: factoryreset_image2_full.webp
+    -
+      file: factoryreset_image2_full.webp
       thumb: factoryreset_image2_thumb.webp
-    - file: factoryreset_image3_full.webp
+    -
+      file: factoryreset_image3_full.webp
       thumb: factoryreset_image3_thumb.webp
-    - file: factoryreset_image4_full.webp
+    -
+      file: factoryreset_image4_full.webp
       thumb: factoryreset_image4_thumb.webp
   download:
-    - file: factoryreset.zip
+    -
+      file: factoryreset.zip
       platform: Windows
-- game:
+      checksum: 204ec0d02c47a1e223dbe948ebdfe93a2df7fe48441d9d4a26e5805a015640e7
+-
+  game:
     name: 'Felis ex Machina'
     players: 1
     controls:
@@ -164,20 +206,29 @@
   winner: 'no'
   headerimage: felisexmachina_header.webp
   images:
-    - file: felisexmachina_image1_full.webp
+    -
+      file: felisexmachina_image1_full.webp
       thumb: felisexmachina_image1_thumb.webp
-    - file: felisexmachina_image2_full.webp
+    -
+      file: felisexmachina_image2_full.webp
       thumb: felisexmachina_image2_thumb.webp
-    - file: felisexmachina_image3_full.webp
+    -
+      file: felisexmachina_image3_full.webp
       thumb: felisexmachina_image3_thumb.webp
-    - file: felisexmachina_image4_full.webp
+    -
+      file: felisexmachina_image4_full.webp
       thumb: felisexmachina_image4_thumb.webp
   download:
-    - file: felisexmachinaWin.zip
+    -
+      file: felisexmachinaWin.zip
       platform: Windows
-    - file: felisexmachinaMac.zip
+      checksum: 3ca1c37f695832b83c4ab73eb356c79dcef92539dfa05b7345e9536ac2f8de06
+    -
+      file: felisexmachinaMac.zip
       platform: macOS
-- game:
+      checksum: f24fff2616d86a87e1903b299d6731d17d957916dd1c4973deee1648d46a3fd0
+-
+  game:
     name: 'Fight until the Ente'
     players: 1
     controls:
@@ -193,18 +244,25 @@
   winner: 'no'
   headerimage: fightuntiltheente_header.webp
   images:
-    - file: fightuntiltheente_image1_full.webp
+    -
+      file: fightuntiltheente_image1_full.webp
       thumb: fightuntiltheente_image1_thumb.webp
-    - file: fightuntiltheente_image2_full.webp
+    -
+      file: fightuntiltheente_image2_full.webp
       thumb: fightuntiltheente_image2_thumb.webp
-    - file: fightuntiltheente_image3_full.webp
+    -
+      file: fightuntiltheente_image3_full.webp
       thumb: fightuntiltheente_image3_thumb.webp
-    - file: fightuntiltheente_image4_full.webp
+    -
+      file: fightuntiltheente_image4_full.webp
       thumb: fightuntiltheente_image4_thumb.webp
   download:
-    - file: fightuntiltheente.zip
+    -
+      file: fightuntiltheente.zip
       platform: Windows
-- game:
+      checksum: 3473f3df4a08b7dee64f49f4cc4544e347eb4651ff47b89a30b095d327213528
+-
+  game:
     name: Game
     players: 1
     controls:
@@ -223,18 +281,25 @@
   winner: 'no'
   headerimage: game_header.webp
   images:
-    - file: game_image1_full.webp
+    -
+      file: game_image1_full.webp
       thumb: game_image1_thumb.webp
-    - file: game_image2_full.webp
+    -
+      file: game_image2_full.webp
       thumb: game_image2_thumb.webp
-    - file: game_image3_full.webp
+    -
+      file: game_image3_full.webp
       thumb: game_image3_thumb.webp
-    - file: game_image4_full.webp
+    -
+      file: game_image4_full.webp
       thumb: game_image4_thumb.webp
   download:
-    - file: game.zip
+    -
+      file: game.zip
       platform: Windows
-- game:
+      checksum: db74fb4c7d545e188d67f99598583a1f204c6a4cd5e342df62386a8a582c7ac1
+-
+  game:
     name: "Gyralf's Adventure"
     players: 2
     controls:
@@ -252,18 +317,25 @@
   winner: 'no'
   headerimage: gyralfsadventure_header.webp
   images:
-    - file: gyralfsadventure_image1_full.webp
+    -
+      file: gyralfsadventure_image1_full.webp
       thumb: gyralfsadventure_image1_thumb.webp
-    - file: gyralfsadventure_image2_full.webp
+    -
+      file: gyralfsadventure_image2_full.webp
       thumb: gyralfsadventure_image2_thumb.webp
-    - file: gyralfsadventure_image3_full.webp
+    -
+      file: gyralfsadventure_image3_full.webp
       thumb: gyralfsadventure_image3_thumb.webp
-    - file: gyralfsadventure_image4_full.webp
+    -
+      file: gyralfsadventure_image4_full.webp
       thumb: gyralfsadventure_image4_thumb.webp
   download:
-    - file: gyralfsadventure.zip
+    -
+      file: gyralfsadventure.zip
       platform: Windows
-- game:
+      checksum: 358654eff8c642ecb4998f1a41cad89b3a519cf63d86579428854a3aeae1a4a7
+-
+  game:
     name: 'Kyl vs. The Mean Dance Machine'
     players: 1
     controls:
@@ -282,20 +354,29 @@
   winner: 'no'
   headerimage: kylvsthemeandancemachine_header.webp
   images:
-    - file: kylvsthemeandancemachine_image1_full.webp
+    -
+      file: kylvsthemeandancemachine_image1_full.webp
       thumb: kylvsthemeandancemachine_image1_thumb.webp
-    - file: kylvsthemeandancemachine_image2_full.webp
+    -
+      file: kylvsthemeandancemachine_image2_full.webp
       thumb: kylvsthemeandancemachine_image2_thumb.webp
-    - file: kylvsthemeandancemachine_image3_full.webp
+    -
+      file: kylvsthemeandancemachine_image3_full.webp
       thumb: kylvsthemeandancemachine_image3_thumb.webp
-    - file: kylvsthemeandancemachine_image4_full.webp
+    -
+      file: kylvsthemeandancemachine_image4_full.webp
       thumb: kylvsthemeandancemachine_image4_thumb.webp
   download:
-    - file: kylvsthemeandancemachineWin.zip
+    -
+      file: kylvsthemeandancemachineWin.zip
       platform: Windows
-    - file: kylvsthemeandancemachineMac.zip
+      checksum: 87e1e0d51ac28b72261ade75ed009cc6450d7067aa3d516159b28e1dba95d1dc
+    -
+      file: kylvsthemeandancemachineMac.zip
       platform: macOS
-- game:
+      checksum: f103c9376b5d9a9ea99d3b8102d680cd3954e6b6ccef9a9874ce55c7a8691054
+-
+  game:
     name: M/M
     players: 2
     controls:
@@ -314,18 +395,25 @@
   winner: 'no'
   headerimage: m-m_header.webp
   images:
-    - file: m-m_image1_full.webp
+    -
+      file: m-m_image1_full.webp
       thumb: m-m_image1_thumb.webp
-    - file: m-m_image2_full.webp
+    -
+      file: m-m_image2_full.webp
       thumb: m-m_image2_thumb.webp
-    - file: m-m_image3_full.webp
+    -
+      file: m-m_image3_full.webp
       thumb: m-m_image3_thumb.webp
-    - file: m-m_image4_full.webp
+    -
+      file: m-m_image4_full.webp
       thumb: m-m_image4_thumb.webp
   download:
-    - file: m-m.zip
+    -
+      file: m-m.zip
       platform: Windows
-- game:
+      checksum: d09e46cada23afa24c65f057879684b2fcfe7e1fece3ca6e7e6a1089bc14d95a
+-
+  game:
     name: Mean_Machine.exe
     players: 1
     controls:
@@ -342,20 +430,29 @@
   winner: 'no'
   headerimage: mean-machine-exe_header.webp
   images:
-    - file: mean-machine-exe_image1_full.webp
+    -
+      file: mean-machine-exe_image1_full.webp
       thumb: mean-machine-exe_image1_thumb.webp
-    - file: mean-machine-exe_image2_full.webp
+    -
+      file: mean-machine-exe_image2_full.webp
       thumb: mean-machine-exe_image2_thumb.webp
-    - file: mean-machine-exe_image3_full.webp
+    -
+      file: mean-machine-exe_image3_full.webp
       thumb: mean-machine-exe_image3_thumb.webp
-    - file: mean-machine-exe_image4_full.webp
+    -
+      file: mean-machine-exe_image4_full.webp
       thumb: mean-machine-exe_image4_thumb.webp
   download:
-    - file: mean-machine-exeWin.zip
+    -
+      file: mean-machine-exeWin.zip
       platform: Windows
-    - file: mean-machine-exeMac.zip
+      checksum: b1ac415d75e2908a7be66892200f185e8155b899443d22e940ec1c149cd12a9d
+    -
+      file: mean-machine-exeMac.zip
       platform: macOS
-- game:
+      checksum: ea6487e9607ad50bd348299e358c923bc354bbb76749ae7475e49b9c92ab8dba
+-
+  game:
     name: 'MIEN MECHONI'
     players: 1
     controls:
@@ -372,18 +469,25 @@
   winner: 'no'
   headerimage: mienmechoni_header.webp
   images:
-    - file: mienmechoni_image1_full.webp
+    -
+      file: mienmechoni_image1_full.webp
       thumb: mienmechoni_image1_thumb.webp
-    - file: mienmechoni_image2_full.webp
+    -
+      file: mienmechoni_image2_full.webp
       thumb: mienmechoni_image2_thumb.webp
-    - file: mienmechoni_image3_full.webp
+    -
+      file: mienmechoni_image3_full.webp
       thumb: mienmechoni_image3_thumb.webp
-    - file: mienmechoni_image4_full.webp
+    -
+      file: mienmechoni_image4_full.webp
       thumb: mienmechoni_image4_thumb.webp
   download:
-    - file: mienmechoni.zip
+    -
+      file: mienmechoni.zip
       platform: Windows
-- game:
+      checksum: 805342e05c7aa8fcb6ab84f1a2acda3bb0458d5df6cb77bf1c14d54732a789a1
+-
+  game:
     name: Postlair
     players: 1
     controls:
@@ -403,18 +507,25 @@
   winner: jury
   headerimage: postlair_header.webp
   images:
-    - file: postlair_image1_full.webp
+    -
+      file: postlair_image1_full.webp
       thumb: postlair_image1_thumb.webp
-    - file: postlair_image2_full.webp
+    -
+      file: postlair_image2_full.webp
       thumb: postlair_image2_thumb.webp
-    - file: postlair_image3_full.webp
+    -
+      file: postlair_image3_full.webp
       thumb: postlair_image3_thumb.webp
-    - file: postlair_image4_full.webp
+    -
+      file: postlair_image4_full.webp
       thumb: postlair_image4_thumb.webp
   download:
-    - file: postlair.zip
+    -
+      file: postlair.zip
       platform: Windows
-- game:
+      checksum: 1ed56fd931aadf5bd29829e7f4f99de65c854f72ac6dcac0399896d8bc4a08be
+-
+  game:
     name: RobXMas
     players: 1
     controls:
@@ -433,20 +544,29 @@
   winner: 'no'
   headerimage: robxmas_header.webp
   images:
-    - file: robxmas_image1_full.webp
+    -
+      file: robxmas_image1_full.webp
       thumb: robxmas_image1_thumb.webp
-    - file: robxmas_image2_full.webp
+    -
+      file: robxmas_image2_full.webp
       thumb: robxmas_image2_thumb.webp
-    - file: robxmas_image3_full.webp
+    -
+      file: robxmas_image3_full.webp
       thumb: robxmas_image3_thumb.webp
-    - file: robxmas_image4_full.webp
+    -
+      file: robxmas_image4_full.webp
       thumb: robxmas_image4_thumb.webp
   download:
-    - file: robxmasWin.zip
+    -
+      file: robxmasWin.zip
       platform: Windows
-    - file: robxmasMac.zip
+      checksum: a711ad6c90b0ef826a7a71c2a4d24db162d91f239f62987f0756ba0ae130b572
+    -
+      file: robxmasMac.zip
       platform: macOS
-- game:
+      checksum: e047eac8628ffacabef1fb1c1486caa39e49de116ca81486339800453e8af7ae
+-
+  game:
     name: "Roomba's Revenge"
     players: 1
     controls:
@@ -465,18 +585,25 @@
   winner: 'no'
   headerimage: roombasrevenge_header.webp
   images:
-    - file: roombasrevenge_image1_full.webp
+    -
+      file: roombasrevenge_image1_full.webp
       thumb: roombasrevenge_image1_thumb.webp
-    - file: roombasrevenge_image2_full.webp
+    -
+      file: roombasrevenge_image2_full.webp
       thumb: roombasrevenge_image2_thumb.webp
-    - file: roombasrevenge_image3_full.webp
+    -
+      file: roombasrevenge_image3_full.webp
       thumb: roombasrevenge_image3_thumb.webp
-    - file: roombasrevenge_image4_full.webp
+    -
+      file: roombasrevenge_image4_full.webp
       thumb: roombasrevenge_image4_thumb.webp
   download:
-    - file: roombasrevenge.zip
+    -
+      file: roombasrevenge.zip
       platform: Windows
-- game:
+      checksum: 8850b9d5644ad646c0b58d07726d7655eaff31220f2893defca55fb1473b000f
+-
+  game:
     name: 'Salty Robots'
     players: 2
     controls:
@@ -493,18 +620,25 @@
   winner: 'no'
   headerimage: saltyrobots_header.webp
   images:
-    - file: saltyrobots_image1_full.webp
+    -
+      file: saltyrobots_image1_full.webp
       thumb: saltyrobots_image1_thumb.webp
-    - file: saltyrobots_image2_full.webp
+    -
+      file: saltyrobots_image2_full.webp
       thumb: saltyrobots_image2_thumb.webp
-    - file: saltyrobots_image3_full.webp
+    -
+      file: saltyrobots_image3_full.webp
       thumb: saltyrobots_image3_thumb.webp
-    - file: saltyrobots_image4_full.webp
+    -
+      file: saltyrobots_image4_full.webp
       thumb: saltyrobots_image4_thumb.webp
   download:
-    - file: saltyrobots.zip
+    -
+      file: saltyrobots.zip
       platform: Windows
-- game:
+      checksum: b649c977fe5b3a747a7dff13bc81d48de9d6b147459ab953a6eb64293b7fa8ff
+-
+  game:
     name: SteelPunk
     players: 1
     controls:
@@ -523,18 +657,25 @@
   winner: 'no'
   headerimage: steelpunk_header.webp
   images:
-    - file: steelpunk_image1_full.webp
+    -
+      file: steelpunk_image1_full.webp
       thumb: steelpunk_image1_thumb.webp
-    - file: steelpunk_image2_full.webp
+    -
+      file: steelpunk_image2_full.webp
       thumb: steelpunk_image2_thumb.webp
-    - file: steelpunk_image3_full.webp
+    -
+      file: steelpunk_image3_full.webp
       thumb: steelpunk_image3_thumb.webp
-    - file: steelpunk_image4_full.webp
+    -
+      file: steelpunk_image4_full.webp
       thumb: steelpunk_image4_thumb.webp
   download:
-    - file: steelpunk.zip
+    -
+      file: steelpunk.zip
       platform: Windows
-- game:
+      checksum: 143ec70427c042f5a93bdc8297d983895f74e762aaa2d385ab29dafdb1d5a642
+-
+  game:
     name: 'Tunder Muffin GmbH'
     players: 1
     controls:
@@ -549,24 +690,30 @@
   winner: 'no'
   headerimage: tundermuffingmbh_header.webp
   images:
-    - file: tundermuffingmbh_image1_full.webp
+    -
+      file: tundermuffingmbh_image1_full.webp
       thumb: tundermuffingmbh_image1_thumb.webp
-    - file: tundermuffingmbh_image2_full.webp
+    -
+      file: tundermuffingmbh_image2_full.webp
       thumb: tundermuffingmbh_image2_thumb.webp
-    - file: tundermuffingmbh_image3_full.webp
+    -
+      file: tundermuffingmbh_image3_full.webp
       thumb: tundermuffingmbh_image3_thumb.webp
-    - file: tundermuffingmbh_image4_full.webp
+    -
+      file: tundermuffingmbh_image4_full.webp
       thumb: tundermuffingmbh_image4_thumb.webp
   download:
-    - file: tundermuffingmbh.zip
+    -
+      file: tundermuffingmbh.zip
       platform: Windows
-- game:
+      checksum: 4d1b9071c29f9f338cd723deadfd57d6abf6eafc8f699bbc1106a8bf5dca8c29
+-
+  game:
     name: 'Turbo Waddle'
     players: 1
     controls:
       - experimental
-    description: |
-      This is a game about wanting cigarettes. Like cigarettes, this game is completely usable without a mouse or keyboard. You do it just with your mouth and body. You are Saul Dabby, and you really want to buy a cigarette from the cigarette machine. But unfortunately, things do not go as planned :( Control Saul Dabby with your arms and legs! All with just a normal webcam.
+    description: 'This is a game about wanting cigarettes. Like cigarettes, this game is completely usable without a mouse or keyboard. You do it just with your mouth and body. You are Saul Dabby, and you really want to buy a cigarette from the cigarette machine. But unfortunately, things do not go as planned :( Control Saul Dabby with your arms and legs! All with just a normal webcam.'
   team:
     name: 🍄🦶💏
     members:
@@ -575,14 +722,20 @@
   winner: 'no'
   headerimage: turbowaddle_header.webp
   images:
-    - file: turbowaddle_image1_full.webp
+    -
+      file: turbowaddle_image1_full.webp
       thumb: turbowaddle_image1_thumb.webp
-    - file: turbowaddle_image2_full.webp
+    -
+      file: turbowaddle_image2_full.webp
       thumb: turbowaddle_image2_thumb.webp
-    - file: turbowaddle_image3_full.webp
+    -
+      file: turbowaddle_image3_full.webp
       thumb: turbowaddle_image3_thumb.webp
-    - file: turbowaddle_image4_full.webp
+    -
+      file: turbowaddle_image4_full.webp
       thumb: turbowaddle_image4_thumb.webp
   download:
-    - file: turbowaddle.zip
+    -
+      file: turbowaddle.zip
       platform: Windows
+      checksum: 8e5166ba7bc0bfc67d2c5abe6881f367c12814cbad55f01f32646e22778d007a
