@@ -20,7 +20,7 @@
   images:
     -
       file: aheistthroughthepast_image1_full.webp
-      thumb: aheistthroughthepast_thumb.webp
+      thumb: aheistthroughthepast_image1_thumb.webp
     -
       file: aheistthroughthepast_image2_full.webp
       thumb: aheistthroughthepast_image2_thumb.webp
@@ -57,7 +57,7 @@
   images:
     -
       file: blurredthoughts_image1_full.webp
-      thumb: blurredthoughts_thumb.webp
+      thumb: blurredthoughts_image1_thumb.webp
     -
       file: blurredthoughts_image2_full.webp
       thumb: blurredthoughts_image2_thumb.webp
@@ -93,7 +93,7 @@
   images:
     -
       file: boxofblocks_image1_full.webp
-      thumb: boxofblocks_thumb.webp
+      thumb: boxofblocks_image1_thumb.webp
     -
       file: boxofblocks_image2_full.webp
       thumb: boxofblocks_image2_thumb.webp
@@ -126,7 +126,7 @@
   images:
     -
       file: derherrlumpus_image1_full.webp
-      thumb: derherrlumpus_thumb.webp
+      thumb: derherrlumpus_image1_thumb.webp
     -
       file: derherrlumpus_image2_full.webp
       thumb: derherrlumpus_image2_thumb.webp
@@ -162,7 +162,7 @@
   images:
     -
       file: faeground_image1_full.webp
-      thumb: faeground_thumb.webp
+      thumb: faeground_image1_thumb.webp
     -
       file: faeground_image2_full.webp
       thumb: faeground_image2_thumb.webp
@@ -196,7 +196,7 @@
   images:
     -
       file: goetschka2077_image1_full.webp
-      thumb: goetschka2077_thumb.webp
+      thumb: goetschka2077_image1_thumb.webp
     -
       file: goetschka2077_image2_full.webp
       thumb: goetschka2077_image2_thumb.webp
@@ -244,7 +244,7 @@
   images:
     -
       file: homstimywimyadventure_image1_full.webp
-      thumb: homstimywimyadventure_thumb.webp
+      thumb: homstimywimyadventure_image1_thumb.webp
     -
       file: homstimywimyadventure_image2_full.webp
       thumb: homstimywimyadventure_image2_thumb.webp
@@ -281,7 +281,7 @@
   images:
     -
       file: killingtime_image1_full.webp
-      thumb: killingtime_thumb.webp
+      thumb: killingtime_image1_thumb.webp
     -
       file: killingtime_image2_full.webp
       thumb: killingtime_image2_thumb.webp
@@ -317,7 +317,7 @@
   images:
     -
       file: lostknightlings_image1_full.webp
-      thumb: lostknightlings_thumb.webp
+      thumb: lostknightlings_image1_thumb.webp
     -
       file: lostknightlings_image2_full.webp
       thumb: lostknightlings_image2_thumb.webp
@@ -354,7 +354,7 @@
   images:
     -
       file: nightdrive_image1_full.webp
-      thumb: nightdrive_thumb.webp
+      thumb: nightdrive_image1_thumb.webp
     -
       file: nightdrive_image2_full.webp
       thumb: nightdrive_image2_thumb.webp
@@ -395,7 +395,7 @@
   images:
     -
       file: oeligefischeputzen_image1_full.webp
-      thumb: oeligefischeputzen_thumb.webp
+      thumb: oeligefischeputzen_image1_thumb.webp
     -
       file: oeligefischeputzen_image2_full.webp
       thumb: oeligefischeputzen_image2_thumb.webp
@@ -433,7 +433,7 @@
   images:
     -
       file: onenightatfurbys_image1_full.webp
-      thumb: onenightatfurbys_thumb.webp
+      thumb: onenightatfurbys_image1_thumb.webp
     -
       file: onenightatfurbys_image2_full.webp
       thumb: onenightatfurbys_image2_thumb.webp
@@ -466,7 +466,7 @@
   images:
     -
       file: pacmanblastfromthepast_image1_full.webp
-      thumb: pacmanblastfromthepast_thumb.webp
+      thumb: pacmanblastfromthepast_image1_thumb.webp
     -
       file: pacmanblastfromthepast_image2_full.webp
       thumb: pacmanblastfromthepast_image2_thumb.webp
@@ -502,7 +502,7 @@
   images:
     -
       file: pastafromtheblasta_image1_full.webp
-      thumb: pastafromtheblasta_thumb.webp
+      thumb: pastafromtheblasta_image1_thumb.webp
     -
       file: pastafromtheblasta_image2_full.webp
       thumb: pastafromtheblasta_image2_thumb.webp
@@ -539,7 +539,7 @@
   images:
     -
       file: pipeexe_image1_full.webp
-      thumb: pipeexe_thumb.webp
+      thumb: pipeexe_image1_thumb.webp
     -
       file: pipeexe_image2_full.webp
       thumb: pipeexe_image2_thumb.webp
@@ -576,7 +576,7 @@
   images:
     -
       file: retrorex_image1_full.webp
-      thumb: retrorex_thumb.webp
+      thumb: retrorex_image1_thumb.webp
     -
       file: retrorex_image2_full.webp
       thumb: retrorex_image2_thumb.webp
@@ -613,7 +613,7 @@
   images:
     -
       file: rexplosion_image1_full.webp
-      thumb: rexplosion_thumb.webp
+      thumb: rexplosion_image1_thumb.webp
     -
       file: rexplosion_image2_full.webp
       thumb: rexplosion_image2_thumb.webp
@@ -650,7 +650,7 @@
   images:
     -
       file: sandsoftheancient_image1_full.webp
-      thumb: sandsoftheancient_thumb.webp
+      thumb: sandsoftheancient_image1_thumb.webp
     -
       file: sandsoftheancient_image2_full.webp
       thumb: sandsoftheancient_image2_thumb.webp
@@ -684,7 +684,7 @@
   images:
     -
       file: thelastblast_image1_full.webp
-      thumb: thelastblast_thumb.webp
+      thumb: thelastblast_image1_thumb.webp
     -
       file: thelastblast_image2_full.webp
       thumb: thelastblast_image2_thumb.webp
@@ -721,7 +721,7 @@
   images:
     -
       file: thelastjerboa_image1_full.webp
-      thumb: thelastjerboa_thumb.webp
+      thumb: thelastjerboa_image1_thumb.webp
     -
       file: thelastjerboa_image2_full.webp
       thumb: thelastjerboa_image2_thumb.webp
@@ -758,7 +758,7 @@
   images:
     -
       file: sirtripsalot_image1_full.webp
-      thumb: sirtripsalot_thumb.webp
+      thumb: sirtripsalot_image1_thumb.webp
     -
       file: sirtripsalot_image2_full.webp
       thumb: sirtripsalot_image2_thumb.webp
@@ -794,7 +794,7 @@
   images:
     -
       file: timelinesapart_image1_full.webp
-      thumb: timelinesapart_thumb.webp
+      thumb: timelinesapart_image1_thumb.webp
     -
       file: timelinesapart_image2_full.webp
       thumb: timelinesapart_image2_thumb.webp
