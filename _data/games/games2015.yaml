@@ -78,7 +78,7 @@
       checksum: 4882ec2e16757c0721a6cbafc1fe8730c237f2634ebc16bc6fdb7522c9d13023
     -
       file: fuckyeahbulletsMac.zip
-      platform: 'Mac OS X'
+      platform: macOS
       checksum: 61a2625b416665414f2783fbfee0d2013de25fcc3f05b98cf22e1358038fdaf3
 -
   game:

@@ -145,7 +145,7 @@
       checksum: bb94004e5948fdb2fca405f2e1f5bd76c5d7a929bbf5c98a1ef3a235e1292681
     -
       file: dropdownforwhatMac.zip
-      platform: 'Mac OS X'
+      platform: macOS
       checksum: 973b54dcaa6a639e154fb656335902b3a9f95a252d6450ee1dc88f373203af1f
 -
   game:

@@ -192,7 +192,7 @@
       checksum: 7050fe35fd4443cca93bfc756d0412df24f093a50c76eccf0bb99395f42aec39
     -
       file: eternaldutyMac.zip
-      platform: 'Mac OS X'
+      platform: macOS
       checksum: e17159d88c2d56889e5e59b94df5250429d778b426c50307ff7e43e2093c72f1
     -
       file: eternaldutyLinux.zip
@@ -318,7 +318,7 @@
       checksum: 22f93f693d08fe1838ff35fe4b0a0c0da9a973d87f5e3bd0276a032b45ef6c85
     -
       file: summoningpetdemonsMac.zip
-      platform: 'Mac OS X'
+      platform: macOS
       checksum: ef6caac90f6df31f0df761d0821afd413bc4cc4b82508f3aa7de3dd2bb4258cb
     -
       file: summoningpetdemonsLinux.zip
@@ -366,7 +366,7 @@
       checksum: 080227897ede1c50a0c7a6be5291560dfe8288fdef5bde4fd3b63bc9abcaf7cd
     -
       file: theblamegameMac.zip
-      platform: 'Mac OS X'
+      platform: macOS
       checksum: a5764e8ad09f2a2d5e75b58d3864a5132c4990330e5b89770c7e3b55ea3c2171
     -
       file: theblamegameLinux.zip
