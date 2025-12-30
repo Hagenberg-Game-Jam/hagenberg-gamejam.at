@@ -153,7 +153,7 @@
       checksum: 97c08595cc3b99dcf56d9d1a002bbec9fde8da85478cb802237cbae85369f562
     -
       file: flakingoswitnessesMac.zip
-      platform: 'Mac OS X'
+      platform: macOS
       checksum: da9ced634277d085e3f9ba794b6ca603678e88e50a86a79fb9de7132d094c625
 -
   game:
@@ -412,5 +412,5 @@
       checksum: 7767b63623b731a6cd00f2fc9973d39480ebfa3724f15ca3cbc23a9d1df33eaa
     -
       file: thesagaofdrojaMac.zip
-      platform: 'Mac OS X'
+      platform: macOS
       checksum: 4af5302918a16d28c4107b6d498f43d6295b1ae014b08d6711964535c265e36f
