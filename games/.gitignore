@@ -1,0 +1,5 @@
+# Do not commit the games to git (usually exceeds git-lfs quickly)
+# Ignore everything in this directory, but keep the directory structure
+*
+!.gitignore
+!.gitkeep
