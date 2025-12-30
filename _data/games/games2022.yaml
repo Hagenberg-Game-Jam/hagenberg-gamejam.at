@@ -1,4 +1,5 @@
-- game:
+-
+  game:
     name: 'Angel on Prohibition'
     players: 1
     controls:
@@ -17,18 +18,25 @@
   winner: 'no'
   headerimage: angelonprohibition_header.webp
   images:
-    - file: angelonprohibition_image1_full.webp
+    -
+      file: angelonprohibition_image1_full.webp
       thumb: angelonprohibition_image1_thumb.webp
-    - file: angelonprohibition_image2_full.webp
+    -
+      file: angelonprohibition_image2_full.webp
       thumb: angelonprohibition_image2_thumb.webp
-    - file: angelonprohibition_image3_full.webp
+    -
+      file: angelonprohibition_image3_full.webp
       thumb: angelonprohibition_image3_thumb.webp
-    - file: angelonprohibition_image4_full.webp
+    -
+      file: angelonprohibition_image4_full.webp
       thumb: angelonprohibition_image4_thumb.webp
   download:
-    - file: angelonprohibition.zip
+    -
+      file: angelonprohibition.zip
       platform: Windows
-- game:
+      checksum: 82f25a6356f634b8057b3808274220862bb4d90ad59dc2f010fdfda83a557d02
+-
+  game:
     name: 'Car Jack'
     players: 1
     controls:
@@ -46,18 +54,25 @@
   winner: 'no'
   headerimage: carjack_header.webp
   images:
-    - file: carjack_image1_full.webp
+    -
+      file: carjack_image1_full.webp
       thumb: carjack_image1_thumb.webp
-    - file: carjack_image2_full.webp
+    -
+      file: carjack_image2_full.webp
       thumb: carjack_image2_thumb.webp
-    - file: carjack_image3_full.webp
+    -
+      file: carjack_image3_full.webp
       thumb: carjack_image3_thumb.webp
-    - file: carjack_image4_full.webp
+    -
+      file: carjack_image4_full.webp
       thumb: carjack_image4_thumb.webp
   download:
-    - file: carjack.zip
+    -
+      file: carjack.zip
       platform: Windows
-- game:
+      checksum: 67e2661c775aac0b36e36a3e9bfb1febb1698e843e3c5a96b3ad519122f47ba4
+-
+  game:
     name: 'Der Rattenfänger von Götschka'
     players: 1
     controls:
@@ -75,18 +90,25 @@
   winner: 'no'
   headerimage: derrattenfaengervongoetschka_header.webp
   images:
-    - file: derrattenfaengervongoetschka_image1_full.webp
+    -
+      file: derrattenfaengervongoetschka_image1_full.webp
       thumb: derrattenfaengervongoetschka_image1_thumb.webp
-    - file: derrattenfaengervongoetschka_image2_full.webp
+    -
+      file: derrattenfaengervongoetschka_image2_full.webp
       thumb: derrattenfaengervongoetschka_image2_thumb.webp
-    - file: derrattenfaengervongoetschka_image3_full.webp
+    -
+      file: derrattenfaengervongoetschka_image3_full.webp
       thumb: derrattenfaengervongoetschka_image3_thumb.webp
-    - file: derrattenfaengervongoetschka_image4_full.webp
+    -
+      file: derrattenfaengervongoetschka_image4_full.webp
       thumb: derrattenfaengervongoetschka_image4_thumb.webp
   download:
-    - file: derrattenfaengervongoetschka.zip
+    -
+      file: derrattenfaengervongoetschka.zip
       platform: Windows
-- game:
+      checksum: 97b6466b98907fa2492c4de4e86e58fc44d9143c0b6e658d5cd8197c4b2f02c3
+-
+  game:
     name: Ekia
     players: 1
     controls:
@@ -107,18 +129,25 @@
   winner: 'no'
   headerimage: ekia_header.webp
   images:
-    - file: ekia_image1_full.webp
+    -
+      file: ekia_image1_full.webp
       thumb: ekia_image1_thumb.webp
-    - file: ekia_image2_full.webp
+    -
+      file: ekia_image2_full.webp
       thumb: ekia_image2_thumb.webp
-    - file: ekia_image3_full.webp
+    -
+      file: ekia_image3_full.webp
       thumb: ekia_image3_thumb.webp
-    - file: ekia_image4_full.webp
+    -
+      file: ekia_image4_full.webp
       thumb: ekia_image4_thumb.webp
   download:
-    - file: ekia.zip
+    -
+      file: ekia.zip
       platform: Windows
-- game:
+      checksum: d8f373ba7b436796974252b506f8a5cd713533aaff5267f0f4d051305361210e
+-
+  game:
     name: 'Fund Raider'
     players: 1
     controls:
@@ -137,18 +166,25 @@
   winner: 'no'
   headerimage: fundraider_header.webp
   images:
-    - file: fundraider_image1_full.webp
+    -
+      file: fundraider_image1_full.webp
       thumb: fundraider_image1_thumb.webp
-    - file: fundraider_image2_full.webp
+    -
+      file: fundraider_image2_full.webp
       thumb: fundraider_image2_thumb.webp
-    - file: fundraider_image3_full.webp
+    -
+      file: fundraider_image3_full.webp
       thumb: fundraider_image3_thumb.webp
-    - file: fundraider_image4_full.webp
+    -
+      file: fundraider_image4_full.webp
       thumb: fundraider_image4_thumb.webp
   download:
-    - file: fundraider.zip
+    -
+      file: fundraider.zip
       platform: Windows
-- game:
+      checksum: da971c976144e7407d462909089eef23f432f5d2b7aa5269b5287cab459932d9
+-
+  game:
     name: '"Good" Boy'
     players: 1
     controls:
@@ -164,18 +200,25 @@
   winner: 'no'
   headerimage: goodboy_header.webp
   images:
-    - file: goodboy_image1_full.webp
+    -
+      file: goodboy_image1_full.webp
       thumb: goodboy_image1_thumb.webp
-    - file: goodboy_image2_full.webp
+    -
+      file: goodboy_image2_full.webp
       thumb: goodboy_image2_thumb.webp
-    - file: goodboy_image3_full.webp
+    -
+      file: goodboy_image3_full.webp
       thumb: goodboy_image3_thumb.webp
-    - file: goodboy_image4_full.webp
+    -
+      file: goodboy_image4_full.webp
       thumb: goodboy_image4_thumb.webp
   download:
-    - file: goodboy.zip
+    -
+      file: goodboy.zip
       platform: Windows
-- game:
+      checksum: 48016a85ffea726ebe8a5568d4e3c95b1506f2806fbfc4343fa01430588cfdfa
+-
+  game:
     name: Hack-IT
     players: 1
     controls:
@@ -196,18 +239,25 @@
   winner: jury
   headerimage: hackit_header.webp
   images:
-    - file: hackit_image1_full.webp
+    -
+      file: hackit_image1_full.webp
       thumb: hackit_image1_thumb.webp
-    - file: hackit_image2_full.webp
+    -
+      file: hackit_image2_full.webp
       thumb: hackit_image2_thumb.webp
-    - file: hackit_image3_full.webp
+    -
+      file: hackit_image3_full.webp
       thumb: hackit_image3_thumb.webp
-    - file: hackit_image4_full.webp
+    -
+      file: hackit_image4_full.webp
       thumb: hackit_image4_thumb.webp
   download:
-    - file: hackit.zip
+    -
+      file: hackit.zip
       platform: Windows
-- game:
+      checksum: 2dd852d8c3c6b643d024e132b759e9504dd060b9be9c60e6f49a17854a5321ed
+-
+  game:
     name: Rotzbuab
     players: 1
     controls:
@@ -227,18 +277,25 @@
   winner: 'no'
   headerimage: rotzbuab_header.webp
   images:
-    - file: rotzbuab_image1_full.webp
+    -
+      file: rotzbuab_image1_full.webp
       thumb: rotzbuab_image1_thumb.webp
-    - file: rotzbuab_image2_full.webp
+    -
+      file: rotzbuab_image2_full.webp
       thumb: rotzbuab_image2_thumb.webp
-    - file: rotzbuab_image3_full.webp
+    -
+      file: rotzbuab_image3_full.webp
       thumb: rotzbuab_image3_thumb.webp
-    - file: rotzbuab_image4_full.webp
+    -
+      file: rotzbuab_image4_full.webp
       thumb: rotzbuab_image4_thumb.webp
   download:
-    - file: rotzbuab.zip
+    -
+      file: rotzbuab.zip
       platform: Windows
-- game:
+      checksum: dd1460ca5e9ce05fc4bcdda01050bf72e38bcb0a121e14aef2a91c19db3cbd63
+-
+  game:
     name: "Santa's Crystal Mess"
     players: 1
     controls:
@@ -259,18 +316,25 @@
   winner: people
   headerimage: santascrystalmess_header.webp
   images:
-    - file: santascrystalmess_image1_full.webp
+    -
+      file: santascrystalmess_image1_full.webp
       thumb: santascrystalmess_image1_thumb.webp
-    - file: santascrystalmess_image2_full.webp
+    -
+      file: santascrystalmess_image2_full.webp
       thumb: santascrystalmess_image2_thumb.webp
-    - file: santascrystalmess_image3_full.webp
+    -
+      file: santascrystalmess_image3_full.webp
       thumb: santascrystalmess_image3_thumb.webp
-    - file: santascrystalmess_image4_full.webp
+    -
+      file: santascrystalmess_image4_full.webp
       thumb: santascrystalmess_image4_thumb.webp
   download:
-    - file: santascrystalmess.zip
+    -
+      file: santascrystalmess.zip
       platform: Windows
-- game:
+      checksum: 883e7e9bc872ce455cf54402ff8754e2fb18501bea441ecd2ad83cde8c4d099c
+-
+  game:
     name: 'Snails with Feet'
     players: 1
     controls:
@@ -287,25 +351,31 @@
   winner: 'no'
   headerimage: snailswithfeet_header.webp
   images:
-    - file: snailswithfeet_image1_full.webp
+    -
+      file: snailswithfeet_image1_full.webp
       thumb: snailswithfeet_image1_thumb.webp
-    - file: snailswithfeet_image2_full.webp
+    -
+      file: snailswithfeet_image2_full.webp
       thumb: snailswithfeet_image2_thumb.webp
-    - file: snailswithfeet_image3_full.webp
+    -
+      file: snailswithfeet_image3_full.webp
       thumb: snailswithfeet_image3_thumb.webp
-    - file: snailswithfeet_image4_full.webp
+    -
+      file: snailswithfeet_image4_full.webp
       thumb: snailswithfeet_image4_thumb.webp
   download:
-    - file: snailswithfeet.zip
+    -
+      file: snailswithfeet.zip
       platform: Windows
-- game:
+      checksum: 703e75e06052aec60392f5cbb60b96a69449e0c8be298eeef4f97ebe5d953635
+-
+  game:
     name: 'The Rise and Fall of Bernd'
     players: 1
     controls:
       - keyboard
       - mouse
-    description: |
-      You most certainly know the feeling when you've got a terrible day and just want to destroy everything. Your world is dark, and you can't escape. These days, talking to people or trying to walk to the colorful side is not recommended. This is the perfect moment to resign and release your raw emotions. You may find out that you still feel empty after destroying all there is to destroy. Not till then is the time right to finally walk to the bright side again. Thus, nobody wants to stay long in that angry state; you should get to the colorful side as soon as possible. If things seem too high to reach, just try holding on. Possibly, Bernd feels the same way.
+    description: "You most certainly know the feeling when you've got a terrible day and just want to destroy everything. Your world is dark, and you can't escape. These days, talking to people or trying to walk to the colorful side is not recommended. This is the perfect moment to resign and release your raw emotions. You may find out that you still feel empty after destroying all there is to destroy. Not till then is the time right to finally walk to the bright side again. Thus, nobody wants to stay long in that angry state; you should get to the colorful side as soon as possible. If things seem too high to reach, just try holding on. Possibly, Bernd feels the same way."
   team:
     name: 'The Uncertain Result'
     members:
@@ -315,14 +385,20 @@
   winner: 'no'
   headerimage: theriseandfallofbernd_header.webp
   images:
-    - file: theriseandfallofbernd_image1_full.webp
+    -
+      file: theriseandfallofbernd_image1_full.webp
       thumb: theriseandfallofbernd_image1_thumb.webp
-    - file: theriseandfallofbernd_image2_full.webp
+    -
+      file: theriseandfallofbernd_image2_full.webp
       thumb: theriseandfallofbernd_image2_thumb.webp
-    - file: theriseandfallofbernd_image3_full.webp
+    -
+      file: theriseandfallofbernd_image3_full.webp
       thumb: theriseandfallofbernd_image3_thumb.webp
-    - file: theriseandfallofbernd_image4_full.webp
+    -
+      file: theriseandfallofbernd_image4_full.webp
       thumb: theriseandfallofbernd_image4_thumb.webp
   download:
-    - file: theriseandfallofbernd.zip
+    -
+      file: theriseandfallofbernd.zip
       platform: Windows
+      checksum: e2695546be2847ec4a988fd6b223327a926d43673aab22b09d6a2455cb8ff340

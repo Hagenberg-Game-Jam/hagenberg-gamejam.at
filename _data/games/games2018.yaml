@@ -1,4 +1,5 @@
-- game:
+-
+  game:
     name: Aubandln
     players: 1
     controls:
@@ -17,18 +18,25 @@
   winner: people
   headerimage: aubandln_header.jpg
   images:
-    - file: aubandln_image1_full.jpg
+    -
+      file: aubandln_image1_full.jpg
       thumb: aubandln_image1_thumb.jpg
-    - file: aubandln_image2_full.jpg
+    -
+      file: aubandln_image2_full.jpg
       thumb: aubandln_image2_thumb.jpg
-    - file: aubandln_image3_full.jpg
+    -
+      file: aubandln_image3_full.jpg
       thumb: aubandln_image3_thumb.jpg
-    - file: aubandln_image4_full.jpg
+    -
+      file: aubandln_image4_full.jpg
       thumb: aubandln_image4_thumb.jpg
   download:
-    - file: aubandln.zip
+    -
+      file: aubandln.zip
       platform: Windows
-- game:
+      checksum: 4fd3c95893ee2a170dc4f31f988cf6db7b6de3c79916ce284a492de318ff398b
+-
+  game:
     name: 'Barking Hard'
     players: 1
     controls:
@@ -49,18 +57,25 @@
   winner: 'no'
   headerimage: barkinghard_header.jpg
   images:
-    - file: barkinghard_image1_full.jpg
+    -
+      file: barkinghard_image1_full.jpg
       thumb: barkinghard_image1_thumb.jpg
-    - file: barkinghard_image2_full.jpg
+    -
+      file: barkinghard_image2_full.jpg
       thumb: barkinghard_image2_thumb.jpg
-    - file: barkinghard_image3_full.jpg
+    -
+      file: barkinghard_image3_full.jpg
       thumb: barkinghard_image3_thumb.jpg
-    - file: barkinghard_image4_full.jpg
+    -
+      file: barkinghard_image4_full.jpg
       thumb: barkinghard_image4_thumb.jpg
   download:
-    - file: barkinghard.zip
+    -
+      file: barkinghard.zip
       platform: Windows
-- game:
+      checksum: d8fa7355565fc64aa1b6325a4babd979fadfb58c6523739f8275aade59abe387
+-
+  game:
     name: Beewitched
     players: 1
     controls:
@@ -80,18 +95,25 @@
   winner: 'no'
   headerimage: beewitched_header.jpg
   images:
-    - file: beewitched_image1_full.jpg
+    -
+      file: beewitched_image1_full.jpg
       thumb: beewitched_image1_thumb.jpg
-    - file: beewitched_image2_full.jpg
+    -
+      file: beewitched_image2_full.jpg
       thumb: beewitched_image2_thumb.jpg
-    - file: beewitched_image3_full.jpg
+    -
+      file: beewitched_image3_full.jpg
       thumb: beewitched_image3_thumb.jpg
-    - file: beewitched_image4_full.jpg
+    -
+      file: beewitched_image4_full.jpg
       thumb: beewitched_image4_thumb.jpg
   download:
-    - file: beewitched.zip
+    -
+      file: beewitched.zip
       platform: Windows
-- game:
+      checksum: f4849471c4a6b0768d14cbe03574d354b49cd3930396c402f88c43b72e2faca5
+-
+  game:
     name: "Flakingo's Witnesses"
     players: 1
     controls:
@@ -112,20 +134,29 @@
   winner: 'no'
   headerimage: flakingoswitnesses_header.jpg
   images:
-    - file: flakingoswitnesses_image1_full.jpg
+    -
+      file: flakingoswitnesses_image1_full.jpg
       thumb: flakingoswitnesses_image1_thumb.jpg
-    - file: flakingoswitnesses_image2_full.jpg
+    -
+      file: flakingoswitnesses_image2_full.jpg
       thumb: flakingoswitnesses_image2_thumb.jpg
-    - file: flakingoswitnesses_image3_full.jpg
+    -
+      file: flakingoswitnesses_image3_full.jpg
       thumb: flakingoswitnesses_image3_thumb.jpg
-    - file: flakingoswitnesses_image4_full.jpg
+    -
+      file: flakingoswitnesses_image4_full.jpg
       thumb: flakingoswitnesses_image4_thumb.jpg
   download:
-    - file: flakingoswitnessesWin.zip
+    -
+      file: flakingoswitnessesWin.zip
       platform: Windows
-    - file: flakingoswitnessesMac.zip
+      checksum: 97c08595cc3b99dcf56d9d1a002bbec9fde8da85478cb802237cbae85369f562
+    -
+      file: flakingoswitnessesMac.zip
       platform: 'Mac OS X'
-- game:
+      checksum: da9ced634277d085e3f9ba794b6ca603678e88e50a86a79fb9de7132d094c625
+-
+  game:
     name: Fluffy
     players: 1-6
     controls:
@@ -145,18 +176,25 @@
   winner: 'no'
   headerimage: fluffy_header.jpg
   images:
-    - file: fluffy_image1_full.jpg
+    -
+      file: fluffy_image1_full.jpg
       thumb: fluffy_image1_thumb.jpg
-    - file: fluffy_image2_full.jpg
+    -
+      file: fluffy_image2_full.jpg
       thumb: fluffy_image2_thumb.jpg
-    - file: fluffy_image3_full.jpg
+    -
+      file: fluffy_image3_full.jpg
       thumb: fluffy_image3_thumb.jpg
-    - file: fluffy_image4_full.jpg
+    -
+      file: fluffy_image4_full.jpg
       thumb: fluffy_image4_thumb.jpg
   download:
-    - file: fluffy.zip
+    -
+      file: fluffy.zip
       platform: Windows
-- game:
+      checksum: e7ee501ca35b42dc6c4b2c57a8fa53d1c19b2a821d852a7e727e2912cd8e9ff3
+-
+  game:
     name: Hierarchy
     players: 1
     controls:
@@ -172,18 +210,25 @@
   winner: 'no'
   headerimage: hierarchy_header.jpg
   images:
-    - file: hierarchy_image1_full.jpg
+    -
+      file: hierarchy_image1_full.jpg
       thumb: hierarchy_image1_thumb.jpg
-    - file: hierarchy_image2_full.jpg
+    -
+      file: hierarchy_image2_full.jpg
       thumb: hierarchy_image2_thumb.jpg
-    - file: hierarchy_image3_full.jpg
+    -
+      file: hierarchy_image3_full.jpg
       thumb: hierarchy_image3_thumb.jpg
-    - file: hierarchy_image4_full.jpg
+    -
+      file: hierarchy_image4_full.jpg
       thumb: hierarchy_image4_thumb.jpg
   download:
-    - file: hierarchy.zip
+    -
+      file: hierarchy.zip
       platform: Windows
-- game:
+      checksum: eb12cda3b59d6f7d0c97bc90937b1ea2b816dde12233de19b4c80b99977c34c8
+-
+  game:
     name: 'Lead the Beat'
     players: 1
     controls:
@@ -201,18 +246,25 @@
   winner: 'no'
   headerimage: leadthebeat_header.jpg
   images:
-    - file: leadthebeat_image1_full.jpg
+    -
+      file: leadthebeat_image1_full.jpg
       thumb: leadthebeat_image1_thumb.jpg
-    - file: leadthebeat_image2_full.jpg
+    -
+      file: leadthebeat_image2_full.jpg
       thumb: leadthebeat_image2_thumb.jpg
-    - file: leadthebeat_image3_full.jpg
+    -
+      file: leadthebeat_image3_full.jpg
       thumb: leadthebeat_image3_thumb.jpg
-    - file: leadthebeat_image4_full.jpg
+    -
+      file: leadthebeat_image4_full.jpg
       thumb: leadthebeat_image4_thumb.jpg
   download:
-    - file: leadthebeat.zip
+    -
+      file: leadthebeat.zip
       platform: Windows
-- game:
+      checksum: cbbe554db3ca515a2206a2bbb2bfc0f4abe7617640159020a5a650cba42eb616
+-
+  game:
     name: 'Lego Erego'
     players: 1
     controls:
@@ -229,18 +281,25 @@
   winner: 'no'
   headerimage: legoerego_header.jpg
   images:
-    - file: legoerego_image1_full.jpg
+    -
+      file: legoerego_image1_full.jpg
       thumb: legoerego_image1_thumb.jpg
-    - file: legoerego_image2_full.jpg
+    -
+      file: legoerego_image2_full.jpg
       thumb: legoerego_image2_thumb.jpg
-    - file: legoerego_image3_full.jpg
+    -
+      file: legoerego_image3_full.jpg
       thumb: legoerego_image3_thumb.jpg
-    - file: legoerego_image4_full.jpg
+    -
+      file: legoerego_image4_full.jpg
       thumb: legoerego_image4_thumb.jpg
   download:
-    - file: legoerego.zip
+    -
+      file: legoerego.zip
       platform: Windows
-- game:
+      checksum: cde73c3e9c058f828b29d27ca502119d21ad06c1a57e879ff4f81967274b9094
+-
+  game:
     name: 'Prime Delivery'
     players: 1
     controls:
@@ -257,18 +316,25 @@
   winner: jury
   headerimage: primedelivery_header.jpg
   images:
-    - file: primedelivery_image1_full.jpg
+    -
+      file: primedelivery_image1_full.jpg
       thumb: primedelivery_image1_thumb.jpg
-    - file: primedelivery_image2_full.jpg
+    -
+      file: primedelivery_image2_full.jpg
       thumb: primedelivery_image2_thumb.jpg
-    - file: primedelivery_image3_full.jpg
+    -
+      file: primedelivery_image3_full.jpg
       thumb: primedelivery_image3_thumb.jpg
-    - file: primedelivery_image4_full.jpg
+    -
+      file: primedelivery_image4_full.jpg
       thumb: primedelivery_image4_thumb.jpg
   download:
-    - file: primedelivery.zip
+    -
+      file: primedelivery.zip
       platform: Windows
-- game:
+      checksum: a27b2f45d3411bfc9e0369b1877b0ee26ca874f11794665f996327db81ab6571
+-
+  game:
     name: "Quentin Québec's Quest for Questionable Quality"
     players: 1
     controls:
@@ -288,24 +354,31 @@
   winner: 'no'
   headerimage: quintupleq_header.jpg
   images:
-    - file: quintupleq_image1_full.jpg
+    -
+      file: quintupleq_image1_full.jpg
       thumb: quintupleq_image1_thumb.jpg
-    - file: quintupleq_image2_full.jpg
+    -
+      file: quintupleq_image2_full.jpg
       thumb: quintupleq_image2_thumb.jpg
-    - file: quintupleq_image3_full.jpg
+    -
+      file: quintupleq_image3_full.jpg
       thumb: quintupleq_image3_thumb.jpg
-    - file: quintupleq_image4_full.jpg
+    -
+      file: quintupleq_image4_full.jpg
       thumb: quintupleq_image4_thumb.jpg
   download:
-    - file: quintupleq.zip
+    -
+      file: quintupleq.zip
       platform: Windows
-- game:
+      checksum: 71a26e5f6bb38552df3f55d22d6182bbb960808472f1828d5abe2267b223974e
+-
+  game:
     name: 'The Saga of Droja'
     players: 1
     controls:
       - keyboard
       - gamepad
-    description: |
+    description: |-
       300 brave men are on their way to underthrow the regime. Hidden in a wooden horse they try to storm the castle.
 
       Bring as many men as possible to the fortress! Avoid all obstacles, otherwise you could loose precious fighters. Catch them if you can! Watch out - your wooden horse is not indestructible.
@@ -320,16 +393,24 @@
   winner: 'no'
   headerimage: thesagaofdroja_header.jpg
   images:
-    - file: thesagaofdroja_image1_full.jpg
+    -
+      file: thesagaofdroja_image1_full.jpg
       thumb: thesagaofdroja_image1_thumb.jpg
-    - file: thesagaofdroja_image2_full.jpg
+    -
+      file: thesagaofdroja_image2_full.jpg
       thumb: thesagaofdroja_image2_thumb.jpg
-    - file: thesagaofdroja_image3_full.jpg
+    -
+      file: thesagaofdroja_image3_full.jpg
       thumb: thesagaofdroja_image3_thumb.jpg
-    - file: thesagaofdroja_image4_full.jpg
+    -
+      file: thesagaofdroja_image4_full.jpg
       thumb: thesagaofdroja_image4_thumb.jpg
   download:
-    - file: thesagaofdrojaWin.zip
+    -
+      file: thesagaofdrojaWin.zip
       platform: Windows
-    - file: thesagaofdrojaMac.zip
+      checksum: 7767b63623b731a6cd00f2fc9973d39480ebfa3724f15ca3cbc23a9d1df33eaa
+    -
+      file: thesagaofdrojaMac.zip
       platform: 'Mac OS X'
+      checksum: 4af5302918a16d28c4107b6d498f43d6295b1ae014b08d6711964535c265e36f
