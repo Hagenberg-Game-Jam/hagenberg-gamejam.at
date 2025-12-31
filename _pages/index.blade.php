@@ -9,6 +9,8 @@
     $registrationUrl = config('gamejam.registration.url', '');
 
     $homepage = \App\GameJamData::getHomepage();
+    $hero = $homepage['hero'] ?? [];
+    $heroImages = $hero['images'] ?? ['gamejam_index_1.jpg', 'gamejam_index_2.jpg', 'gamejam_index_3.jpg'];
     $about = $homepage['about'] ?? [];
     $video = $homepage['video'] ?? [];
     $sponsors = $homepage['sponsors'] ?? [];
@@ -19,9 +21,12 @@
 <section class="relative h-full flex items-center justify-center overflow-hidden">
     <div class="hero-slider-container absolute inset-0 w-full h-full z-0">
         <div class="hero-slider-track relative w-full h-full">
-            <div class="hero-slide active" data-slide="0" style="background-image: url('/media/gamejam_index_1.jpg');"></div>
-            <div class="hero-slide" data-slide="1" style="background-image: url('/media/gamejam_index_2.jpg');"></div>
-            <div class="hero-slide" data-slide="2" style="background-image: url('/media/gamejam_index_3.jpg');"></div>
+            @foreach($heroImages as $index => $image)
+                @php
+                    $imageSrc = str_starts_with($image, '/') ? $image : '/media/' . ltrim($image, '/');
+                @endphp
+                <div class="hero-slide {{ $index === 0 ? 'active' : '' }}" data-slide="{{ $index }}" style="background-image: url('{{ $imageSrc }}');"></div>
+            @endforeach
         </div>
         <div class="absolute inset-0 flex items-center justify-center z-20 pointer-events-none">
             <div class="container mx-auto px-4 text-center text-white drop-shadow-lg">
