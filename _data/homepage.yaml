@@ -18,9 +18,11 @@ about:
 
     2023 marked a new record: 82 people in 20 teams registered, making for the largest Hagenberg Game Jam since its start in 2011.
 
+    This record was broken in 2024 with 100 people in 22 teams registered, making for the largest Hagenberg Game Jam since its start in 2011. 2024 was also the first year that the voting process was changed to a Playtogether session where all submitted games were installed, could be played together, and then voted for.
+
     This website is an archive of all the games created during a Hagenberg Game Jam. You are free to download and play the games, but please give credit to the authors should you distribute them.
 
-    Hagenberg Game Jam is organized by people from the Playful Interactive Environments research group as well as the Department of Digital Media at the University of Applied Sciences Upper Austria, Hagenberg Campus.
+    Hagenberg Game Jam is organized by people from the Department of Digital Media at the University of Applied Sciences Upper Austria, Hagenberg Campus.
 video:
   eyebrow: intro video
   title: |
@@ -30,6 +32,7 @@ video:
   youtube_id: S4UBw5cPjfY
 sponsors:
   title: Our Sponsors
+  description: "Hagenberg Game Jam wouldn't be possible without the support of our partners. Thank you for making the world a little more playful!"
   items:
     - name: Digital Media Campus Hagenberg
       url: https://fh-ooe.at/campus-hagenberg/personen-kontakt/departments

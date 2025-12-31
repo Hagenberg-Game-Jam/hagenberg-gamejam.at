@@ -55,8 +55,8 @@
     <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Category 1 -->
-            <div class="bg-white dark:bg-gray-700 p-8 rounded-lg shadow-lg text-center">
-                <div class="w-16 h-16 mx-auto mb-4 bg-indigo-100 dark:bg-indigo-900 rounded-full flex items-center justify-center">
+            <div class="bg-gray-200 dark:bg-gray-700 p-8 rounded-lg shadow-lg text-center">
+                <div class="w-16 h-16 mx-auto mb-4 bg-white dark:bg-indigo-900 rounded-full flex items-center justify-center">
                     <svg class="w-8 h-8 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
                     </svg>
@@ -67,8 +67,8 @@
             </div>
 
             <!-- Category 2 -->
-            <div class="bg-white dark:bg-gray-700 p-8 rounded-lg shadow-lg text-center">
-                <div class="w-16 h-16 mx-auto mb-4 bg-indigo-100 dark:bg-indigo-900 rounded-full flex items-center justify-center">
+            <div class="bg-gray-200 dark:bg-gray-700 p-8 rounded-lg shadow-lg text-center">
+                <div class="w-16 h-16 mx-auto mb-4 bg-white dark:bg-indigo-900 rounded-full flex items-center justify-center">
                     <svg class="w-8 h-8 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
@@ -79,8 +79,8 @@
             </div>
 
             <!-- Category 3 -->
-            <div class="bg-white dark:bg-gray-700 p-8 rounded-lg shadow-lg text-center">
-                <div class="w-16 h-16 mx-auto mb-4 bg-indigo-100 dark:bg-indigo-900 rounded-full flex items-center justify-center">
+            <div class="bg-gray-200 dark:bg-gray-700 p-8 rounded-lg shadow-lg text-center">
+                <div class="w-16 h-16 mx-auto mb-4 bg-white dark:bg-indigo-900 rounded-full flex items-center justify-center">
                     <svg class="w-8 h-8 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                     </svg>
@@ -105,7 +105,7 @@
                 <img src="{{ $aboutImageSrc }}" alt="Scenes from the Hagenberg Game Jam" class="rounded-lg shadow-lg w-full">
             </div>
             <div class="order-1 lg:order-2">
-                <span class="inline-block w-3 h-3 bg-indigo-600 rounded-full mb-4"></span>
+                <span class="inline-block w-3 h-3 bg-indigo-600 rounded-full"></span>
                 <span class="text-indigo-600 dark:text-indigo-400 font-semibold uppercase tracking-wide ml-2">{{ $about['eyebrow'] ?? 'About' }}</span>
                 <h2 class="text-4xl font-bold mt-4 mb-6 dark:text-white">{{ $about['title'] ?? 'The Hagenberg Game Jam' }}</h2>
                 <h3 class="text-2xl font-semibold mb-6 dark:text-gray-200">{{ $about['subtitle'] ?? 'Creating a game in just one weekend?' }}</h3>
@@ -118,7 +118,7 @@
 </section>
 
 <!-- Video Section -->
-<section class="relative py-16 bg-gray-900">
+<section class="relative py-16 bg-gray-900 dark:bg-gray-800">
     <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-end mb-12">
             <div class="text-right">
@@ -145,9 +145,12 @@
                 </section>
 
 <!-- Sponsors Section -->
-<section class="py-16 bg-gray-50 dark:bg-gray-800">
+<section class="py-16 bg-gray-50 dark:bg-gray-200">
     <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center mb-8 dark:text-white">{{ $sponsors['title'] ?? 'Our Sponsors' }}</h2>
+        <h2 class="text-3xl font-bold text-center mb-4 text-gray-800">{{ $sponsors['title'] ?? 'Our Sponsors' }}</h2>
+        @if(isset($sponsors['description']) && $sponsors['description'])
+        <p class="text-center text-gray-600 dark:text-gray-700 mb-8">{{ $sponsors['description'] }}</p>
+        @endif
         <div class="sponsors-slider glide max-w-6xl mx-auto" style="display: block;">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides" style="list-style: none; margin: 0; padding: 0; display: flex;">
