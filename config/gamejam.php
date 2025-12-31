@@ -35,7 +35,7 @@ return [
         'discord' => env('GAMEJAM_DISCORD_URL', 'https://discord.gg/kh2rXBj8nr'),
     ],
 
-    'latest_jam' => env('GAMEJAM_LATEST_JAM', '2024'),
+    'latest_jam' => env('GAMEJAM_LATEST_JAM', '2025'),
 
     'voting' => [
         'active' => filter_var(env('GAMEJAM_VOTING_ACTIVE', 'false'), FILTER_VALIDATE_BOOL),
