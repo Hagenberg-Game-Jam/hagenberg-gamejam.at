@@ -139,41 +139,145 @@ npm run build
 
 ## Content management (how to add/update a new Game Jam)
 
-### 1) Add the new Jam year metadata
+This project provides interactive Hyde commands to streamline adding new Game Jams and games. These commands handle image processing, file management, and YAML generation automatically.
 
-Create a new markdown file:
+### Quick start: Using the commands
 
-- `_data/jams/YYYY.md`
+**1. Create a new Game Jam year:**
+```bash
+php hyde gamejam:create-jam
+```
 
-This file contains **front matter** (YAML between `---` blocks) used for the year page (theme, dates, etc.).
+**2. Add games to a year:**
+```bash
+php hyde gamejam:add-game
+```
 
-### 2) Add the games list for that year
+**3. Update checksums for game downloads:**
+```bash
+php hyde gamejam:update-checksums --year=2024
+```
 
-Create a new YAML file:
+### Detailed workflow
 
-- `_data/games/gamesYYYY.yaml`
+#### Step 1: Create a new Game Jam year
 
-Each entry should include the game name and all metadata needed for the year overview and game detail pages.
+Run the interactive command:
 
-### 3) Add media assets
+```bash
+php hyde gamejam:create-jam
+```
 
-Put year-specific assets under:
+This command will:
+- Ask for year, title, topic, dates, duration, and logo filename
+- Create `_data/jams/YYYY.md` with front matter
+- Create an empty `_data/games/gamesYYYY.yaml` file
 
-- `_media/YYYY/` (screenshots, etc.)
+**Example:**
+```
+Year: 2025
+Title: 2025
+Topic: Future Worlds
+Start date: 2025-12-12
+End date: 2025-12-14
+Duration in hours: 36
+Logo filename: gamejam2025.svg
+```
 
-Global shared assets (logos, homepage images, sponsor logos) live directly under:
+#### Step 2: Prepare game assets
 
-- `_media/`
+Before adding a game, prepare the assets in the `_input/` directory:
 
-### 4) Mark the latest Jam (navigation + homepage CTA)
+**Directory structure:**
+```
+_input/
+  header/          # Place the header image here (one image)
+  screenshots/     # Place all screenshot images here
+  download/        # Place game download ZIP files here (optional)
+```
+
+**Image requirements:**
+- Header image: One image file (JPG, PNG) - will be cropped to 16:9 and resized to 1920x1080
+- Screenshots: Multiple images (JPG, PNG) - will be cropped to 16:9, resized to 1920x1080 (full) and 400x225 (thumb)
+- All images are automatically converted to WebP format
+
+**Download file naming:**
+- Single platform: `GameName.zip` (defaults to Windows)
+- Multiple platforms: `GameNameWin.zip`, `GameNameMac.zip`, `GameNameLinux.zip`, `GameNameWeb.zip`
+
+#### Step 3: Add a game
+
+Run the interactive command:
+
+```bash
+php hyde gamejam:add-game
+# Or specify year directly:
+php hyde gamejam:add-game --year=2024
+```
+
+This command will:
+
+1. **Ask for game data:**
+   - Game name (used to generate URL slug)
+   - Number of players
+   - Controls (keyboard, mouse, gamepad, touch - multi-select)
+   - Description (multiline input - type `---END---` when finished)
+   - Team name
+   - Team members (comma/semicolon/line-separated - intelligent parsing with preview)
+   - Winner status (yes/no + optional placement)
+
+2. **Process images:**
+   - Validates that header and screenshots exist in `_input/`
+   - Processes header image: crops to 16:9, resizes to 1920x1080, converts to WebP
+   - Processes screenshots: crops to 16:9, creates full (1920x1080) and thumb (400x225) versions
+   - Moves processed images to `_media/YYYY/` with proper naming: `{slug}_header.webp`, `{slug}_image1_full.webp`, `{slug}_image1_thumb.webp`, etc.
+
+3. **Process downloads:**
+   - Finds ZIP files in `_input/download/`
+   - Copies them to `games/YYYY/`
+   - Calculates SHA256 checksums
+   - Detects platform from filename (Win/Mac/Linux/Web)
+
+4. **Add to YAML:**
+   - Creates game entry in `_data/games/gamesYYYY.yaml`
+   - Uses proper YAML formatting with literal blocks for descriptions
+   - Checks for duplicate game names (asks to overwrite if exists)
+
+5. **Cleanup:**
+   - On success: Removes processed files from `_input/` directories (keeps directory structure)
+   - On error: Keeps source files so you can fix issues and re-run
+
+**Example interaction:**
+```
+Select year: 2024
+Game name: My Awesome Game
+Number of players: 1
+Controls: keyboard, mouse
+Description: [multiline input, type ---END--- when done]
+Team name: Awesome Team
+Team members: John Doe, Jane Smith, Bob Johnson
+Is this a winning game? [y/N]: y
+Placement: 1st
+```
+
+**Team members parsing:**
+The command intelligently parses team members from various formats:
+- Comma-separated: `"John Doe, Jane Smith, Bob Johnson"`
+- Semicolon-separated: `"John Doe; Jane Smith; Bob Johnson"`
+- Line-separated: One per line
+- Mixed formats are supported
+
+After parsing, you'll see a preview and can confirm or correct.
+
+#### Step 4: Mark the latest Jam (navigation + homepage CTA)
 
 Update:
 
 - `config/gamejam.php` → `latest_jam`
 
-This controls which year is shown as “latest” in the navigation and which years go under the “Archive” dropdown.
+This controls which year is shown as "latest" in the navigation and which years go under the "Archive" dropdown.
 
-### 5) Update the homepage content (annual)
+#### Step 5: Update the homepage content (annual)
 
 Edit:
 
@@ -187,16 +291,65 @@ This file is intended to be updated yearly and contains:
 
 Note: In templates, `/media/` is prepended automatically for homepage images and sponsor logos.
 
-### 6) Update registration/voting state (optional)
+#### Step 6: Update registration/voting state (optional)
 
 If needed, update:
 
 - `config/gamejam.php` → `registration.*` and `voting.*`
 
-### 7) Build & verify
+#### Step 7: Build & verify
 
 ```bash
 php hyde build
 ```
 
 Open `_site/index.html` and the new `YYYY.html` page to verify everything renders correctly.
+
+### Manual workflow (alternative)
+
+If you prefer to work manually instead of using the commands:
+
+1. **Add the new Jam year metadata**
+
+   Create a new markdown file:
+
+   - `_data/jams/YYYY.md`
+
+   This file contains **front matter** (YAML between `---` blocks) used for the year page (theme, dates, etc.).
+
+2. **Add the games list for that year**
+
+   Create a new YAML file:
+
+   - `_data/games/gamesYYYY.yaml`
+
+   Each entry should include the game name and all metadata needed for the year overview and game detail pages.
+
+3. **Add media assets**
+
+   Put year-specific assets under:
+
+   - `_media/YYYY/` (screenshots, etc.)
+
+   Global shared assets (logos, homepage images, sponsor logos) live directly under:
+
+   - `_media/`
+
+### Requirements for image processing
+
+The `gamejam:add-game` command requires **ImageMagick** to be installed and available in your system PATH.
+
+- **Windows**: Install from [ImageMagick website](https://imagemagick.org/script/download.php) or via package manager
+- **macOS**: `brew install imagemagick`
+- **Linux**: Usually available via package manager (`apt-get install imagemagick`, `yum install ImageMagick`, etc.)
+
+Verify installation:
+```bash
+magick --version
+```
+
+### Available commands
+
+- `php hyde gamejam:create-jam` - Create a new Game Jam year with metadata files
+- `php hyde gamejam:add-game [--year=YYYY]` - Add a new game to a Game Jam year with automatic image processing
+- `php hyde gamejam:update-checksums [--year=YYYY]` - Calculate and update SHA256 checksums for game download files
