@@ -1,3 +1,8 @@
+hero:
+  images:
+    - gamejam_index_1.jpg
+    - gamejam_index_2.jpg
+    - gamejam_index_3.jpg
 about:
   eyebrow: About
   title: The Hagenberg Game Jam
