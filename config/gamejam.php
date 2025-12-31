@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'website' => env('GAMEJAM_WEBSITE', 'https://pie-lab.at/'),
+    'website' => env('GAMEJAM_WEBSITE', 'https://hagenberg-gamejam.at'),
     'phone_number' => env('GAMEJAM_PHONE_NUMBER', ''),
     'email' => env('GAMEJAM_EMAIL', 'info@hagenberg-gamejam.at'),
 
@@ -31,7 +31,7 @@ return [
 
     'social' => [
         'instagram' => env('GAMEJAM_INSTAGRAM_URL', 'https://www.instagram.com/hagenberg_gamejam/'),
-        'github' => env('GAMEJAM_GITHUB_URL', 'https://github.com/Playful-Interactive-Environments/hagenberg-gamejam.at'),
+        'github' => env('GAMEJAM_GITHUB_URL', 'https://github.com/Hagenberg-Game-Jam/hagenberg-gamejam.at/'),
         'discord' => env('GAMEJAM_DISCORD_URL', 'https://discord.gg/kh2rXBj8nr'),
     ],
 
