@@ -27,7 +27,7 @@
         <h2>Picture Credits</h2>
         <p>
             © FH Upper Austria / Diephuis<br>
-            © FH Upper Austria / Diephuis und Hochleitner
+            © FH Upper Austria / Hochleitner
         </p>
 
         <h2>Technical Support</h2>
