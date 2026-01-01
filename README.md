@@ -384,18 +384,21 @@ php hyde gamejam:convert-images --format=jpg
 2. **Converts pixel images** to the target format using ImageMagick (supports all ImageMagick formats: WebP, AVIF, HEIC, JXL, JPG, PNG, GIF, etc.)
 3. **Automatically validates** that ImageMagick supports the target format before conversion
 4. **Skips SVG files** (vector graphics are preserved as-is)
-5. **Skips already converted images** (if an image is already in the target format, it's not re-converted)
-6. **Updates all YAML references** automatically:
+5. **Skips favicons and app icons** (favicon-16x16.png, favicon-32x32.png, apple-touch-icon.png, android-chrome-*.png are preserved as PNG for browser compatibility)
+6. **Skips already converted images** (if an image is already in the target format, it's not re-converted)
+7. **Updates all YAML references** automatically:
    - `_data/games/games*.yaml` files (headerimage, images[].file, images[].thumb)
    - `_data/homepage.yaml` (hero images, about image, sponsor logos - only pixel images, SVG logos are preserved)
-7. **Deletes old files** after successful conversion
+8. **Updates Blade template references** automatically (image references in template files)
+9. **Deletes old files** after successful conversion
 
 **Notes:**
 
 - **Default format**: If no `--format` is specified, the command defaults to **WebP**
 - Always use `--dry-run` first to preview what will be converted
 - The command preserves image quality (uses quality 90 for lossy formats like WebP, AVIF, JPG)
-- SVG files are never converted (vector graphics remain as SVG)
+- **SVG files are never converted** (vector graphics remain as SVG)
+- **Favicons and app icons are never converted** (favicon-*.png, apple-touch-icon.png, android-chrome-*.png remain as PNG for browser compatibility)
 - The command is safe to run multiple times (skips already converted images)
 - **Future-proof**: Works with any format ImageMagick supports, including future formats like AVIF, HEIC, JXL, etc.
 - To see all supported formats, run: `magick -list format`
