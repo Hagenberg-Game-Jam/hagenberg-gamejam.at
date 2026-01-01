@@ -337,7 +337,7 @@ If you prefer to work manually instead of using the commands:
 
 ### Requirements for image processing
 
-The `gamejam:add-game` command requires **ImageMagick** to be installed and available in your system PATH.
+The `gamejam:add-game` and `gamejam:convert-images` commands require **ImageMagick** to be installed and available in your system PATH.
 
 - **Windows**: Install from [ImageMagick website](https://imagemagick.org/script/download.php) or via package manager
 - **macOS**: `brew install imagemagick`
@@ -348,8 +348,51 @@ Verify installation:
 magick --version
 ```
 
+#### Converting existing images to a different format
+
+The `gamejam:convert-images` command allows you to convert all pixel images (JPG, PNG, GIF) to a different format (e.g., WebP) across your entire site. This is useful for:
+
+- Converting older JPG/PNG images to WebP for better performance
+- Standardizing image formats across all years
+- Batch conversion of images without manual processing
+
+**Usage:**
+
+```bash
+# Preview what would be converted (dry-run mode)
+php hyde gamejam:convert-images --format=webp --dry-run
+
+# Convert all images to WebP
+php hyde gamejam:convert-images --format=webp
+
+# Convert only images for a specific year
+php hyde gamejam:convert-images --format=webp --year=2015
+
+# Convert to a different format (e.g., PNG)
+php hyde gamejam:convert-images --format=png
+```
+
+**What it does:**
+
+1. **Scans all image files** in `_media/YYYY/` directories and root `_media/` directory
+2. **Converts pixel images** (JPG, PNG, GIF) to the target format using ImageMagick
+3. **Skips SVG files** (vector graphics are preserved as-is)
+4. **Skips already converted images** (if an image is already in the target format, it's not re-converted)
+5. **Updates all YAML references** automatically:
+   - `_data/games/games*.yaml` files (headerimage, images[].file, images[].thumb)
+   - `_data/homepage.yaml` (hero images, about image, sponsor logos - only pixel images, SVG logos are preserved)
+6. **Deletes old files** after successful conversion
+
+**Notes:**
+
+- Always use `--dry-run` first to preview what will be converted
+- The command preserves image quality (uses quality 90 for lossy formats like WebP/JPG)
+- SVG files are never converted (vector graphics remain as SVG)
+- The command is safe to run multiple times (skips already converted images)
+
 ### Available commands
 
 - `php hyde gamejam:create-jam` - Create a new Game Jam year with metadata files
 - `php hyde gamejam:add-game [--year=YYYY]` - Add a new game to a Game Jam year with automatic image processing
 - `php hyde gamejam:update-checksums [--year=YYYY]` - Calculate and update SHA256 checksums for game download files
+- `php hyde gamejam:convert-images [--format=webp] [--year=YYYY] [--dry-run]` - Convert all pixel images to a target format and update references
