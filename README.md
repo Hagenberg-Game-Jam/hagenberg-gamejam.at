@@ -197,13 +197,15 @@ _input/
 ```
 
 **Image requirements:**
-- Header image: One image file (JPG, PNG) - will be cropped to 16:9 and resized to 1920x1080
+- Header image: One image file (JPG, PNG) - will be cropped to 1920:520 aspect ratio (if needed) and resized to 1920x520, or left as-is if already correct size
 - Screenshots: Multiple images (JPG, PNG) - will be cropped to 16:9, resized to 1920x1080 (full) and 400x225 (thumb)
 - All images are automatically converted to WebP format
 
-**Download file naming:**
-- Single platform: `GameName.zip` (defaults to Windows)
-- Multiple platforms: `GameNameWin.zip`, `GameNameMac.zip`, `GameNameLinux.zip`, `GameNameWeb.zip`
+**Download file processing:**
+- Place all ZIP files in `_input/download/` (any filename is fine)
+- The command will ask interactively for each file which platform it is (Windows, Linux, macOS, or Web)
+- Files are automatically renamed to `{game-slug}-{Platform}.zip` (e.g., `my-awesome-game-Windows.zip`)
+- Files are moved to `games/YYYY/` with checksums calculated and added to YAML
 
 #### Step 3: Add a game
 
@@ -228,15 +230,17 @@ This command will:
 
 2. **Process images:**
    - Validates that header and screenshots exist in `_input/`
-   - Processes header image: crops to 16:9, resizes to 1920x1080, converts to WebP
+   - Processes header image: crops to 1920:520 aspect ratio (if needed), resizes to 1920x520, converts to WebP (skips processing if already correct size)
    - Processes screenshots: crops to 16:9, creates full (1920x1080) and thumb (400x225) versions
    - Moves processed images to `_media/YYYY/` with proper naming: `{slug}_header.webp`, `{slug}_image1_full.webp`, `{slug}_image1_thumb.webp`, etc.
 
 3. **Process downloads:**
-   - Finds ZIP files in `_input/download/`
-   - Copies them to `games/YYYY/`
+   - Finds all ZIP files in `_input/download/`
+   - Asks interactively for each file which platform it is (Windows, Linux, macOS, or Web)
+   - Renames files to `{game-slug}-{Platform}.zip` format
+   - Copies renamed files to `games/YYYY/`
    - Calculates SHA256 checksums
-   - Detects platform from filename (Win/Mac/Linux/Web)
+   - Adds download entries to YAML
 
 4. **Add to YAML:**
    - Creates game entry in `_data/games/gamesYYYY.yaml`
@@ -265,6 +269,7 @@ The command intelligently parses team members from various formats:
 - Comma-separated: `"John Doe, Jane Smith, Bob Johnson"`
 - Semicolon-separated: `"John Doe; Jane Smith; Bob Johnson"`
 - Line-separated: One per line
+- Markdown list format: `"- John Doe\n- Jane Smith"` (the "- " prefix is automatically removed)
 - Mixed formats are supported
 
 After parsing, you'll see a preview and can confirm or correct.
