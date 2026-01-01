@@ -19,20 +19,20 @@
       - 'Thomas Förg'
       - 'Valentin Postl'
   winner: people
-  headerimage: abedtimestory_header.jpg
+  headerimage: abedtimestory_header.webp
   images:
     -
-      file: abedtimestory_image1_full.jpg
-      thumb: abedtimestory_image1_thumb.jpg
+      file: abedtimestory_image1_full.webp
+      thumb: abedtimestory_image1_thumb.webp
     -
-      file: abedtimestory_image2_full.jpg
-      thumb: abedtimestory_image2_thumb.jpg
+      file: abedtimestory_image2_full.webp
+      thumb: abedtimestory_image2_thumb.webp
     -
-      file: abedtimestory_image3_full.jpg
-      thumb: abedtimestory_image3_thumb.jpg
+      file: abedtimestory_image3_full.webp
+      thumb: abedtimestory_image3_thumb.webp
     -
-      file: abedtimestory_image4_full.jpg
-      thumb: abedtimestory_image4_thumb.jpg
+      file: abedtimestory_image4_full.webp
+      thumb: abedtimestory_image4_thumb.webp
   download:
     -
       file: abedtimestory.zip
@@ -56,20 +56,20 @@
       - 'Wolfram Weingartner'
       - 'Klemens Wöhrer'
   winner: 'no'
-  headerimage: blockwestern_header.jpg
+  headerimage: blockwestern_header.webp
   images:
     -
-      file: blockwestern_image1_full.jpg
-      thumb: blockwestern_image1_thumb.jpg
+      file: blockwestern_image1_full.webp
+      thumb: blockwestern_image1_thumb.webp
     -
-      file: blockwestern_image2_full.jpg
-      thumb: blockwestern_image2_thumb.jpg
+      file: blockwestern_image2_full.webp
+      thumb: blockwestern_image2_thumb.webp
     -
-      file: blockwestern_image3_full.jpg
-      thumb: blockwestern_image3_thumb.jpg
+      file: blockwestern_image3_full.webp
+      thumb: blockwestern_image3_thumb.webp
     -
-      file: blockwestern_image4_full.jpg
-      thumb: blockwestern_image4_thumb.jpg
+      file: blockwestern_image4_full.webp
+      thumb: blockwestern_image4_thumb.webp
   download:
     -
       file: blockwestern.zip
@@ -97,20 +97,20 @@
       - 'David Holy'
       - 'Jakob Indra'
   winner: 'no'
-  headerimage: blutblutblut_header.jpg
+  headerimage: blutblutblut_header.webp
   images:
     -
-      file: blutblutblut_image1_full.jpg
-      thumb: blutblutblut_image1_thumb.jpg
+      file: blutblutblut_image1_full.webp
+      thumb: blutblutblut_image1_thumb.webp
     -
-      file: blutblutblut_image2_full.jpg
-      thumb: blutblutblut_image2_thumb.jpg
+      file: blutblutblut_image2_full.webp
+      thumb: blutblutblut_image2_thumb.webp
     -
-      file: blutblutblut_image3_full.jpg
-      thumb: blutblutblut_image3_thumb.jpg
+      file: blutblutblut_image3_full.webp
+      thumb: blutblutblut_image3_thumb.webp
     -
-      file: blutblutblut_image4_full.jpg
-      thumb: blutblutblut_image4_thumb.jpg
+      file: blutblutblut_image4_full.webp
+      thumb: blutblutblut_image4_thumb.webp
   download:
     -
       file: blutblutblut.zip
@@ -137,20 +137,20 @@
       - 'Stepan Sobanov'
       - 'Christoph Weidlinger'
   winner: 'no'
-  headerimage: erfrechung_header.jpg
+  headerimage: erfrechung_header.webp
   images:
     -
-      file: erfrechung_image1_full.jpg
-      thumb: erfrechung_image1_thumb.jpg
+      file: erfrechung_image1_full.webp
+      thumb: erfrechung_image1_thumb.webp
     -
-      file: erfrechung_image2_full.jpg
-      thumb: erfrechung_image2_thumb.jpg
+      file: erfrechung_image2_full.webp
+      thumb: erfrechung_image2_thumb.webp
     -
-      file: erfrechung_image3_full.jpg
-      thumb: erfrechung_image3_thumb.jpg
+      file: erfrechung_image3_full.webp
+      thumb: erfrechung_image3_thumb.webp
     -
-      file: erfrechung_image4_full.jpg
-      thumb: erfrechung_image4_thumb.jpg
+      file: erfrechung_image4_full.webp
+      thumb: erfrechung_image4_thumb.webp
   download:
     -
       file: erfrechung.zip
@@ -171,20 +171,20 @@
     members:
       - 'Peter Hofbauer'
   winner: jury
-  headerimage: eternalduty_header.jpg
+  headerimage: eternalduty_header.webp
   images:
     -
-      file: eternalduty_image1_full.jpg
-      thumb: eternalduty_image1_thumb.jpg
+      file: eternalduty_image1_full.webp
+      thumb: eternalduty_image1_thumb.webp
     -
-      file: eternalduty_image2_full.jpg
-      thumb: eternalduty_image2_thumb.jpg
+      file: eternalduty_image2_full.webp
+      thumb: eternalduty_image2_thumb.webp
     -
-      file: eternalduty_image3_full.jpg
-      thumb: eternalduty_image3_thumb.jpg
+      file: eternalduty_image3_full.webp
+      thumb: eternalduty_image3_thumb.webp
     -
-      file: eternalduty_image4_full.jpg
-      thumb: eternalduty_image4_thumb.jpg
+      file: eternalduty_image4_full.webp
+      thumb: eternalduty_image4_thumb.webp
   download:
     -
       file: eternaldutyWin.zip
@@ -217,20 +217,20 @@
       - 'Johannes Lugstein'
       - 'Corina Sand'
   winner: 'no'
-  headerimage: santababy_header.jpg
+  headerimage: santababy_header.webp
   images:
     -
-      file: santababy_image1_full.jpg
-      thumb: santababy_image1_thumb.jpg
+      file: santababy_image1_full.webp
+      thumb: santababy_image1_thumb.webp
     -
-      file: santababy_image2_full.jpg
-      thumb: santababy_image2_thumb.jpg
+      file: santababy_image2_full.webp
+      thumb: santababy_image2_thumb.webp
     -
-      file: santababy_image3_full.jpg
-      thumb: santababy_image3_thumb.jpg
+      file: santababy_image3_full.webp
+      thumb: santababy_image3_thumb.webp
     -
-      file: santababy_image4_full.jpg
-      thumb: santababy_image4_thumb.jpg
+      file: santababy_image4_full.webp
+      thumb: santababy_image4_thumb.webp
   download:
     -
       file: santababy.zip
@@ -258,20 +258,20 @@
       - 'Michael Klammer'
       - 'Lukas Paul'
   winner: 'no'
-  headerimage: spacepolitics_header.jpg
+  headerimage: spacepolitics_header.webp
   images:
     -
-      file: spacepolitics_image1_full.jpg
-      thumb: spacepolitics_image1_thumb.jpg
+      file: spacepolitics_image1_full.webp
+      thumb: spacepolitics_image1_thumb.webp
     -
-      file: spacepolitics_image2_full.jpg
-      thumb: spacepolitics_image2_thumb.jpg
+      file: spacepolitics_image2_full.webp
+      thumb: spacepolitics_image2_thumb.webp
     -
-      file: spacepolitics_image3_full.jpg
-      thumb: spacepolitics_image3_thumb.jpg
+      file: spacepolitics_image3_full.webp
+      thumb: spacepolitics_image3_thumb.webp
     -
-      file: spacepolitics_image4_full.jpg
-      thumb: spacepolitics_image4_thumb.jpg
+      file: spacepolitics_image4_full.webp
+      thumb: spacepolitics_image4_thumb.webp
   download:
     -
       file: spacepolitics.zip
@@ -297,20 +297,20 @@
       - 'Markus Raudaschl'
       - 'Gavin Yanto'
   winner: 'no'
-  headerimage: summoningpetdemons_header.jpg
+  headerimage: summoningpetdemons_header.webp
   images:
     -
-      file: summoningpetdemons_image1_full.jpg
-      thumb: summoningpetdemons_image1_thumb.jpg
+      file: summoningpetdemons_image1_full.webp
+      thumb: summoningpetdemons_image1_thumb.webp
     -
-      file: summoningpetdemons_image2_full.jpg
-      thumb: summoningpetdemons_image2_thumb.jpg
+      file: summoningpetdemons_image2_full.webp
+      thumb: summoningpetdemons_image2_thumb.webp
     -
-      file: summoningpetdemons_image3_full.jpg
-      thumb: summoningpetdemons_image3_thumb.jpg
+      file: summoningpetdemons_image3_full.webp
+      thumb: summoningpetdemons_image3_thumb.webp
     -
-      file: summoningpetdemons_image4_full.jpg
-      thumb: summoningpetdemons_image4_thumb.jpg
+      file: summoningpetdemons_image4_full.webp
+      thumb: summoningpetdemons_image4_thumb.webp
   download:
     -
       file: summoningpetdemonsWin.zip
@@ -345,20 +345,20 @@
       - 'Florian Rath'
       - 'Isabella Rathner'
   winner: 'no'
-  headerimage: theblamegame_header.jpg
+  headerimage: theblamegame_header.webp
   images:
     -
-      file: theblamegame_image1_full.jpg
-      thumb: theblamegame_image1_thumb.jpg
+      file: theblamegame_image1_full.webp
+      thumb: theblamegame_image1_thumb.webp
     -
-      file: theblamegame_image2_full.jpg
-      thumb: theblamegame_image2_thumb.jpg
+      file: theblamegame_image2_full.webp
+      thumb: theblamegame_image2_thumb.webp
     -
-      file: theblamegame_image3_full.jpg
-      thumb: theblamegame_image3_thumb.jpg
+      file: theblamegame_image3_full.webp
+      thumb: theblamegame_image3_thumb.webp
     -
-      file: theblamegame_image4_full.jpg
-      thumb: theblamegame_image4_thumb.jpg
+      file: theblamegame_image4_full.webp
+      thumb: theblamegame_image4_thumb.webp
   download:
     -
       file: theblamegameWin.zip
@@ -398,20 +398,20 @@
       - 'Yvonne Marneth'
       - 'Marleigh Pach'
   winner: 'no'
-  headerimage: timeemit_header.jpg
+  headerimage: timeemit_header.webp
   images:
     -
-      file: timeemit_image1_full.jpg
-      thumb: timeemit_image1_thumb.jpg
+      file: timeemit_image1_full.webp
+      thumb: timeemit_image1_thumb.webp
     -
-      file: timeemit_image2_full.jpg
-      thumb: timeemit_image2_thumb.jpg
+      file: timeemit_image2_full.webp
+      thumb: timeemit_image2_thumb.webp
     -
-      file: timeemit_image3_full.jpg
-      thumb: timeemit_image3_thumb.jpg
+      file: timeemit_image3_full.webp
+      thumb: timeemit_image3_thumb.webp
     -
-      file: timeemit_image4_full.jpg
-      thumb: timeemit_image4_thumb.jpg
+      file: timeemit_image4_full.webp
+      thumb: timeemit_image4_thumb.webp
   download:
     -
       file: timeemit.zip
@@ -440,20 +440,20 @@
       - 'Sebastian Tombor'
       - 'Michael Winkler'
   winner: 'no'
-  headerimage: valhella_header.jpg
+  headerimage: valhella_header.webp
   images:
     -
-      file: valhella_image1_full.jpg
-      thumb: valhella_image1_thumb.jpg
+      file: valhella_image1_full.webp
+      thumb: valhella_image1_thumb.webp
     -
-      file: valhella_image2_full.jpg
-      thumb: valhella_image2_thumb.jpg
+      file: valhella_image2_full.webp
+      thumb: valhella_image2_thumb.webp
     -
-      file: valhella_image3_full.jpg
-      thumb: valhella_image3_thumb.jpg
+      file: valhella_image3_full.webp
+      thumb: valhella_image3_thumb.webp
     -
-      file: valhella_image4_full.jpg
-      thumb: valhella_image4_thumb.jpg
+      file: valhella_image4_full.webp
+      thumb: valhella_image4_thumb.webp
   download:
     -
       file: valhella.zip

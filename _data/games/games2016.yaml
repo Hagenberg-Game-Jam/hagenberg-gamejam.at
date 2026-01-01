@@ -15,20 +15,20 @@
       - 'Thomas Preindl'
       - 'Philipp Stadler'
   winner: 'no'
-  headerimage: callyourmom_header.jpg
+  headerimage: callyourmom_header.webp
   images:
     -
-      file: callyourmom_image1_full.jpg
-      thumb: callyourmom_image1_thumb.jpg
+      file: callyourmom_image1_full.webp
+      thumb: callyourmom_image1_thumb.webp
     -
-      file: callyourmom_image2_full.jpg
-      thumb: callyourmom_image2_thumb.jpg
+      file: callyourmom_image2_full.webp
+      thumb: callyourmom_image2_thumb.webp
     -
-      file: callyourmom_image3_full.jpg
-      thumb: callyourmom_image3_thumb.jpg
+      file: callyourmom_image3_full.webp
+      thumb: callyourmom_image3_thumb.webp
     -
-      file: callyourmom_image4_full.jpg
-      thumb: callyourmom_image4_thumb.jpg
+      file: callyourmom_image4_full.webp
+      thumb: callyourmom_image4_thumb.webp
   download:
     -
       file: callyourmom.zip
@@ -51,20 +51,20 @@
       - 'Sebastian Maurer'
       - 'Daniel Rammer'
   winner: 'no'
-  headerimage: darkbooty_header.jpg
+  headerimage: darkbooty_header.webp
   images:
     -
-      file: darkbooty_image1_full.jpg
-      thumb: darkbooty_image1_thumb.jpg
+      file: darkbooty_image1_full.webp
+      thumb: darkbooty_image1_thumb.webp
     -
-      file: darkbooty_image2_full.jpg
-      thumb: darkbooty_image2_thumb.jpg
+      file: darkbooty_image2_full.webp
+      thumb: darkbooty_image2_thumb.webp
     -
-      file: darkbooty_image3_full.jpg
-      thumb: darkbooty_image3_thumb.jpg
+      file: darkbooty_image3_full.webp
+      thumb: darkbooty_image3_thumb.webp
     -
-      file: darkbooty_image4_full.jpg
-      thumb: darkbooty_image4_thumb.jpg
+      file: darkbooty_image4_full.webp
+      thumb: darkbooty_image4_thumb.webp
   download:
     -
       file: darkbooty.zip
@@ -87,20 +87,20 @@
       - 'Marie Strohm'
       - 'Lisa Weißbacher'
   winner: 'no'
-  headerimage: dividedwestand_header.jpg
+  headerimage: dividedwestand_header.webp
   images:
     -
-      file: dividedwestand_image1_full.jpg
-      thumb: dividedwestand_image1_thumb.jpg
+      file: dividedwestand_image1_full.webp
+      thumb: dividedwestand_image1_thumb.webp
     -
-      file: dividedwestand_image2_full.jpg
-      thumb: dividedwestand_image2_thumb.jpg
+      file: dividedwestand_image2_full.webp
+      thumb: dividedwestand_image2_thumb.webp
     -
-      file: dividedwestand_image3_full.jpg
-      thumb: dividedwestand_image3_thumb.jpg
+      file: dividedwestand_image3_full.webp
+      thumb: dividedwestand_image3_thumb.webp
     -
-      file: dividedwestand_image4_full.jpg
-      thumb: dividedwestand_image4_thumb.jpg
+      file: dividedwestand_image4_full.webp
+      thumb: dividedwestand_image4_thumb.webp
   download:
     -
       file: dividedwestand.zip
@@ -124,20 +124,20 @@
       - 'Johannes Lugstein'
       - 'Elena Pauzenberger'
   winner: 'no'
-  headerimage: dropdownforwhat_header.jpg
+  headerimage: dropdownforwhat_header.webp
   images:
     -
-      file: dropdownforwhat_image1_full.jpg
-      thumb: dropdownforwhat_image1_thumb.jpg
+      file: dropdownforwhat_image1_full.webp
+      thumb: dropdownforwhat_image1_thumb.webp
     -
-      file: dropdownforwhat_image2_full.jpg
-      thumb: dropdownforwhat_image2_thumb.jpg
+      file: dropdownforwhat_image2_full.webp
+      thumb: dropdownforwhat_image2_thumb.webp
     -
-      file: dropdownforwhat_image3_full.jpg
-      thumb: dropdownforwhat_image3_thumb.jpg
+      file: dropdownforwhat_image3_full.webp
+      thumb: dropdownforwhat_image3_thumb.webp
     -
-      file: dropdownforwhat_image4_full.jpg
-      thumb: dropdownforwhat_image4_thumb.jpg
+      file: dropdownforwhat_image4_full.webp
+      thumb: dropdownforwhat_image4_thumb.webp
   download:
     -
       file: dropdownforwhatWin.zip
@@ -164,20 +164,20 @@
       - 'Klemens Wöhrer'
       - 'Julian Zauner'
   winner: 'no'
-  headerimage: elevatorpitch_header.jpg
+  headerimage: elevatorpitch_header.webp
   images:
     -
-      file: elevatorpitch_image1_full.jpg
-      thumb: elevatorpitch_image1_thumb.jpg
+      file: elevatorpitch_image1_full.webp
+      thumb: elevatorpitch_image1_thumb.webp
     -
-      file: elevatorpitch_image2_full.jpg
-      thumb: elevatorpitch_image2_thumb.jpg
+      file: elevatorpitch_image2_full.webp
+      thumb: elevatorpitch_image2_thumb.webp
     -
-      file: elevatorpitch_image3_full.jpg
-      thumb: elevatorpitch_image3_thumb.jpg
+      file: elevatorpitch_image3_full.webp
+      thumb: elevatorpitch_image3_thumb.webp
     -
-      file: elevatorpitch_image4_full.jpg
-      thumb: elevatorpitch_image4_thumb.jpg
+      file: elevatorpitch_image4_full.webp
+      thumb: elevatorpitch_image4_thumb.webp
   download:
     -
       file: elevatorpitch.zip
@@ -202,20 +202,20 @@
       - 'Daniel Poschinger'
       - 'Florian Rammerstorfer'
   winner: 'jury, people'
-  headerimage: elevatorrush_header.jpg
+  headerimage: elevatorrush_header.webp
   images:
     -
-      file: elevatorrush_image1_full.jpg
-      thumb: elevatorrush_image1_thumb.jpg
+      file: elevatorrush_image1_full.webp
+      thumb: elevatorrush_image1_thumb.webp
     -
-      file: elevatorrush_image2_full.jpg
-      thumb: elevatorrush_image2_thumb.jpg
+      file: elevatorrush_image2_full.webp
+      thumb: elevatorrush_image2_thumb.webp
     -
-      file: elevatorrush_image3_full.jpg
-      thumb: elevatorrush_image3_thumb.jpg
+      file: elevatorrush_image3_full.webp
+      thumb: elevatorrush_image3_thumb.webp
     -
-      file: elevatorrush_image4_full.jpg
-      thumb: elevatorrush_image4_thumb.jpg
+      file: elevatorrush_image4_full.webp
+      thumb: elevatorrush_image4_thumb.webp
   download:
     -
       file: elevatorrush.zip
@@ -238,20 +238,20 @@
       - 'Benjamin Hofinger'
       - 'Gernot Raudner'
   winner: 'no'
-  headerimage: fallinginlove_header.jpg
+  headerimage: fallinginlove_header.webp
   images:
     -
-      file: fallinginlove_image1_full.jpg
-      thumb: fallinginlove_image1_thumb.jpg
+      file: fallinginlove_image1_full.webp
+      thumb: fallinginlove_image1_thumb.webp
     -
-      file: fallinginlove_image2_full.jpg
-      thumb: fallinginlove_image2_thumb.jpg
+      file: fallinginlove_image2_full.webp
+      thumb: fallinginlove_image2_thumb.webp
     -
-      file: fallinginlove_image3_full.jpg
-      thumb: fallinginlove_image3_thumb.jpg
+      file: fallinginlove_image3_full.webp
+      thumb: fallinginlove_image3_thumb.webp
     -
-      file: fallinginlove_image4_full.jpg
-      thumb: fallinginlove_image4_thumb.jpg
+      file: fallinginlove_image4_full.webp
+      thumb: fallinginlove_image4_thumb.webp
   playonline:
     -
       url: 'http://playcanv.as/p/lgvUkAuU/'
@@ -275,20 +275,20 @@
       - 'David Daniel Mateiu'
       - 'Andreas Sturmberger'
   winner: 'no'
-  headerimage: flunkyballsimulator_header.jpg
+  headerimage: flunkyballsimulator_header.webp
   images:
     -
-      file: flunkyballsimulator_image1_full.jpg
-      thumb: flunkyballsimulator_image1_thumb.jpg
+      file: flunkyballsimulator_image1_full.webp
+      thumb: flunkyballsimulator_image1_thumb.webp
     -
-      file: flunkyballsimulator_image2_full.jpg
-      thumb: flunkyballsimulator_image2_thumb.jpg
+      file: flunkyballsimulator_image2_full.webp
+      thumb: flunkyballsimulator_image2_thumb.webp
     -
-      file: flunkyballsimulator_image3_full.jpg
-      thumb: flunkyballsimulator_image3_thumb.jpg
+      file: flunkyballsimulator_image3_full.webp
+      thumb: flunkyballsimulator_image3_thumb.webp
     -
-      file: flunkyballsimulator_image4_full.jpg
-      thumb: flunkyballsimulator_image4_thumb.jpg
+      file: flunkyballsimulator_image4_full.webp
+      thumb: flunkyballsimulator_image4_thumb.webp
   download:
     -
       file: flunkyballsimulator.zip
@@ -311,20 +311,20 @@
       - 'Jakob Winkler'
       - 'Bianca Zankl'
   winner: 'no'
-  headerimage: pandapunch_header.jpg
+  headerimage: pandapunch_header.webp
   images:
     -
-      file: pandapunch_image1_full.jpg
-      thumb: pandapunch_image1_thumb.jpg
+      file: pandapunch_image1_full.webp
+      thumb: pandapunch_image1_thumb.webp
     -
-      file: pandapunch_image2_full.jpg
-      thumb: pandapunch_image2_thumb.jpg
+      file: pandapunch_image2_full.webp
+      thumb: pandapunch_image2_thumb.webp
     -
-      file: pandapunch_image3_full.jpg
-      thumb: pandapunch_image3_thumb.jpg
+      file: pandapunch_image3_full.webp
+      thumb: pandapunch_image3_thumb.webp
     -
-      file: pandapunch_image4_full.jpg
-      thumb: pandapunch_image4_thumb.jpg
+      file: pandapunch_image4_full.webp
+      thumb: pandapunch_image4_thumb.webp
   download:
     -
       file: pandapunch.zip
@@ -350,20 +350,20 @@
       - 'Moritz Rührlinger'
       - 'Damiano Weidenhausen'
   winner: 'no'
-  headerimage: ram-hog-boom_header.jpg
+  headerimage: ram-hog-boom_header.webp
   images:
     -
-      file: ram-hog-boom_image1_full.jpg
-      thumb: ram-hog-boom_image1_thumb.jpg
+      file: ram-hog-boom_image1_full.webp
+      thumb: ram-hog-boom_image1_thumb.webp
     -
-      file: ram-hog-boom_image2_full.jpg
-      thumb: ram-hog-boom_image2_thumb.jpg
+      file: ram-hog-boom_image2_full.webp
+      thumb: ram-hog-boom_image2_thumb.webp
     -
-      file: ram-hog-boom_image3_full.jpg
-      thumb: ram-hog-boom_image3_thumb.jpg
+      file: ram-hog-boom_image3_full.webp
+      thumb: ram-hog-boom_image3_thumb.webp
     -
-      file: ram-hog-boom_image4_full.jpg
-      thumb: ram-hog-boom_image4_thumb.jpg
+      file: ram-hog-boom_image4_full.webp
+      thumb: ram-hog-boom_image4_thumb.webp
   download:
     -
       file: ram-hog-boom.zip
@@ -384,20 +384,20 @@
       - 'Martina Huber'
       - 'Erik Thiele'
   winner: 'no'
-  headerimage: shields_header.jpg
+  headerimage: shields_header.webp
   images:
     -
-      file: shields_image1_full.jpg
-      thumb: shields_image1_thumb.jpg
+      file: shields_image1_full.webp
+      thumb: shields_image1_thumb.webp
     -
-      file: shields_image2_full.jpg
-      thumb: shields_image2_thumb.jpg
+      file: shields_image2_full.webp
+      thumb: shields_image2_thumb.webp
     -
-      file: shields_image3_full.jpg
-      thumb: shields_image3_thumb.jpg
+      file: shields_image3_full.webp
+      thumb: shields_image3_thumb.webp
     -
-      file: shields_image4_full.jpg
-      thumb: shields_image4_thumb.jpg
+      file: shields_image4_full.webp
+      thumb: shields_image4_thumb.webp
   download:
     -
       file: shields.zip
@@ -421,20 +421,20 @@
       - 'Philipp Bernecker'
       - 'Christian Resch'
   winner: 'no'
-  headerimage: stoned2death_header.jpg
+  headerimage: stoned2death_header.webp
   images:
     -
-      file: stoned2death_image1_full.jpg
-      thumb: stoned2death_image1_thumb.jpg
+      file: stoned2death_image1_full.webp
+      thumb: stoned2death_image1_thumb.webp
     -
-      file: stoned2death_image2_full.jpg
-      thumb: stoned2death_image2_thumb.jpg
+      file: stoned2death_image2_full.webp
+      thumb: stoned2death_image2_thumb.webp
     -
-      file: stoned2death_image3_full.jpg
-      thumb: stoned2death_image3_thumb.jpg
+      file: stoned2death_image3_full.webp
+      thumb: stoned2death_image3_thumb.webp
     -
-      file: stoned2death_image4_full.jpg
-      thumb: stoned2death_image4_thumb.jpg
+      file: stoned2death_image4_full.webp
+      thumb: stoned2death_image4_thumb.webp
   download:
     -
       file: stoned2death.zip
@@ -458,20 +458,20 @@
       - 'Christoph Lendenfeld'
       - 'Doris Rastinger'
   winner: 'no'
-  headerimage: urticamarina_header.jpg
+  headerimage: urticamarina_header.webp
   images:
     -
-      file: urticamarina_image1_full.jpg
-      thumb: urticamarina_image1_thumb.jpg
+      file: urticamarina_image1_full.webp
+      thumb: urticamarina_image1_thumb.webp
     -
-      file: urticamarina_image2_full.jpg
-      thumb: urticamarina_image2_thumb.jpg
+      file: urticamarina_image2_full.webp
+      thumb: urticamarina_image2_thumb.webp
     -
-      file: urticamarina_image3_full.jpg
-      thumb: urticamarina_image3_thumb.jpg
+      file: urticamarina_image3_full.webp
+      thumb: urticamarina_image3_thumb.webp
     -
-      file: urticamarina_image4_full.jpg
-      thumb: urticamarina_image4_thumb.jpg
+      file: urticamarina_image4_full.webp
+      thumb: urticamarina_image4_thumb.webp
   download:
     -
       file: urticamarina.zip

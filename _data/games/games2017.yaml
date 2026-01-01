@@ -14,20 +14,20 @@
       - 'Jaqueline Lowe'
       - 'Lukas Paul'
   winner: 'no'
-  headerimage: brutforce_header.jpg
+  headerimage: brutforce_header.webp
   images:
     -
-      file: brutforce_image1_full.jpg
-      thumb: brutforce_image1_thumb.jpg
+      file: brutforce_image1_full.webp
+      thumb: brutforce_image1_thumb.webp
     -
-      file: brutforce_image2_full.jpg
-      thumb: brutforce_image2_thumb.jpg
+      file: brutforce_image2_full.webp
+      thumb: brutforce_image2_thumb.webp
     -
-      file: brutforce_image3_full.jpg
-      thumb: brutforce_image3_thumb.jpg
+      file: brutforce_image3_full.webp
+      thumb: brutforce_image3_thumb.webp
     -
-      file: brutforce_image4_full.jpg
-      thumb: brutforce_image4_thumb.jpg
+      file: brutforce_image4_full.webp
+      thumb: brutforce_image4_thumb.webp
   download:
     -
       file: brutforceWin.zip
@@ -54,20 +54,20 @@
       - 'Moritz Rührlinger'
       - 'Damiano Weidenhausen'
   winner: 'no'
-  headerimage: catharsis_header.jpg
+  headerimage: catharsis_header.webp
   images:
     -
-      file: catharsis_image1_full.jpg
-      thumb: catharsis_image1_thumb.jpg
+      file: catharsis_image1_full.webp
+      thumb: catharsis_image1_thumb.webp
     -
-      file: catharsis_image2_full.jpg
-      thumb: catharsis_image2_thumb.jpg
+      file: catharsis_image2_full.webp
+      thumb: catharsis_image2_thumb.webp
     -
-      file: catharsis_image3_full.jpg
-      thumb: catharsis_image3_thumb.jpg
+      file: catharsis_image3_full.webp
+      thumb: catharsis_image3_thumb.webp
     -
-      file: catharsis_image4_full.jpg
-      thumb: catharsis_image4_thumb.jpg
+      file: catharsis_image4_full.webp
+      thumb: catharsis_image4_thumb.webp
   download:
     -
       file: catharsis.zip
@@ -91,20 +91,20 @@
       - 'Johannes Lugstein'
       - 'Susanne Teufelauer'
   winner: 'no'
-  headerimage: counttown_header.jpg
+  headerimage: counttown_header.webp
   images:
     -
-      file: counttown_image1_full.jpg
-      thumb: counttown_image1_thumb.jpg
+      file: counttown_image1_full.webp
+      thumb: counttown_image1_thumb.webp
     -
-      file: counttown_image2_full.jpg
-      thumb: counttown_image2_thumb.jpg
+      file: counttown_image2_full.webp
+      thumb: counttown_image2_thumb.webp
     -
-      file: counttown_image3_full.jpg
-      thumb: counttown_image3_thumb.jpg
+      file: counttown_image3_full.webp
+      thumb: counttown_image3_thumb.webp
     -
-      file: counttown_image4_full.jpg
-      thumb: counttown_image4_thumb.jpg
+      file: counttown_image4_full.webp
+      thumb: counttown_image4_thumb.webp
   download:
     -
       file: counttownWin.zip
@@ -130,20 +130,20 @@
       - 'Matthias Patscheider'
       - 'Bianca Zankl'
   winner: 'no'
-  headerimage: krautundrueben_header.jpg
+  headerimage: krautundrueben_header.webp
   images:
     -
-      file: krautundrueben_image1_full.jpg
-      thumb: krautundrueben_image1_thumb.jpg
+      file: krautundrueben_image1_full.webp
+      thumb: krautundrueben_image1_thumb.webp
     -
-      file: krautundrueben_image2_full.jpg
-      thumb: krautundrueben_image2_thumb.jpg
+      file: krautundrueben_image2_full.webp
+      thumb: krautundrueben_image2_thumb.webp
     -
-      file: krautundrueben_image3_full.jpg
-      thumb: krautundrueben_image3_thumb.jpg
+      file: krautundrueben_image3_full.webp
+      thumb: krautundrueben_image3_thumb.webp
     -
-      file: krautundrueben_image4_full.jpg
-      thumb: krautundrueben_image4_thumb.jpg
+      file: krautundrueben_image4_full.webp
+      thumb: krautundrueben_image4_thumb.webp
   download:
     -
       file: krautundrueben.zip
@@ -165,20 +165,20 @@
       - 'Moritz Kubesch'
       - 'Sebastian Tombor'
   winner: people
-  headerimage: lastminutelove_header.jpg
+  headerimage: lastminutelove_header.webp
   images:
     -
-      file: lastminutelove_image1_full.jpg
-      thumb: lastminutelove_image1_thumb.jpg
+      file: lastminutelove_image1_full.webp
+      thumb: lastminutelove_image1_thumb.webp
     -
-      file: lastminutelove_image2_full.jpg
-      thumb: lastminutelove_image2_thumb.jpg
+      file: lastminutelove_image2_full.webp
+      thumb: lastminutelove_image2_thumb.webp
     -
-      file: lastminutelove_image3_full.jpg
-      thumb: lastminutelove_image3_thumb.jpg
+      file: lastminutelove_image3_full.webp
+      thumb: lastminutelove_image3_thumb.webp
     -
-      file: lastminutelove_image4_full.jpg
-      thumb: lastminutelove_image4_thumb.jpg
+      file: lastminutelove_image4_full.webp
+      thumb: lastminutelove_image4_thumb.webp
   download:
     -
       file: lastminuteloveWin.zip
@@ -205,20 +205,20 @@
       - 'Elias Wagner'
       - 'Andreas Ziegelwanger'
   winner: 'no'
-  headerimage: santasdashdriver_header.jpg
+  headerimage: santasdashdriver_header.webp
   images:
     -
-      file: santasdashdriver_image1_full.jpg
-      thumb: santasdashdriver_image1_thumb.jpg
+      file: santasdashdriver_image1_full.webp
+      thumb: santasdashdriver_image1_thumb.webp
     -
-      file: santasdashdriver_image2_full.jpg
-      thumb: santasdashdriver_image2_thumb.jpg
+      file: santasdashdriver_image2_full.webp
+      thumb: santasdashdriver_image2_thumb.webp
     -
-      file: santasdashdriver_image3_full.jpg
-      thumb: santasdashdriver_image3_thumb.jpg
+      file: santasdashdriver_image3_full.webp
+      thumb: santasdashdriver_image3_thumb.webp
     -
-      file: santasdashdriver_image4_full.jpg
-      thumb: santasdashdriver_image4_thumb.jpg
+      file: santasdashdriver_image4_full.webp
+      thumb: santasdashdriver_image4_thumb.webp
   download:
     -
       file: santasdashdriver.zip
@@ -240,20 +240,20 @@
       - 'Theodor Knab'
       - 'Marleigh Pach'
   winner: 'no'
-  headerimage: smashtronaut_header.jpg
+  headerimage: smashtronaut_header.webp
   images:
     -
-      file: smashtronaut_image1_full.jpg
-      thumb: smashtronaut_image1_thumb.jpg
+      file: smashtronaut_image1_full.webp
+      thumb: smashtronaut_image1_thumb.webp
     -
-      file: smashtronaut_image2_full.jpg
-      thumb: smashtronaut_image2_thumb.jpg
+      file: smashtronaut_image2_full.webp
+      thumb: smashtronaut_image2_thumb.webp
     -
-      file: smashtronaut_image3_full.jpg
-      thumb: smashtronaut_image3_thumb.jpg
+      file: smashtronaut_image3_full.webp
+      thumb: smashtronaut_image3_thumb.webp
     -
-      file: smashtronaut_image4_full.jpg
-      thumb: smashtronaut_image4_thumb.jpg
+      file: smashtronaut_image4_full.webp
+      thumb: smashtronaut_image4_thumb.webp
   download:
     -
       file: smashtronaut.zip
@@ -275,20 +275,20 @@
       - 'Florian Rath'
       - 'Isabella Rathner'
   winner: jury
-  headerimage: youonlydieonce_header.jpg
+  headerimage: youonlydieonce_header.webp
   images:
     -
-      file: youonlydieonce_image1_full.jpg
-      thumb: youonlydieonce_image1_thumb.jpg
+      file: youonlydieonce_image1_full.webp
+      thumb: youonlydieonce_image1_thumb.webp
     -
-      file: youonlydieonce_image2_full.jpg
-      thumb: youonlydieonce_image2_thumb.jpg
+      file: youonlydieonce_image2_full.webp
+      thumb: youonlydieonce_image2_thumb.webp
     -
-      file: youonlydieonce_image3_full.jpg
-      thumb: youonlydieonce_image3_thumb.jpg
+      file: youonlydieonce_image3_full.webp
+      thumb: youonlydieonce_image3_thumb.webp
     -
-      file: youonlydieonce_image4_full.jpg
-      thumb: youonlydieonce_image4_thumb.jpg
+      file: youonlydieonce_image4_full.webp
+      thumb: youonlydieonce_image4_thumb.webp
   download:
     -
       file: youonlydieonceWin.zip

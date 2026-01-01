@@ -23,20 +23,20 @@
       - 'Roman Lukš'
       - 'Monika Minichberger'
   winner: 'no'
-  headerimage: christmaschaos_header.jpg
+  headerimage: christmaschaos_header.webp
   images:
     -
-      file: christmaschaos_image1_full.jpg
-      thumb: christmaschaos_image1_thumb.jpg
+      file: christmaschaos_image1_full.webp
+      thumb: christmaschaos_image1_thumb.webp
     -
-      file: christmaschaos_image2_full.jpg
-      thumb: christmaschaos_image2_thumb.jpg
+      file: christmaschaos_image2_full.webp
+      thumb: christmaschaos_image2_thumb.webp
     -
-      file: christmaschaos_image3_full.jpg
-      thumb: christmaschaos_image3_thumb.jpg
+      file: christmaschaos_image3_full.webp
+      thumb: christmaschaos_image3_thumb.webp
     -
-      file: christmaschaos_image4_full.jpg
-      thumb: christmaschaos_image4_thumb.jpg
+      file: christmaschaos_image4_full.webp
+      thumb: christmaschaos_image4_thumb.webp
   download:
     -
       file: christmaschaos.zip
@@ -57,20 +57,20 @@
       - 'Peter Kainrad'
       - 'Fabian Meisinger'
   winner: 'no'
-  headerimage: fuckyeahbullets_header.jpg
+  headerimage: fuckyeahbullets_header.webp
   images:
     -
-      file: fuckyeahbullets_image1_full.jpg
-      thumb: fuckyeahbullets_image1_thumb.jpg
+      file: fuckyeahbullets_image1_full.webp
+      thumb: fuckyeahbullets_image1_thumb.webp
     -
-      file: fuckyeahbullets_image2_full.jpg
-      thumb: fuckyeahbullets_image2_thumb.jpg
+      file: fuckyeahbullets_image2_full.webp
+      thumb: fuckyeahbullets_image2_thumb.webp
     -
-      file: fuckyeahbullets_image3_full.jpg
-      thumb: fuckyeahbullets_image3_thumb.jpg
+      file: fuckyeahbullets_image3_full.webp
+      thumb: fuckyeahbullets_image3_thumb.webp
     -
-      file: fuckyeahbullets_image4_full.jpg
-      thumb: fuckyeahbullets_image4_thumb.jpg
+      file: fuckyeahbullets_image4_full.webp
+      thumb: fuckyeahbullets_image4_thumb.webp
   download:
     -
       file: fuckyeahbulletsWin.zip
@@ -101,20 +101,20 @@
       - 'Daniel Lanner'
       - 'Wolfram Weingartner'
   winner: 'no'
-  headerimage: lannerdiewaldfee_header.jpg
+  headerimage: lannerdiewaldfee_header.webp
   images:
     -
-      file: lannerdiewaldfee_image1_full.jpg
-      thumb: lannerdiewaldfee_image1_thumb.jpg
+      file: lannerdiewaldfee_image1_full.webp
+      thumb: lannerdiewaldfee_image1_thumb.webp
     -
-      file: lannerdiewaldfee_image2_full.jpg
-      thumb: lannerdiewaldfee_image2_thumb.jpg
+      file: lannerdiewaldfee_image2_full.webp
+      thumb: lannerdiewaldfee_image2_thumb.webp
     -
-      file: lannerdiewaldfee_image3_full.jpg
-      thumb: lannerdiewaldfee_image3_thumb.jpg
+      file: lannerdiewaldfee_image3_full.webp
+      thumb: lannerdiewaldfee_image3_thumb.webp
     -
-      file: lannerdiewaldfee_image4_full.jpg
-      thumb: lannerdiewaldfee_image4_thumb.jpg
+      file: lannerdiewaldfee_image4_full.webp
+      thumb: lannerdiewaldfee_image4_thumb.webp
   download:
     -
       file: lannerdiewaldfee.zip
@@ -144,20 +144,20 @@
       - 'Moritz Kertesz'
       - 'Christian Winter'
   winner: 'no'
-  headerimage: magnomaster3000_header.jpg
+  headerimage: magnomaster3000_header.webp
   images:
     -
-      file: magnomaster3000_image1_full.jpg
-      thumb: magnomaster3000_image1_thumb.jpg
+      file: magnomaster3000_image1_full.webp
+      thumb: magnomaster3000_image1_thumb.webp
     -
-      file: magnomaster3000_image2_full.jpg
-      thumb: magnomaster3000_image2_thumb.jpg
+      file: magnomaster3000_image2_full.webp
+      thumb: magnomaster3000_image2_thumb.webp
     -
-      file: magnomaster3000_image3_full.jpg
-      thumb: magnomaster3000_image3_thumb.jpg
+      file: magnomaster3000_image3_full.webp
+      thumb: magnomaster3000_image3_thumb.webp
     -
-      file: magnomaster3000_image4_full.jpg
-      thumb: magnomaster3000_image4_thumb.jpg
+      file: magnomaster3000_image4_full.webp
+      thumb: magnomaster3000_image4_thumb.webp
   download:
     -
       file: magnomaster3000.zip
@@ -184,20 +184,20 @@
       - 'Daniel Rammer'
       - 'Philipp Stadler'
   winner: overall
-  headerimage: notwendigesuebel_header.jpg
+  headerimage: notwendigesuebel_header.webp
   images:
     -
-      file: notwendigesuebel_image1_full.jpg
-      thumb: notwendigesuebel_image1_thumb.jpg
+      file: notwendigesuebel_image1_full.webp
+      thumb: notwendigesuebel_image1_thumb.webp
     -
-      file: notwendigesuebel_image2_full.jpg
-      thumb: notwendigesuebel_image2_thumb.jpg
+      file: notwendigesuebel_image2_full.webp
+      thumb: notwendigesuebel_image2_thumb.webp
     -
-      file: notwendigesuebel_image3_full.jpg
-      thumb: notwendigesuebel_image3_thumb.jpg
+      file: notwendigesuebel_image3_full.webp
+      thumb: notwendigesuebel_image3_thumb.webp
     -
-      file: notwendigesuebel_image4_full.jpg
-      thumb: notwendigesuebel_image4_thumb.jpg
+      file: notwendigesuebel_image4_full.webp
+      thumb: notwendigesuebel_image4_thumb.webp
   download:
     -
       file: notwendigesuebel.zip
@@ -222,20 +222,20 @@
       - 'Philipp Voglhofer'
       - 'Julian Zauner'
   winner: 'no'
-  headerimage: onepushmen_header.jpg
+  headerimage: onepushmen_header.webp
   images:
     -
-      file: onepushmen_image1_full.jpg
-      thumb: onepushmen_image1_thumb.jpg
+      file: onepushmen_image1_full.webp
+      thumb: onepushmen_image1_thumb.webp
     -
-      file: onepushmen_image2_full.jpg
-      thumb: onepushmen_image2_thumb.jpg
+      file: onepushmen_image2_full.webp
+      thumb: onepushmen_image2_thumb.webp
     -
-      file: onepushmen_image3_full.jpg
-      thumb: onepushmen_image3_thumb.jpg
+      file: onepushmen_image3_full.webp
+      thumb: onepushmen_image3_thumb.webp
     -
-      file: onepushmen_image4_full.jpg
-      thumb: onepushmen_image4_thumb.jpg
+      file: onepushmen_image4_full.webp
+      thumb: onepushmen_image4_thumb.webp
   download:
     -
       file: onepushmen.zip
@@ -271,20 +271,20 @@
       - 'Thomas Kriz'
       - 'Erik Thiele'
   winner: 'no'
-  headerimage: powerswitch_header.jpg
+  headerimage: powerswitch_header.webp
   images:
     -
-      file: powerswitch_image1_full.jpg
-      thumb: powerswitch_image1_thumb.jpg
+      file: powerswitch_image1_full.webp
+      thumb: powerswitch_image1_thumb.webp
     -
-      file: powerswitch_image2_full.jpg
-      thumb: powerswitch_image2_thumb.jpg
+      file: powerswitch_image2_full.webp
+      thumb: powerswitch_image2_thumb.webp
     -
-      file: powerswitch_image3_full.jpg
-      thumb: powerswitch_image3_thumb.jpg
+      file: powerswitch_image3_full.webp
+      thumb: powerswitch_image3_thumb.webp
     -
-      file: powerswitch_image4_full.jpg
-      thumb: powerswitch_image4_thumb.jpg
+      file: powerswitch_image4_full.webp
+      thumb: powerswitch_image4_thumb.webp
   download:
     -
       file: powerswitch.zip
@@ -308,20 +308,20 @@
       - 'Elias Wagner'
       - 'Andreas Ziegelwanger'
   winner: 'no'
-  headerimage: superelementalfighters_header.jpg
+  headerimage: superelementalfighters_header.webp
   images:
     -
-      file: superelementalfighters_image1_full.jpg
-      thumb: superelementalfighters_image1_thumb.jpg
+      file: superelementalfighters_image1_full.webp
+      thumb: superelementalfighters_image1_thumb.webp
     -
-      file: superelementalfighters_image2_full.jpg
-      thumb: superelementalfighters_image2_thumb.jpg
+      file: superelementalfighters_image2_full.webp
+      thumb: superelementalfighters_image2_thumb.webp
     -
-      file: superelementalfighters_image3_full.jpg
-      thumb: superelementalfighters_image3_thumb.jpg
+      file: superelementalfighters_image3_full.webp
+      thumb: superelementalfighters_image3_thumb.webp
     -
-      file: superelementalfighters_image4_full.jpg
-      thumb: superelementalfighters_image4_thumb.jpg
+      file: superelementalfighters_image4_full.webp
+      thumb: superelementalfighters_image4_thumb.webp
   download:
     -
       file: superelementalfighters.zip
@@ -344,20 +344,20 @@
       - 'Florian Rammerstorfer'
       - 'Marie Strohm'
   winner: 'no'
-  headerimage: thelegendofjourney_header.jpg
+  headerimage: thelegendofjourney_header.webp
   images:
     -
-      file: thelegendofjourney_image1_full.jpg
-      thumb: thelegendofjourney_image1_thumb.jpg
+      file: thelegendofjourney_image1_full.webp
+      thumb: thelegendofjourney_image1_thumb.webp
     -
-      file: thelegendofjourney_image2_full.jpg
-      thumb: thelegendofjourney_image2_thumb.jpg
+      file: thelegendofjourney_image2_full.webp
+      thumb: thelegendofjourney_image2_thumb.webp
     -
-      file: thelegendofjourney_image3_full.jpg
-      thumb: thelegendofjourney_image3_thumb.jpg
+      file: thelegendofjourney_image3_full.webp
+      thumb: thelegendofjourney_image3_thumb.webp
     -
-      file: thelegendofjourney_image4_full.jpg
-      thumb: thelegendofjourney_image4_thumb.jpg
+      file: thelegendofjourney_image4_full.webp
+      thumb: thelegendofjourney_image4_thumb.webp
   download:
     -
       file: thelegendofjourney.zip
@@ -385,20 +385,20 @@
       - 'Thomas Wallner'
       - 'Damiano Weidenhausen'
   winner: 'no'
-  headerimage: weheartmom_header.jpg
+  headerimage: weheartmom_header.webp
   images:
     -
-      file: weheartmom_image1_full.jpg
-      thumb: weheartmom_image1_thumb.jpg
+      file: weheartmom_image1_full.webp
+      thumb: weheartmom_image1_thumb.webp
     -
-      file: weheartmom_image2_full.jpg
-      thumb: weheartmom_image2_thumb.jpg
+      file: weheartmom_image2_full.webp
+      thumb: weheartmom_image2_thumb.webp
     -
-      file: weheartmom_image3_full.jpg
-      thumb: weheartmom_image3_thumb.jpg
+      file: weheartmom_image3_full.webp
+      thumb: weheartmom_image3_thumb.webp
     -
-      file: weheartmom_image4_full.jpg
-      thumb: weheartmom_image4_thumb.jpg
+      file: weheartmom_image4_full.webp
+      thumb: weheartmom_image4_thumb.webp
   download:
     -
       file: weheartmom.zip

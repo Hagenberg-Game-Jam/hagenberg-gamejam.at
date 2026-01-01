@@ -15,20 +15,20 @@
       - 'Philipp Forstner'
       - 'Thomas Fürst'
   winner: 'no'
-  headerimage: area2020_header.jpg
+  headerimage: area2020_header.webp
   images:
     -
-      file: area2020_image1_full.jpg
-      thumb: area2020_image1_thumb.jpg
+      file: area2020_image1_full.webp
+      thumb: area2020_image1_thumb.webp
     -
-      file: area2020_image2_full.jpg
-      thumb: area2020_image2_thumb.jpg
+      file: area2020_image2_full.webp
+      thumb: area2020_image2_thumb.webp
     -
-      file: area2020_image3_full.jpg
-      thumb: area2020_image3_thumb.jpg
+      file: area2020_image3_full.webp
+      thumb: area2020_image3_thumb.webp
     -
-      file: area2020_image4_full.jpg
-      thumb: area2020_image4_thumb.jpg
+      file: area2020_image4_full.webp
+      thumb: area2020_image4_thumb.webp
   download:
     -
       file: area2020.zip
@@ -55,20 +55,20 @@
       - 'Stefan Penzinger'
       - 'Isa Pilzer'
   winner: 'no'
-  headerimage: backintime_header.jpg
+  headerimage: backintime_header.webp
   images:
     -
-      file: backintime_image1_full.jpg
-      thumb: backintime_image1_thumb.jpg
+      file: backintime_image1_full.webp
+      thumb: backintime_image1_thumb.webp
     -
-      file: backintime_image2_full.jpg
-      thumb: backintime_image2_thumb.jpg
+      file: backintime_image2_full.webp
+      thumb: backintime_image2_thumb.webp
     -
-      file: backintime_image3_full.jpg
-      thumb: backintime_image3_thumb.jpg
+      file: backintime_image3_full.webp
+      thumb: backintime_image3_thumb.webp
     -
-      file: backintime_image4_full.jpg
-      thumb: backintime_image4_thumb.jpg
+      file: backintime_image4_full.webp
+      thumb: backintime_image4_thumb.webp
   download:
     -
       file: backintime.zip
@@ -95,20 +95,20 @@
       - 'Mario Kerndler'
       - 'Maria Raser'
   winner: jury
-  headerimage: bodybuilderblackout_header.jpg
+  headerimage: bodybuilderblackout_header.webp
   images:
     -
-      file: bodybuilderblackout_image1_full.jpg
-      thumb: bodybuilderblackout_image1_thumb.jpg
+      file: bodybuilderblackout_image1_full.webp
+      thumb: bodybuilderblackout_image1_thumb.webp
     -
-      file: bodybuilderblackout_image2_full.jpg
-      thumb: bodybuilderblackout_image2_thumb.jpg
+      file: bodybuilderblackout_image2_full.webp
+      thumb: bodybuilderblackout_image2_thumb.webp
     -
-      file: bodybuilderblackout_image3_full.jpg
-      thumb: bodybuilderblackout_image3_thumb.jpg
+      file: bodybuilderblackout_image3_full.webp
+      thumb: bodybuilderblackout_image3_thumb.webp
     -
-      file: bodybuilderblackout_image4_full.jpg
-      thumb: bodybuilderblackout_image4_thumb.jpg
+      file: bodybuilderblackout_image4_full.webp
+      thumb: bodybuilderblackout_image4_thumb.webp
   download:
     -
       file: bodybuilderblackout.zip
@@ -130,20 +130,20 @@
     members:
       - 'Daniel Wilfinger'
   winner: 'no'
-  headerimage: cyberspace2020_header.jpg
+  headerimage: cyberspace2020_header.webp
   images:
     -
-      file: cyberspace2020_image1_full.jpg
-      thumb: cyberspace2020_image1_thumb.jpg
+      file: cyberspace2020_image1_full.webp
+      thumb: cyberspace2020_image1_thumb.webp
     -
-      file: cyberspace2020_image2_full.jpg
-      thumb: cyberspace2020_image2_thumb.jpg
+      file: cyberspace2020_image2_full.webp
+      thumb: cyberspace2020_image2_thumb.webp
     -
-      file: cyberspace2020_image3_full.jpg
-      thumb: cyberspace2020_image3_thumb.jpg
+      file: cyberspace2020_image3_full.webp
+      thumb: cyberspace2020_image3_thumb.webp
     -
-      file: cyberspace2020_image4_full.jpg
-      thumb: cyberspace2020_image4_thumb.jpg
+      file: cyberspace2020_image4_full.webp
+      thumb: cyberspace2020_image4_thumb.webp
   download:
     -
       file: cyberspace2020.zip
@@ -170,20 +170,20 @@
       - 'Martina Maurer'
       - 'Tobias Sichmann'
   winner: 'no'
-  headerimage: haettehaettefahrradkette_header.jpg
+  headerimage: haettehaettefahrradkette_header.webp
   images:
     -
-      file: haettehaettefahrradkette_image1_full.jpg
-      thumb: haettehaettefahrradkette_image1_thumb.jpg
+      file: haettehaettefahrradkette_image1_full.webp
+      thumb: haettehaettefahrradkette_image1_thumb.webp
     -
-      file: haettehaettefahrradkette_image2_full.jpg
-      thumb: haettehaettefahrradkette_image2_thumb.jpg
+      file: haettehaettefahrradkette_image2_full.webp
+      thumb: haettehaettefahrradkette_image2_thumb.webp
     -
-      file: haettehaettefahrradkette_image3_full.jpg
-      thumb: haettehaettefahrradkette_image3_thumb.jpg
+      file: haettehaettefahrradkette_image3_full.webp
+      thumb: haettehaettefahrradkette_image3_thumb.webp
     -
-      file: haettehaettefahrradkette_image4_full.jpg
-      thumb: haettehaettefahrradkette_image4_thumb.jpg
+      file: haettehaettefahrradkette_image4_full.webp
+      thumb: haettehaettefahrradkette_image4_thumb.webp
   download:
     -
       file: haettehaettefahrradkette.zip
@@ -208,20 +208,20 @@
       - 'Sonja Futterknecht'
       - 'Valentin Hauzinger'
   winner: 'no'
-  headerimage: robertokarotto_header.jpg
+  headerimage: robertokarotto_header.webp
   images:
     -
-      file: robertokarotto_image1_full.jpg
-      thumb: robertokarotto_image1_thumb.jpg
+      file: robertokarotto_image1_full.webp
+      thumb: robertokarotto_image1_thumb.webp
     -
-      file: robertokarotto_image2_full.jpg
-      thumb: robertokarotto_image2_thumb.jpg
+      file: robertokarotto_image2_full.webp
+      thumb: robertokarotto_image2_thumb.webp
     -
-      file: robertokarotto_image3_full.jpg
-      thumb: robertokarotto_image3_thumb.jpg
+      file: robertokarotto_image3_full.webp
+      thumb: robertokarotto_image3_thumb.webp
     -
-      file: robertokarotto_image4_full.jpg
-      thumb: robertokarotto_image4_thumb.jpg
+      file: robertokarotto_image4_full.webp
+      thumb: robertokarotto_image4_thumb.webp
   download:
     -
       file: robertokarotto.zip
@@ -245,20 +245,20 @@
       - 'Matthias Patscheider'
       - 'Eric Thalhammer'
   winner: 'no'
-  headerimage: unplanet_header.jpg
+  headerimage: unplanet_header.webp
   images:
     -
-      file: unplanet_image1_full.jpg
-      thumb: unplanet_image1_thumb.jpg
+      file: unplanet_image1_full.webp
+      thumb: unplanet_image1_thumb.webp
     -
-      file: unplanet_image2_full.jpg
-      thumb: unplanet_image2_thumb.jpg
+      file: unplanet_image2_full.webp
+      thumb: unplanet_image2_thumb.webp
     -
-      file: unplanet_image3_full.jpg
-      thumb: unplanet_image3_thumb.jpg
+      file: unplanet_image3_full.webp
+      thumb: unplanet_image3_thumb.webp
     -
-      file: unplanet_image4_full.jpg
-      thumb: unplanet_image4_thumb.jpg
+      file: unplanet_image4_full.webp
+      thumb: unplanet_image4_thumb.webp
   download:
     -
       file: unplanetWin.zip
@@ -283,20 +283,20 @@
       - 'Nico Hartl'
       - 'Jan Kaindl'
   winner: people
-  headerimage: wizz_header.jpg
+  headerimage: wizz_header.webp
   images:
     -
-      file: wizz_image1_full.jpg
-      thumb: wizz_image1_thumb.jpg
+      file: wizz_image1_full.webp
+      thumb: wizz_image1_thumb.webp
     -
-      file: wizz_image2_full.jpg
-      thumb: wizz_image2_thumb.jpg
+      file: wizz_image2_full.webp
+      thumb: wizz_image2_thumb.webp
     -
-      file: wizz_image3_full.jpg
-      thumb: wizz_image3_thumb.jpg
+      file: wizz_image3_full.webp
+      thumb: wizz_image3_thumb.webp
     -
-      file: wizz_image4_full.jpg
-      thumb: wizz_image4_thumb.jpg
+      file: wizz_image4_full.webp
+      thumb: wizz_image4_thumb.webp
   download:
     -
       file: wizz.zip

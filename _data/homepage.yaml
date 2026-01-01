@@ -1,13 +1,13 @@
 hero:
   images:
-    - gamejam_index_1.jpg
-    - gamejam_index_2.jpg
-    - gamejam_index_3.jpg
+    - gamejam_index_1.webp
+    - gamejam_index_2.webp
+    - gamejam_index_3.webp
 about:
   eyebrow: About
-  title: The Hagenberg Game Jam
-  subtitle: Creating a game in just one weekend?
-  image: gamejam_about.png
+  title: 'The Hagenberg Game Jam'
+  subtitle: 'Creating a game in just one weekend?'
+  image: gamejam_about.webp
   markdown: |
     Game jams have become incredibly popular in recent years. These events require participants to create a working computer game within a very limited time, usually just 48 hours. The topic is announced at the beginning of the event, and teams start brainstorming and implementing their games as quickly as possible to finish in time. At the end of the event, the games are often demonstrated in a public context before the participants catch some much-needed sleep.
 
@@ -29,32 +29,37 @@ about:
 
     Hagenberg Game Jam is organized by people from the Department of Digital Media at the University of Applied Sciences Upper Austria, Hagenberg Campus.
 video:
-  eyebrow: intro video
+  eyebrow: 'intro video'
   title: |
     Hagenberg Game Jam
     in a Nutshell
-  description: Experience the feeling of a Hagenberg Game Jam in this short clip from 2019.
+  description: 'Experience the feeling of a Hagenberg Game Jam in this short clip from 2019.'
   youtube_id: S4UBw5cPjfY
 sponsors:
-  title: Our Sponsors
+  title: 'Our Sponsors'
   description: "Hagenberg Game Jam wouldn't be possible without the support of our partners. Thank you for making the world a little more playful!"
   items:
-    - name: Digital Media Campus Hagenberg
-      url: https://fh-ooe.at/campus-hagenberg/personen-kontakt/departments
+    -
+      name: 'Digital Media Campus Hagenberg'
+      url: 'https://fh-ooe.at/campus-hagenberg/personen-kontakt/departments'
       logo: gamejam_logo_digital-media.svg
-    - name: University of Applied Sciences Logo
-      url: https://www.fh-ooe.at/campus-hagenberg/
+    -
+      name: 'University of Applied Sciences Logo'
+      url: 'https://www.fh-ooe.at/campus-hagenberg/'
       logo: gamejam_logo_fhooe.svg
-    - name: Freistädter Bier Logo
-      url: https://www.freistaedter-bier.at/
-      logo: sponsor_freistaedter.png
-    - name: KEBA Logo
-      url: https://www.keba.com/
+    -
+      name: 'Freistädter Bier Logo'
+      url: 'https://www.freistaedter-bier.at/'
+      logo: sponsor_freistaedter.webp
+    -
+      name: 'KEBA Logo'
+      url: 'https://www.keba.com/'
       logo: sponsor_keba.svg
-    - name: LIWEST Logo
-      url: https://www.liwest.at/
+    -
+      name: 'LIWEST Logo'
+      url: 'https://www.liwest.at/'
       logo: sponsor_liwest.svg
-    - name: RISC Software Logo
-      url: https://www.risc-software.at/
+    -
+      name: 'RISC Software Logo'
+      url: 'https://www.risc-software.at/'
       logo: sponsor_risc-software.svg
-
