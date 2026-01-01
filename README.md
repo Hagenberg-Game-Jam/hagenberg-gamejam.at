@@ -350,45 +350,55 @@ magick --version
 
 #### Converting existing images to a different format
 
-The `gamejam:convert-images` command allows you to convert all pixel images (JPG, PNG, GIF) to a different format (e.g., WebP) across your entire site. This is useful for:
+The `gamejam:convert-images` command allows you to convert all pixel images to any format supported by ImageMagick (WebP, AVIF, JPG, PNG, etc.) across your entire site. This is useful for:
 
-- Converting older JPG/PNG images to WebP for better performance
+- Converting older JPG/PNG images to modern formats like WebP or AVIF for better performance
 - Standardizing image formats across all years
 - Batch conversion of images without manual processing
+- Future-proof: works with any format ImageMagick supports
 
 **Usage:**
 
 ```bash
-# Preview what would be converted (dry-run mode)
-php hyde gamejam:convert-images --format=webp --dry-run
+# Preview what would be converted (dry-run mode, defaults to WebP)
+php hyde gamejam:convert-images --dry-run
 
-# Convert all images to WebP
+# Convert all images to WebP (default format)
+php hyde gamejam:convert-images
+
+# Explicitly specify WebP format
 php hyde gamejam:convert-images --format=webp
 
 # Convert only images for a specific year
 php hyde gamejam:convert-images --format=webp --year=2015
 
-# Convert to a different format (e.g., PNG)
+# Convert to a different format (e.g., AVIF, PNG, JPG)
+php hyde gamejam:convert-images --format=avif
 php hyde gamejam:convert-images --format=png
+php hyde gamejam:convert-images --format=jpg
 ```
 
 **What it does:**
 
 1. **Scans all image files** in `_media/YYYY/` directories and root `_media/` directory
-2. **Converts pixel images** (JPG, PNG, GIF) to the target format using ImageMagick
-3. **Skips SVG files** (vector graphics are preserved as-is)
-4. **Skips already converted images** (if an image is already in the target format, it's not re-converted)
-5. **Updates all YAML references** automatically:
+2. **Converts pixel images** to the target format using ImageMagick (supports all ImageMagick formats: WebP, AVIF, HEIC, JXL, JPG, PNG, GIF, etc.)
+3. **Automatically validates** that ImageMagick supports the target format before conversion
+4. **Skips SVG files** (vector graphics are preserved as-is)
+5. **Skips already converted images** (if an image is already in the target format, it's not re-converted)
+6. **Updates all YAML references** automatically:
    - `_data/games/games*.yaml` files (headerimage, images[].file, images[].thumb)
    - `_data/homepage.yaml` (hero images, about image, sponsor logos - only pixel images, SVG logos are preserved)
-6. **Deletes old files** after successful conversion
+7. **Deletes old files** after successful conversion
 
 **Notes:**
 
+- **Default format**: If no `--format` is specified, the command defaults to **WebP**
 - Always use `--dry-run` first to preview what will be converted
-- The command preserves image quality (uses quality 90 for lossy formats like WebP/JPG)
+- The command preserves image quality (uses quality 90 for lossy formats like WebP, AVIF, JPG)
 - SVG files are never converted (vector graphics remain as SVG)
 - The command is safe to run multiple times (skips already converted images)
+- **Future-proof**: Works with any format ImageMagick supports, including future formats like AVIF, HEIC, JXL, etc.
+- To see all supported formats, run: `magick -list format`
 
 ### Available commands
 
