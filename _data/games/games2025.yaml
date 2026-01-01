@@ -1,3 +1,41 @@
-# Games for 2025 Game Jam
-# Add game entries below using: php hyde gamejam:add-game
+-
+  game:
+    name: 'Freindin Keat Zombaut'
+    players: 1
+    controls:
+      - mouse
+    description: |-
+      Finally, you've gained the confidence to ask out your online crush to a real-life meeting at her workplace, GF INC.
 
+      But OH NO! In a tragic workplace accident involving numerous boxes of robot girl parts, your date falls apart-quite literally. Now it's up to you to put her back together and, hopefully, grow closer along the way.
+  team:
+    name: 'HGB Pensionisten Club'
+    members:
+      - 'Alexander Gärtner'
+      - 'Florian Neugebauer'
+      - 'Moritz Höll'
+      - 'Simone Feldbacher'
+  winner: 'no'
+  headerimage: freindin-keat-zombaut_header.webp
+  images:
+    -
+      file: freindin-keat-zombaut_image1_full.webp
+      thumb: freindin-keat-zombaut_image1_thumb.webp
+    -
+      file: freindin-keat-zombaut_image2_full.webp
+      thumb: freindin-keat-zombaut_image2_thumb.webp
+    -
+      file: freindin-keat-zombaut_image3_full.webp
+      thumb: freindin-keat-zombaut_image3_thumb.webp
+    -
+      file: freindin-keat-zombaut_image4_full.webp
+      thumb: freindin-keat-zombaut_image4_thumb.webp
+  download:
+    -
+      file: freindin-keat-zombaut-Windows.zip
+      platform: Windows
+      checksum: 8676083056ca72ea23515f6d2c7ee9bda9e24acab174c223c8d97ad2e22319a2
+    -
+      file: freindin-keat-zombaut-Linux.zip
+      platform: Linux
+      checksum: 9ae83696922a193011aeec9879c5ebbc7f16f7dde9f3f29bc22bdf4ae2e4588d
