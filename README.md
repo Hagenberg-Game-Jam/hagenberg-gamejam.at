@@ -93,7 +93,7 @@ php hyde build
 
 During `php hyde build`, a pre-build task generates pages automatically:
 
-- For every Jam year file in `_data/jams/YYYY.md` a year overview page `YYYY.html` is generated.
+- For every Jam year file in `_data/jams/YYYY.yaml` a year overview page `YYYY.html` is generated.
 - For every game entry in `_data/games/gamesYYYY.yaml` a game detail page under `YYYY/<game-slug>.html` is generated.
 
 You do **not** need to create `_pages/` files for years/games. The build task is implemented in:
@@ -170,7 +170,7 @@ php hyde gamejam:create-jam
 
 This command will:
 - Ask for year, title, topic, dates, duration, and logo filename
-- Create `_data/jams/YYYY.md` with front matter
+- Create `_data/jams/YYYY.yaml` with jam metadata
 - Create an empty `_data/games/gamesYYYY.yaml` file
 
 **Example:**
@@ -311,11 +311,11 @@ If you prefer to work manually instead of using the commands:
 
 1. **Add the new Jam year metadata**
 
-   Create a new markdown file:
+   Create a new YAML file:
 
-   - `_data/jams/YYYY.md`
+   - `_data/jams/YYYY.yaml`
 
-   This file contains **front matter** (YAML between `---` blocks) used for the year page (theme, dates, etc.).
+   This file contains jam metadata (title, topic, dates, duration, etc.) used for the year page.
 
 2. **Add the games list for that year**
 
