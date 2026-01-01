@@ -16,20 +16,20 @@
       - 'Susanne Teufelauer'
       - 'Julian Zauner'
   winner: people
-  headerimage: aubandln_header.jpg
+  headerimage: aubandln_header.webp
   images:
     -
-      file: aubandln_image1_full.jpg
-      thumb: aubandln_image1_thumb.jpg
+      file: aubandln_image1_full.webp
+      thumb: aubandln_image1_thumb.webp
     -
-      file: aubandln_image2_full.jpg
-      thumb: aubandln_image2_thumb.jpg
+      file: aubandln_image2_full.webp
+      thumb: aubandln_image2_thumb.webp
     -
-      file: aubandln_image3_full.jpg
-      thumb: aubandln_image3_thumb.jpg
+      file: aubandln_image3_full.webp
+      thumb: aubandln_image3_thumb.webp
     -
-      file: aubandln_image4_full.jpg
-      thumb: aubandln_image4_thumb.jpg
+      file: aubandln_image4_full.webp
+      thumb: aubandln_image4_thumb.webp
   download:
     -
       file: aubandln.zip
@@ -55,20 +55,20 @@
       - 'Vincent Thierry'
       - 'Rita Weiss'
   winner: 'no'
-  headerimage: barkinghard_header.jpg
+  headerimage: barkinghard_header.webp
   images:
     -
-      file: barkinghard_image1_full.jpg
-      thumb: barkinghard_image1_thumb.jpg
+      file: barkinghard_image1_full.webp
+      thumb: barkinghard_image1_thumb.webp
     -
-      file: barkinghard_image2_full.jpg
-      thumb: barkinghard_image2_thumb.jpg
+      file: barkinghard_image2_full.webp
+      thumb: barkinghard_image2_thumb.webp
     -
-      file: barkinghard_image3_full.jpg
-      thumb: barkinghard_image3_thumb.jpg
+      file: barkinghard_image3_full.webp
+      thumb: barkinghard_image3_thumb.webp
     -
-      file: barkinghard_image4_full.jpg
-      thumb: barkinghard_image4_thumb.jpg
+      file: barkinghard_image4_full.webp
+      thumb: barkinghard_image4_thumb.webp
   download:
     -
       file: barkinghard.zip
@@ -93,20 +93,20 @@
       - 'David Holy'
       - 'Mario Kerndler'
   winner: 'no'
-  headerimage: beewitched_header.jpg
+  headerimage: beewitched_header.webp
   images:
     -
-      file: beewitched_image1_full.jpg
-      thumb: beewitched_image1_thumb.jpg
+      file: beewitched_image1_full.webp
+      thumb: beewitched_image1_thumb.webp
     -
-      file: beewitched_image2_full.jpg
-      thumb: beewitched_image2_thumb.jpg
+      file: beewitched_image2_full.webp
+      thumb: beewitched_image2_thumb.webp
     -
-      file: beewitched_image3_full.jpg
-      thumb: beewitched_image3_thumb.jpg
+      file: beewitched_image3_full.webp
+      thumb: beewitched_image3_thumb.webp
     -
-      file: beewitched_image4_full.jpg
-      thumb: beewitched_image4_thumb.jpg
+      file: beewitched_image4_full.webp
+      thumb: beewitched_image4_thumb.webp
   download:
     -
       file: beewitched.zip
@@ -132,20 +132,20 @@
       - 'Florian Rath'
       - 'Isabella Rathner'
   winner: 'no'
-  headerimage: flakingoswitnesses_header.jpg
+  headerimage: flakingoswitnesses_header.webp
   images:
     -
-      file: flakingoswitnesses_image1_full.jpg
-      thumb: flakingoswitnesses_image1_thumb.jpg
+      file: flakingoswitnesses_image1_full.webp
+      thumb: flakingoswitnesses_image1_thumb.webp
     -
-      file: flakingoswitnesses_image2_full.jpg
-      thumb: flakingoswitnesses_image2_thumb.jpg
+      file: flakingoswitnesses_image2_full.webp
+      thumb: flakingoswitnesses_image2_thumb.webp
     -
-      file: flakingoswitnesses_image3_full.jpg
-      thumb: flakingoswitnesses_image3_thumb.jpg
+      file: flakingoswitnesses_image3_full.webp
+      thumb: flakingoswitnesses_image3_thumb.webp
     -
-      file: flakingoswitnesses_image4_full.jpg
-      thumb: flakingoswitnesses_image4_thumb.jpg
+      file: flakingoswitnesses_image4_full.webp
+      thumb: flakingoswitnesses_image4_thumb.webp
   download:
     -
       file: flakingoswitnessesWin.zip
@@ -174,20 +174,20 @@
       - 'Marlene Mayr'
       - 'Christoph Weidlinger'
   winner: 'no'
-  headerimage: fluffy_header.jpg
+  headerimage: fluffy_header.webp
   images:
     -
-      file: fluffy_image1_full.jpg
-      thumb: fluffy_image1_thumb.jpg
+      file: fluffy_image1_full.webp
+      thumb: fluffy_image1_thumb.webp
     -
-      file: fluffy_image2_full.jpg
-      thumb: fluffy_image2_thumb.jpg
+      file: fluffy_image2_full.webp
+      thumb: fluffy_image2_thumb.webp
     -
-      file: fluffy_image3_full.jpg
-      thumb: fluffy_image3_thumb.jpg
+      file: fluffy_image3_full.webp
+      thumb: fluffy_image3_thumb.webp
     -
-      file: fluffy_image4_full.jpg
-      thumb: fluffy_image4_thumb.jpg
+      file: fluffy_image4_full.webp
+      thumb: fluffy_image4_thumb.webp
   download:
     -
       file: fluffy.zip
@@ -208,20 +208,20 @@
     members:
       - 'Peter Hofbauer'
   winner: 'no'
-  headerimage: hierarchy_header.jpg
+  headerimage: hierarchy_header.webp
   images:
     -
-      file: hierarchy_image1_full.jpg
-      thumb: hierarchy_image1_thumb.jpg
+      file: hierarchy_image1_full.webp
+      thumb: hierarchy_image1_thumb.webp
     -
-      file: hierarchy_image2_full.jpg
-      thumb: hierarchy_image2_thumb.jpg
+      file: hierarchy_image2_full.webp
+      thumb: hierarchy_image2_thumb.webp
     -
-      file: hierarchy_image3_full.jpg
-      thumb: hierarchy_image3_thumb.jpg
+      file: hierarchy_image3_full.webp
+      thumb: hierarchy_image3_thumb.webp
     -
-      file: hierarchy_image4_full.jpg
-      thumb: hierarchy_image4_thumb.jpg
+      file: hierarchy_image4_full.webp
+      thumb: hierarchy_image4_thumb.webp
   download:
     -
       file: hierarchy.zip
@@ -244,20 +244,20 @@
       - 'Wolfram Weingartner'
       - 'Klemens Wöhrer'
   winner: 'no'
-  headerimage: leadthebeat_header.jpg
+  headerimage: leadthebeat_header.webp
   images:
     -
-      file: leadthebeat_image1_full.jpg
-      thumb: leadthebeat_image1_thumb.jpg
+      file: leadthebeat_image1_full.webp
+      thumb: leadthebeat_image1_thumb.webp
     -
-      file: leadthebeat_image2_full.jpg
-      thumb: leadthebeat_image2_thumb.jpg
+      file: leadthebeat_image2_full.webp
+      thumb: leadthebeat_image2_thumb.webp
     -
-      file: leadthebeat_image3_full.jpg
-      thumb: leadthebeat_image3_thumb.jpg
+      file: leadthebeat_image3_full.webp
+      thumb: leadthebeat_image3_thumb.webp
     -
-      file: leadthebeat_image4_full.jpg
-      thumb: leadthebeat_image4_thumb.jpg
+      file: leadthebeat_image4_full.webp
+      thumb: leadthebeat_image4_thumb.webp
   download:
     -
       file: leadthebeat.zip
@@ -279,20 +279,20 @@
       - 'Matthias Patscheider'
       - 'Fabian Tappeiner'
   winner: 'no'
-  headerimage: legoerego_header.jpg
+  headerimage: legoerego_header.webp
   images:
     -
-      file: legoerego_image1_full.jpg
-      thumb: legoerego_image1_thumb.jpg
+      file: legoerego_image1_full.webp
+      thumb: legoerego_image1_thumb.webp
     -
-      file: legoerego_image2_full.jpg
-      thumb: legoerego_image2_thumb.jpg
+      file: legoerego_image2_full.webp
+      thumb: legoerego_image2_thumb.webp
     -
-      file: legoerego_image3_full.jpg
-      thumb: legoerego_image3_thumb.jpg
+      file: legoerego_image3_full.webp
+      thumb: legoerego_image3_thumb.webp
     -
-      file: legoerego_image4_full.jpg
-      thumb: legoerego_image4_thumb.jpg
+      file: legoerego_image4_full.webp
+      thumb: legoerego_image4_thumb.webp
   download:
     -
       file: legoerego.zip
@@ -314,20 +314,20 @@
       - 'Michael Klammer'
       - 'Lukas Paul'
   winner: jury
-  headerimage: primedelivery_header.jpg
+  headerimage: primedelivery_header.webp
   images:
     -
-      file: primedelivery_image1_full.jpg
-      thumb: primedelivery_image1_thumb.jpg
+      file: primedelivery_image1_full.webp
+      thumb: primedelivery_image1_thumb.webp
     -
-      file: primedelivery_image2_full.jpg
-      thumb: primedelivery_image2_thumb.jpg
+      file: primedelivery_image2_full.webp
+      thumb: primedelivery_image2_thumb.webp
     -
-      file: primedelivery_image3_full.jpg
-      thumb: primedelivery_image3_thumb.jpg
+      file: primedelivery_image3_full.webp
+      thumb: primedelivery_image3_thumb.webp
     -
-      file: primedelivery_image4_full.jpg
-      thumb: primedelivery_image4_thumb.jpg
+      file: primedelivery_image4_full.webp
+      thumb: primedelivery_image4_thumb.webp
   download:
     -
       file: primedelivery.zip
@@ -352,20 +352,20 @@
       - 'Yvonne Marneth'
       - 'Marleigh Pach'
   winner: 'no'
-  headerimage: quintupleq_header.jpg
+  headerimage: quintupleq_header.webp
   images:
     -
-      file: quintupleq_image1_full.jpg
-      thumb: quintupleq_image1_thumb.jpg
+      file: quintupleq_image1_full.webp
+      thumb: quintupleq_image1_thumb.webp
     -
-      file: quintupleq_image2_full.jpg
-      thumb: quintupleq_image2_thumb.jpg
+      file: quintupleq_image2_full.webp
+      thumb: quintupleq_image2_thumb.webp
     -
-      file: quintupleq_image3_full.jpg
-      thumb: quintupleq_image3_thumb.jpg
+      file: quintupleq_image3_full.webp
+      thumb: quintupleq_image3_thumb.webp
     -
-      file: quintupleq_image4_full.jpg
-      thumb: quintupleq_image4_thumb.jpg
+      file: quintupleq_image4_full.webp
+      thumb: quintupleq_image4_thumb.webp
   download:
     -
       file: quintupleq.zip
@@ -391,20 +391,20 @@
       - 'Florian Müllner'
       - 'Corina Sand'
   winner: 'no'
-  headerimage: thesagaofdroja_header.jpg
+  headerimage: thesagaofdroja_header.webp
   images:
     -
-      file: thesagaofdroja_image1_full.jpg
-      thumb: thesagaofdroja_image1_thumb.jpg
+      file: thesagaofdroja_image1_full.webp
+      thumb: thesagaofdroja_image1_thumb.webp
     -
-      file: thesagaofdroja_image2_full.jpg
-      thumb: thesagaofdroja_image2_thumb.jpg
+      file: thesagaofdroja_image2_full.webp
+      thumb: thesagaofdroja_image2_thumb.webp
     -
-      file: thesagaofdroja_image3_full.jpg
-      thumb: thesagaofdroja_image3_thumb.jpg
+      file: thesagaofdroja_image3_full.webp
+      thumb: thesagaofdroja_image3_thumb.webp
     -
-      file: thesagaofdroja_image4_full.jpg
-      thumb: thesagaofdroja_image4_thumb.jpg
+      file: thesagaofdroja_image4_full.webp
+      thumb: thesagaofdroja_image4_thumb.webp
   download:
     -
       file: thesagaofdrojaWin.zip
