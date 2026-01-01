@@ -22,7 +22,7 @@
                 <div class="space-y-4">
                     @foreach(array_slice($rules, 0, $columnSize) as $index => $rule)
                     <div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden" x-data="{ open: false }">
-                        <button @click="open = !open" class="w-full px-6 py-4 text-left flex items-center justify-between bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                        <button @click="open = !open" class="w-full px-6 py-4 text-left flex items-center justify-between bg-gray-200 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
                             <span class="font-semibold text-lg dark:text-white">{{ $rule['question'] ?? '' }}</span>
                             <svg class="w-5 h-5 transform transition-transform" :class="open ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -41,7 +41,7 @@
                 <div class="space-y-4">
                     @foreach(array_slice($rules, $columnSize) as $index => $rule)
                     <div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden" x-data="{ open: false }">
-                        <button @click="open = !open" class="w-full px-6 py-4 text-left flex items-center justify-between bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                        <button @click="open = !open" class="w-full px-6 py-4 text-left flex items-center justify-between bg-gray-200 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
                             <span class="font-semibold text-lg dark:text-white">{{ $rule['question'] ?? '' }}</span>
                             <svg class="w-5 h-5 transform transition-transform" :class="open ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
