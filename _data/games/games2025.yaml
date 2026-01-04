@@ -54,7 +54,6 @@
       - 'Vanessa Nagelhofer'
       - 'Quirin Pöchhacker'
       - 'Martin Prommegger'
-      - 'Robert Schmied'
       - 'Markus Timotheus Strasser'
   winner: 'no'
   headerimage: a-13-un-ivy_header.webp
@@ -415,3 +414,39 @@
       file: ram-rampant-Windows.zip
       platform: Windows
       checksum: e20de04dd66ff6dc372b591d46909c72a564c8f501ff2a1dbae18740b099c6d0
+-
+  game:
+    name: 'Stupido Cupido'
+    players: '1'
+    controls:
+      - mouse
+    description: '"Stupido Cupido" is a dating sim where you get to know Italian brainrot characters and find your perfect match with a simple click of your mouse.'
+  team:
+    name: 'Team.exe has stopped responding'
+    members:
+      - 'Elisa Jorge'
+      - 'Jay Molev'
+      - 'Leon Nolte'
+      - 'Sarah Rührnößl'
+      - 'Michael Sandhacker'
+      - 'Robert Schmied'
+  winner: 'no'
+  headerimage: stupido-cupido_header.webp
+  images:
+    -
+      file: stupido-cupido_image1_full.webp
+      thumb: stupido-cupido_image1_thumb.webp
+    -
+      file: stupido-cupido_image2_full.webp
+      thumb: stupido-cupido_image2_thumb.webp
+    -
+      file: stupido-cupido_image3_full.webp
+      thumb: stupido-cupido_image3_thumb.webp
+    -
+      file: stupido-cupido_image4_full.webp
+      thumb: stupido-cupido_image4_thumb.webp
+  download:
+    -
+      file: stupido-cupido-Windows.zip
+      platform: Windows
+      checksum: f29b772dd76b5faea34ba200101fef5e481b6587bbf420d1d8afa018c6bc9de8
