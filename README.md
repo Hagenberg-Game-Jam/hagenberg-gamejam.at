@@ -221,7 +221,7 @@ This command will:
 
 1. **Ask for game data:**
    - Game name (used to generate URL slug)
-   - Number of players
+   - Number of players (single number like "1" or "2", or range like "3-8" or "3-5")
    - Controls (keyboard, mouse, gamepad, touch - multi-select)
    - Description (multiline input - type `---END---` when finished)
    - Team name
@@ -255,7 +255,7 @@ This command will:
 ```
 Select year: 2024
 Game name: My Awesome Game
-Number of players: 1
+Number of players (e.g., "1", "2-4", "3-8"): 3-8
 Controls: keyboard, mouse
 Description: [multiline input, type ---END--- when done]
 Team name: Awesome Team
@@ -264,12 +264,18 @@ Is this a winning game? [y/N]: y
 Placement: 1st
 ```
 
+**Player count format:**
+- Single player: `"1"` → displays as "1 Player"
+- Fixed multiplayer: `"2"` → displays as "2 Players"
+- Variable multiplayer: `"3-8"` → displays as "3–8 Players" (with en-dash)
+- The range format is useful for games that support a variable number of players (e.g., "3-5" for games that can be played with 3, 4, or 5 players)
+
 **Team members parsing:**
 The command intelligently parses team members from various formats:
 - Comma-separated: `"John Doe, Jane Smith, Bob Johnson"`
 - Semicolon-separated: `"John Doe; Jane Smith; Bob Johnson"`
 - Line-separated: One per line
-- Markdown list format: `"- John Doe\n- Jane Smith"` (the "- " prefix is automatically removed)
+- Markdown list format: `"- John Doe\n- Jane Smith"` or `"* John Doe\n* Jane Smith"` or `"+ John Doe\n+ Jane Smith"` (the list prefixes "- ", "* ", "+ " are automatically removed)
 - Mixed formats are supported
 
 After parsing, you'll see a preview and can confirm or correct.
