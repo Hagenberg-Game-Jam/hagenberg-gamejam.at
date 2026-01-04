@@ -558,3 +558,44 @@
       file: stupido-cupido-Windows.zip
       platform: Windows
       checksum: f29b772dd76b5faea34ba200101fef5e481b6587bbf420d1d8afa018c6bc9de8
+-
+  game:
+    name: 'Wind Up Journey'
+    players: '1'
+    controls:
+      - keyboard
+      - mouse
+    description: |-
+      A Little cat is trying to deliver her robots through a Portal. However, these robots are pretty dumb: they can only wander in one direction and stop after a short time. By rotating, you can help deliver all robots to the next level.
+
+      After all robots have fallen off or been through the portal, you can go to the next Level through the portal as well.
+  team:
+    name: '404 Brain almost found'
+    members:
+      - 'Paul Bankl'
+      - 'Lara Eck'
+      - 'Tobias Grantl'
+      - 'Lozenz Haas'
+      - 'Florentin Habermaier'
+      - 'Xaver Pötscher'
+      - 'Florian Scheuermann'
+  winner: 'no'
+  headerimage: wind-up-journey_header.webp
+  images:
+    -
+      file: wind-up-journey_image1_full.webp
+      thumb: wind-up-journey_image1_thumb.webp
+    -
+      file: wind-up-journey_image2_full.webp
+      thumb: wind-up-journey_image2_thumb.webp
+    -
+      file: wind-up-journey_image3_full.webp
+      thumb: wind-up-journey_image3_thumb.webp
+    -
+      file: wind-up-journey_image4_full.webp
+      thumb: wind-up-journey_image4_thumb.webp
+  download:
+    -
+      file: wind-up-journey-Windows.zip
+      platform: Windows
+      checksum: 9df6d1fb8ca95ccfa574357de321663c0d4bb596299439c75a3f06cb2d9ee2fa
