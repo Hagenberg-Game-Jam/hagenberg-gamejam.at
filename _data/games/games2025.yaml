@@ -276,6 +276,42 @@
       checksum: e4bd311129b1b6c80c1163bfc19dc359f4dfe2643a148683b38967cbafe6d151
 -
   game:
+    name: 'He Moasta'
+    players: '1'
+    controls:
+      - keyboard
+      - mouse
+    description: "Ever had an unforgettable experience at the Linz Central Station restroom? This game is based on a true story one we'd probably rather forget. It's our own form of psychic therapy, turning that strange encounter into a bizarrely nostalgic PS1-style experience."
+  team:
+    name: 'Lerngruppe Remastered'
+    members:
+      - 'Julian Brunner'
+      - 'Niklas Mikeska'
+      - 'Thomas Scherleithner'
+      - 'Lena Schweighofer'
+      - 'Julian Stögmüller'
+  winner: 'no'
+  headerimage: he-moasta_header.webp
+  images:
+    -
+      file: he-moasta_image1_full.webp
+      thumb: he-moasta_image1_thumb.webp
+    -
+      file: he-moasta_image2_full.webp
+      thumb: he-moasta_image2_thumb.webp
+    -
+      file: he-moasta_image3_full.webp
+      thumb: he-moasta_image3_thumb.webp
+    -
+      file: he-moasta_image4_full.webp
+      thumb: he-moasta_image4_thumb.webp
+  download:
+    -
+      file: he-moasta-Windows.zip
+      platform: Windows
+      checksum: 26ddbc2c487ac565578144a9b707f2dafcfcb85bcba50a21abc41bdfbc619ff3
+-
+  game:
     name: 'Knight And Squire'
     players: '1'
     controls:
