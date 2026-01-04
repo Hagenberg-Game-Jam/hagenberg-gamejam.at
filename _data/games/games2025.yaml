@@ -38,6 +38,43 @@
       checksum: 89ec7207a0eaea0a05e8d265ce7aad6331b02b4866d9766e95579bd5527e2c35
 -
   game:
+    name: '5 Days at the Office'
+    players: '1'
+    controls:
+      - keyboard
+      - mouse
+    description: 'In 5 Days at the Office, you play an employee who hates his job. Fortunately, he receives an offer from a competing company. You sign a contract, stating that you will receive a massive bonus if you cause as much damage as possible to your current company. However, if you get fired before completing your fifth and final day at the company and receiving your paycheck, the offer is gone. During your workday, you must act artificially stupid and sabotage your objectives. Stay cautious; your boss is watching and will fire you if you are caught directly or if you overdo it.'
+  team:
+    name: +gang;
+    members:
+      - 'Kareem Al-Khalily'
+      - 'Katharina Hegedüs'
+      - 'Sarah Lindinger'
+      - 'Jannick Lohner'
+      - 'Andreas Schrattenecker'
+      - 'Sandro Tadic'
+  winner: 'no'
+  headerimage: 5-days-at-the-office_header.webp
+  images:
+    -
+      file: 5-days-at-the-office_image1_full.webp
+      thumb: 5-days-at-the-office_image1_thumb.webp
+    -
+      file: 5-days-at-the-office_image2_full.webp
+      thumb: 5-days-at-the-office_image2_thumb.webp
+    -
+      file: 5-days-at-the-office_image3_full.webp
+      thumb: 5-days-at-the-office_image3_thumb.webp
+    -
+      file: 5-days-at-the-office_image4_full.webp
+      thumb: 5-days-at-the-office_image4_thumb.webp
+  download:
+    -
+      file: 5-days-at-the-office-Windows.zip
+      platform: Windows
+      checksum: f7fa3faae1e7f7786aec928d4c6f5c2f7d2ea9b32e3b5a8e13f66eefdf1bdd21
+-
+  game:
     name: A-13-UN-IVY
     players: '1'
     controls:
