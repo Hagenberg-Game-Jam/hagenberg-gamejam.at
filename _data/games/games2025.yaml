@@ -240,6 +240,43 @@
       checksum: e4bd311129b1b6c80c1163bfc19dc359f4dfe2643a148683b38967cbafe6d151
 -
   game:
+    name: 'Knight And Squire'
+    players: '1'
+    controls:
+      - keyboard
+      - mouse
+    description: '"Knight and Squire" is a linear story puzzle game about a Knight and Squire on their way home from their last adventure. That should be an easy endeavour, right? Unfortunately, as strong and kind as Knight is, he isn''t the brightest. Seemingly easy tasks, like walking around a gate, become increasingly difficult to complete. Help Squire support Knight and ensure Knight travels home safely for a well-deserved, relaxing vacation.'
+  team:
+    name: 'Nico Hartl'
+    members:
+      - 'Özenc Dinler'
+      - 'Nico Hartl'
+      - 'Josef Ibrahim'
+      - 'Jan Kaindl'
+      - 'Selina Mensah'
+      - 'Rui Kremsmayr'
+  winner: 'no'
+  headerimage: knight-and-squire_header.webp
+  images:
+    -
+      file: knight-and-squire_image1_full.webp
+      thumb: knight-and-squire_image1_thumb.webp
+    -
+      file: knight-and-squire_image2_full.webp
+      thumb: knight-and-squire_image2_thumb.webp
+    -
+      file: knight-and-squire_image3_full.webp
+      thumb: knight-and-squire_image3_thumb.webp
+    -
+      file: knight-and-squire_image4_full.webp
+      thumb: knight-and-squire_image4_thumb.webp
+  download:
+    -
+      file: knight-and-squire-Windows.zip
+      platform: Windows
+      checksum: e74d292cfd34a403a4f7423f211fa82302d3afd4bba42a263b27a140c89fc42c
+-
+  game:
     name: 'Prove You Bleed'
     players: 2
     controls:
