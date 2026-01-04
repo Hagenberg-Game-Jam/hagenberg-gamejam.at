@@ -217,7 +217,7 @@ return [
     */
 
     'meta' => [
-        Meta::name('description', 'Hagenberg Game Jam is a recurring 24 to 48 hour long game jam event held at the end of December at the Upper Austria University of Applied Sciences - School of Informatics, Communications and Media in Hagenberg by the research group Playful Interactive Environments.'),
+        // Meta description is now set dynamically per page in layouts/head.blade.php
         Meta::name('keywords', 'Game Jam, Hagenberg, Game Development, Austria, University of Applied Sciences'),
         Meta::name('generator', 'HydePHP v'.Hyde\Hyde::version()),
         Meta::property('site_name', env('SITE_NAME', 'Hagenberg Game Jam')),
