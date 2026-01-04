@@ -41,6 +41,51 @@
       checksum: 9ae83696922a193011aeec9879c5ebbc7f16f7dde9f3f29bc22bdf4ae2e4588d
 -
   game:
+    name: GPS-E
+    players: 1
+    controls:
+      - keyboard
+    description: |-
+      In this game, you take the role of a taxi driver tasked with picking up and transporting passengers safely and quickly to their desired destinations.
+
+      Your constant companion is GPS-E (Global Positioning System - Eventually), a female AI navigation system designed to guide you through the city... with a little too much humor.
+
+      Along the way, GPS-E provides directions with a sharp tongue, delivering sarcastic and unapologetically snarky commentary on the player's decisions. While her guidance is technically helpful, her attitude turns every journey into an entertaining and unpredictable experience.
+
+      The player's goal is to drive passengers with a taxi to a desired building.
+
+      Drop off as many passengers as possible at their desired destinations... before you end up in a coffin due to GPS-E's guidance.
+  team:
+    name: 'Die Schokolosen Bananen'
+    members:
+      - 'Alexander Aichinger'
+      - 'Salvino Boyadzhiev'
+      - 'David Gölzner'
+      - 'Dominik Höftberger'
+      - 'Nils Polt'
+      - 'Nathalie Weißengruber'
+  winner: 'no'
+  headerimage: gps-e_header.webp
+  images:
+    -
+      file: gps-e_image1_full.webp
+      thumb: gps-e_image1_thumb.webp
+    -
+      file: gps-e_image2_full.webp
+      thumb: gps-e_image2_thumb.webp
+    -
+      file: gps-e_image3_full.webp
+      thumb: gps-e_image3_thumb.webp
+    -
+      file: gps-e_image4_full.webp
+      thumb: gps-e_image4_thumb.webp
+  download:
+    -
+      file: gps-e-Windows.zip
+      platform: Windows
+      checksum: e4bd311129b1b6c80c1163bfc19dc359f4dfe2643a148683b38967cbafe6d151
+-
+  game:
     name: 'Prove You Bleed'
     players: 2
     controls:
