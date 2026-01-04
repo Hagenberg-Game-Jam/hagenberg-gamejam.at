@@ -30,8 +30,13 @@
         </div>
         <div class="absolute inset-0 flex items-center justify-center z-20 pointer-events-none">
             <div class="container mx-auto px-4 text-center text-white drop-shadow-lg">
-                <span class="text-lg md:text-xl mb-4 block">Developing Games In No Time Since 2011</span>
-                <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-8">Hagenberg Game Jam</h1>
+                <hgroup>
+                    <p class="text-lg md:text-xl mb-4">Developing Games In No Time Since 2011</p>
+                    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">Hagenberg Game Jam</h1>
+                    @if(isset($hero['description']) && $hero['description'])
+                    <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto mt-8">{{ $hero['description'] }}</p>
+                    @endif
+                </hgroup>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="/{{ $latestJam }}" class="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors pointer-events-auto">
                         View the games of {{ $latestJam }}

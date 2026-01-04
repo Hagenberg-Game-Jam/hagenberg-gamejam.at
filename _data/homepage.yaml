@@ -1,4 +1,5 @@
 hero:
+  description: 'Hagenberg Game Jam is a recurring 36-hour game jam held at the end of December at the University of Applied Sciences Upper Austria – Hagenberg Campus, organized by the Department of Digital Media.'
   images:
     - gamejam_index_1.webp
     - gamejam_index_2.webp
@@ -24,6 +25,8 @@ about:
     2023 marked a new record: 82 people in 20 teams registered, making for the largest Hagenberg Game Jam since its start in 2011.
 
     This record was broken in 2024 with 100 people in 22 teams registered, making for the largest Hagenberg Game Jam since its start in 2011. 2024 was also the first year that the voting process was changed to a Playtogether session where all submitted games were installed, could be played together, and then voted for.
+
+    In 2025, 16 teams with a total of 81 participants were part of the Hagenberg Game Jam, continuing its long tradition. This year also saw the release of a new website.
 
     This website is an archive of all the games created during a Hagenberg Game Jam. You are free to download and play the games, but please give credit to the authors should you distribute them.
 
