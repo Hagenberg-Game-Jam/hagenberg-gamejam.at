@@ -38,6 +38,46 @@
       checksum: 89ec7207a0eaea0a05e8d265ce7aad6331b02b4866d9766e95579bd5527e2c35
 -
   game:
+    name: 'Banana Code'
+    players: '3-8'
+    controls:
+      - mouse
+    description: |-
+      Your boss has implemented a new AI system. He claims it can work 10 times faster and replace the least efficient employees. Only those who can keep up with the new bot will be allowed to stay.
+      Rumors are spreading that the AI is secretly stealing work from certain employees to have them dismissed. You must act quickly and identify the AI to secure your job. However, be careful, you still have to complete your own tasks. If you fail to finish your work during the day, you will have to continue working at night.
+
+      Banana Code is a "Werewolf" like game, where you have to find out who is an AI and who are your coworkers. It has a day-and-night cycle. Every night you are working on your Code and trying to get as many points as possible. During the day, the least efficient worker is fired, and in addition, you can vote out a player. But be careful: the AI gets more points and can steal half a player's points each night. The goal is to find the AI and vote it out before it can take your job.
+  team:
+    name: 'Big Duck Energy'
+    members:
+      - 'Leoni Hiptmayr'
+      - 'Jonathan Kirchsteiger'
+      - 'Fabian Kopetzky'
+      - 'Conny Pleichl'
+      - 'Alexander Strauss'
+      - 'Edim Zdralovic'
+  winner: 'no'
+  headerimage: banana-code_header.webp
+  images:
+    -
+      file: banana-code_image1_full.webp
+      thumb: banana-code_image1_thumb.webp
+    -
+      file: banana-code_image2_full.webp
+      thumb: banana-code_image2_thumb.webp
+    -
+      file: banana-code_image3_full.webp
+      thumb: banana-code_image3_thumb.webp
+    -
+      file: banana-code_image4_full.webp
+      thumb: banana-code_image4_thumb.webp
+  download:
+    -
+      file: banana-code-Windows.zip
+      platform: Windows
+      checksum: 02c12a8a9cb52b9d57452ed81cacd1171cd88dad951c9aa5cd2c11424a63cacf
+-
+  game:
     name: 'Dumber Than You Think'
     players: 1
     controls:
