@@ -41,6 +41,44 @@
       checksum: 9ae83696922a193011aeec9879c5ebbc7f16f7dde9f3f29bc22bdf4ae2e4588d
 -
   game:
+    name: 'Prove You Bleed'
+    players: 2
+    controls:
+      - keyboard
+      - mouse
+    description: |-
+      "Prove You Bleed" is a local multiplayer fighting game with a unique twist: To hurt your enemy, you first have to solve bizarre captchas. Whoever solves it first gets to stab the other!
+      Prove you can bleed (unlike robots) and enter a gory arena surrounded by the monstrous cheers of a deranged, bloodthirsty audience.
+  team:
+    name: 'Brot Jammern'
+    members:
+      - 'Renée Kerschbaumer'
+      - 'Anna Ludwig'
+      - 'David Märzendorfer'
+      - 'Ki Schattauer'
+      - 'Sandra Ye'
+  winner: 'no'
+  headerimage: prove-you-bleed_header.webp
+  images:
+    -
+      file: prove-you-bleed_image1_full.webp
+      thumb: prove-you-bleed_image1_thumb.webp
+    -
+      file: prove-you-bleed_image2_full.webp
+      thumb: prove-you-bleed_image2_thumb.webp
+    -
+      file: prove-you-bleed_image3_full.webp
+      thumb: prove-you-bleed_image3_thumb.webp
+    -
+      file: prove-you-bleed_image4_full.webp
+      thumb: prove-you-bleed_image4_thumb.webp
+  download:
+    -
+      file: prove-you-bleed-Windows.zip
+      platform: Windows
+      checksum: d650f32aabb33e4d7e5d76ef52d13675e4d37408d00d096e6c0661590413a840
+-
+  game:
     name: 'RAM Rampant'
     players: 1
     controls:
