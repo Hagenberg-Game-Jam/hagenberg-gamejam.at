@@ -39,3 +39,67 @@
       file: freindin-keat-zombaut-Linux.zip
       platform: Linux
       checksum: 9ae83696922a193011aeec9879c5ebbc7f16f7dde9f3f29bc22bdf4ae2e4588d
+-
+  game:
+    name: 'RAM Rampant'
+    players: 1
+    controls:
+      - keyboard
+    description: |-
+      The player can purchase robots from a conveyor belt.
+
+      When the player interacts with a robot, it begins to follow them.
+
+      If a robot is following the player and they interact with an unoccupied task station, the bot is assigned to the station and begins working.
+      If the player interacts with the now occupied task station again, the bot is removed.
+
+      Occupied task stations generate money every second. There are 3 different types of task stations:
+
+      1) Power stations (hamster wheels) generate the least revenue but also produce electricity. They do not consume any electricity.
+      2) AI Art Stations (easel) generate slightly more money, but consume a little electricity.
+      3) Crypto Mining Stations (computers) generate the most money (Hagencoin stocks are very high right now), but also consume a lot of electricity.
+
+      Robots have a certain chance of becoming defective while working at a task station (recognizable by a smoke effect).
+      The player can interact with defective robots to "repair" them...
+
+      Players can buy new task stations at task plots by interacting with them. (Task plots cannot be purchased while a robot is following the player because we were too lazy to code the interaction system better.)
+
+      Unnecessary robots can be "recycled" in an environmentally friendly way using the hydraulic press. (Please maintain the legally required safety distance when doing so!)
+
+      The goal is to get rich and finally be able to afford RAM again. Have fun!
+
+      Additional information (optional):
+
+      Robots have the following stats, which are randomly assigned at purchase:
+      1) Intelligence: Determines the efficiency of a robot when working at a crypto mining station.
+      2) Creativity: Determines the efficiency of a robot when working at an AI art station.
+      3) Robustness: Measures how long a robot can operate at a task station before it fails.
+
+      Each stat can have a value between 1 (low) and 5 (high). The higher the value, the stronger the effect.
+  team:
+    name: '4 lernen Audio Design'
+    members:
+      - 'Rebecca Fuchs'
+      - 'Michael Pfabigan'
+      - 'Linus Zambiasi'
+      - 'Alwin Zitek'
+  winner: 'no'
+  headerimage: ram-rampant_header.webp
+  images:
+    -
+      file: ram-rampant_image1_full.webp
+      thumb: ram-rampant_image1_thumb.webp
+    -
+      file: ram-rampant_image2_full.webp
+      thumb: ram-rampant_image2_thumb.webp
+    -
+      file: ram-rampant_image3_full.webp
+      thumb: ram-rampant_image3_thumb.webp
+    -
+      file: ram-rampant_image4_full.webp
+      thumb: ram-rampant_image4_thumb.webp
+  download:
+    -
+      file: ram-rampant-Windows.zip
+      platform: Windows
+      checksum: e20de04dd66ff6dc372b591d46909c72a564c8f501ff2a1dbae18740b099c6d0
