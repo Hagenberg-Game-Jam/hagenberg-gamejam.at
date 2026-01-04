@@ -1,4 +1,6 @@
 hero:
+  subtitle: 'Developing Games In No Time Since 2011'
+  title: 'Hagenberg Game Jam'
   description: 'Hagenberg Game Jam is a recurring 36-hour game jam held at the end of December at the University of Applied Sciences Upper Austria – Hagenberg Campus, organized by the Department of Digital Media.'
   images:
     - gamejam_index_1.webp
@@ -8,7 +10,13 @@ about:
   eyebrow: About
   title: 'The Hagenberg Game Jam'
   subtitle: 'Creating a game in just one weekend?'
-  image: gamejam_about.webp
+  gallery:
+    - gamejam_about_1.webp
+    - gamejam_about_2.webp
+    - gamejam_about_3.webp
+    - gamejam_about_4.webp
+    - gamejam_about_5.webp
+    - gamejam_about_6.webp
   markdown: |
     Game jams have become incredibly popular in recent years. These events require participants to create a working computer game within a very limited time, usually just 48 hours. The topic is announced at the beginning of the event, and teams start brainstorming and implementing their games as quickly as possible to finish in time. At the end of the event, the games are often demonstrated in a public context before the participants catch some much-needed sleep.
 

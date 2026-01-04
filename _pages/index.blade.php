@@ -31,8 +31,10 @@
         <div class="absolute inset-0 flex items-center justify-center z-20 pointer-events-none">
             <div class="container mx-auto px-4 text-center text-white drop-shadow-lg">
                 <hgroup>
-                    <p class="text-lg md:text-xl mb-4">Developing Games In No Time Since 2011</p>
-                    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">Hagenberg Game Jam</h1>
+                    @if(isset($hero['subtitle']) && $hero['subtitle'])
+                    <p class="text-lg md:text-xl mb-4">{{ $hero['subtitle'] }}</p>
+                    @endif
+                    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">{{ $hero['title'] ?? 'Hagenberg Game Jam' }}</h1>
                     @if(isset($hero['description']) && $hero['description'])
                     <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto mt-8">{{ $hero['description'] }}</p>
                     @endif
@@ -106,13 +108,30 @@
 <!-- About Section -->
 <section class="py-16 bg-white dark:bg-gray-900">
     <div class="container mx-auto px-4">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div class="order-2 lg:order-1">
-                @php
-                    $aboutImage = (string) ($about['image'] ?? 'gamejam_about.png');
-                    $aboutImageSrc = ($aboutImage !== '' && str_starts_with($aboutImage, '/')) ? $aboutImage : '/media/' . ltrim($aboutImage, '/');
-                @endphp
-                <img src="{{ $aboutImageSrc }}" alt="Scenes from the Hagenberg Game Jam" class="rounded-lg shadow-lg w-full">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <div class="order-2 lg:order-1 flex items-center">
+                @if(isset($about['gallery']) && is_array($about['gallery']) && count($about['gallery']) > 0)
+                    {{-- Masonry Gallery --}}
+                    <div class="masonry-gallery w-full">
+                        @foreach($about['gallery'] as $index => $galleryImage)
+                            @php
+                                $imageSrc = ($galleryImage !== '' && str_starts_with($galleryImage, '/')) ? $galleryImage : '/media/' . ltrim($galleryImage, '/');
+                                // Create masonry pattern: first and every 4th image spans 2 rows
+                                $rowSpan = ($index === 0 || ($index + 1) % 4 === 0) ? 'row-span-2' : 'row-span-1';
+                            @endphp
+                            <div class="masonry-item {{ $rowSpan }}">
+                                <img src="{{ $imageSrc }}" 
+                                     alt="Scene from the Hagenberg Game Jam" 
+                                     class="masonry-image">
+                            </div>
+                        @endforeach
+                    </div>
+                @else
+                    {{-- Fallback: Show message if no gallery is configured --}}
+                    <div class="rounded-lg shadow-lg w-full bg-gray-100 dark:bg-gray-800 p-8 text-center">
+                        <p class="text-gray-600 dark:text-gray-400">No gallery images configured.</p>
+                    </div>
+                @endif
             </div>
             <div class="order-1 lg:order-2">
                 <span class="inline-block w-3 h-3 bg-indigo-600 rounded-full"></span>
@@ -185,3 +204,57 @@
     </div>
 </section>
 @endsection
+
+@push('styles')
+<style>
+    .masonry-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
+        gap: 1rem;
+    }
+    
+    .masonry-item {
+        overflow: hidden;
+        border-radius: 0.5rem;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        transition: box-shadow 0.3s ease;
+    }
+    
+    .masonry-item:hover {
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+    
+    .masonry-item.row-span-2 {
+        grid-row: span 2;
+    }
+    
+    .masonry-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+    
+    .masonry-item:hover .masonry-image {
+        transform: scale(1.05);
+    }
+    
+    @media (max-width: 1024px) {
+        .masonry-gallery {
+            grid-auto-rows: 150px;
+        }
+    }
+    
+    @media (max-width: 640px) {
+        .masonry-gallery {
+            grid-template-columns: 1fr;
+            grid-auto-rows: 200px;
+        }
+        
+        .masonry-item.row-span-2 {
+            grid-row: span 1;
+        }
+    }
+</style>
+@endpush
