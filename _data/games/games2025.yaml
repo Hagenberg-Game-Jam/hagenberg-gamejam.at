@@ -39,7 +39,7 @@
 -
   game:
     name: 'Banana Code'
-    players: '3-8'
+    players: 3-8
     controls:
       - mouse
     description: |-
@@ -236,6 +236,44 @@
       file: prove-you-bleed-Windows.zip
       platform: Windows
       checksum: d650f32aabb33e4d7e5d76ef52d13675e4d37408d00d096e6c0661590413a840
+-
+  game:
+    name: 'R.O.B - Royally Ordinary Bot'
+    players: '1'
+    controls:
+      - keyboard
+      - mouse
+      - gamepad
+    description: |-
+      R.O.B. has a weird fascination with drinking human beverages, even though robots cannot ingest them whatsoever. Through an unforeseen accident, R.O.B. is now homeless. He comes across an advertisement for beer and becomes determined to try it. And so R.O.B. is setting out for a journey...
+
+      R.O.B. leaves the ruins behind and makes his way through the rubble to reach the bar in the city. On his way there, he surely will encounter some obstacles.
+  team:
+    name: 'Die Royale Gruppe'
+    members:
+      - 'Jiaying Liang'
+      - 'Shiro Neumann'
+      - 'Niklas Steinkoetter'
+  winner: 'no'
+  headerimage: rob-royally-ordinary-bot_header.webp
+  images:
+    -
+      file: rob-royally-ordinary-bot_image1_full.webp
+      thumb: rob-royally-ordinary-bot_image1_thumb.webp
+    -
+      file: rob-royally-ordinary-bot_image2_full.webp
+      thumb: rob-royally-ordinary-bot_image2_thumb.webp
+    -
+      file: rob-royally-ordinary-bot_image3_full.webp
+      thumb: rob-royally-ordinary-bot_image3_thumb.webp
+    -
+      file: rob-royally-ordinary-bot_image4_full.webp
+      thumb: rob-royally-ordinary-bot_image4_thumb.webp
+  download:
+    -
+      file: rob-royally-ordinary-bot-Windows.zip
+      platform: Windows
+      checksum: 5223cff225194a34dc37e3d68e14b67a1be6b2381e097e36dd0f8e593d6acb04
 -
   game:
     name: 'RAM Rampant'
