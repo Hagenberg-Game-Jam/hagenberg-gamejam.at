@@ -38,6 +38,42 @@
       checksum: 89ec7207a0eaea0a05e8d265ce7aad6331b02b4866d9766e95579bd5527e2c35
 -
   game:
+    name: 'Dumber Than You Think'
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: "In Dumber Than You Think, your goal is to save Robert, our stupid Bot. Robert is overwhelmed by constant compiling errors and can't take the suffering anymore, so he starts putting himself in danger. Your job is to interact with hostile objects and drag them out of the way before anything bad happens to him."
+  team:
+    name: '1920 x 1 Pixel'
+    members:
+      - 'Florian Guggenberger'
+      - 'Simon Höglinger'
+      - 'Anna Lanz'
+      - 'Clara Pauzenberger'
+      - 'Benedikt Scholz'
+  winner: 'no'
+  headerimage: dumber-than-you-think_header.webp
+  images:
+    -
+      file: dumber-than-you-think_image1_full.webp
+      thumb: dumber-than-you-think_image1_thumb.webp
+    -
+      file: dumber-than-you-think_image2_full.webp
+      thumb: dumber-than-you-think_image2_thumb.webp
+    -
+      file: dumber-than-you-think_image3_full.webp
+      thumb: dumber-than-you-think_image3_thumb.webp
+    -
+      file: dumber-than-you-think_image4_full.webp
+      thumb: dumber-than-you-think_image4_thumb.webp
+  download:
+    -
+      file: dumber-than-you-think-Windows.zip
+      platform: Windows
+      checksum: 7f09a659793562f5e488208f0b55e07f313c7cf0ee61667e7c7b6448ed0e0bb0
+-
+  game:
     name: 'Freindin Keat Zombaut'
     players: 1
     controls:
