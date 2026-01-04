@@ -1,5 +1,43 @@
 -
   game:
+    name: 2FAil
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |-
+      A game about exaggerated 2 Factor Authentication. The goal of the game is to log in and authenticate yourself by completing puzzles just in time before the upcoming gamejam deadline - good luck!
+
+      Play the game online at [2fail.vercel.app](https://2fail.vercel.app/)!
+  team:
+    name: 'Nocturnal Ducks'
+    members:
+      - 'Anja Greinecker'
+      - 'Nori Greinecker'
+      - 'Justus Warm'
+      - 'Elias Wolschlager'
+  winner: 'no'
+  headerimage: 2fail_header.webp
+  images:
+    -
+      file: 2fail_image1_full.webp
+      thumb: 2fail_image1_thumb.webp
+    -
+      file: 2fail_image2_full.webp
+      thumb: 2fail_image2_thumb.webp
+    -
+      file: 2fail_image3_full.webp
+      thumb: 2fail_image3_thumb.webp
+    -
+      file: 2fail_image4_full.webp
+      thumb: 2fail_image4_thumb.webp
+  download:
+    -
+      file: 2fail-Web.zip
+      platform: Web
+      checksum: 89ec7207a0eaea0a05e8d265ce7aad6331b02b4866d9766e95579bd5527e2c35
+-
+  game:
     name: 'Freindin Keat Zombaut'
     players: 1
     controls:
