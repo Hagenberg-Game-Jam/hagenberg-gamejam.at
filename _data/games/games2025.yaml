@@ -453,6 +453,41 @@
       checksum: e20de04dd66ff6dc372b591d46909c72a564c8f501ff2a1dbae18740b099c6d0
 -
   game:
+    name: 'Singing Fish Enterprise'
+    players: '1'
+    controls:
+      - keyboard
+    description: 'A mongoose working in a Warehouse gets a new co-worker: an AI-fish robot. The Mongoose needs to help the Robot get through the warehouse by repairing it if necessary.'
+  team:
+    name: Mongoose
+    members:
+      - 'Jacqueline Baumgartner'
+      - 'Florian Beckerle'
+      - 'Stefan Freinschlag'
+      - 'Lena Niedermair'
+      - 'Eva Springl'
+  winner: 'no'
+  headerimage: singing-fish-enterprise_header.webp
+  images:
+    -
+      file: singing-fish-enterprise_image1_full.webp
+      thumb: singing-fish-enterprise_image1_thumb.webp
+    -
+      file: singing-fish-enterprise_image2_full.webp
+      thumb: singing-fish-enterprise_image2_thumb.webp
+    -
+      file: singing-fish-enterprise_image3_full.webp
+      thumb: singing-fish-enterprise_image3_thumb.webp
+    -
+      file: singing-fish-enterprise_image4_full.webp
+      thumb: singing-fish-enterprise_image4_thumb.webp
+  download:
+    -
+      file: singing-fish-enterprise-Windows.zip
+      platform: Windows
+      checksum: 3dc08727418e91a8b81cedc1a509dc4e00ac269e27e6a911fabc13f88196fd82
+-
+  game:
     name: 'Stupido Cupido'
     players: '1'
     controls:
