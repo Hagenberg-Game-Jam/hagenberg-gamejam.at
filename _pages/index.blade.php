@@ -108,22 +108,31 @@
 <!-- About Section -->
 <section class="py-16 bg-white dark:bg-gray-900">
     <div class="container mx-auto px-4">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div class="order-2 lg:order-1 flex items-center">
                 @if(isset($about['gallery']) && is_array($about['gallery']) && count($about['gallery']) > 0)
                     {{-- Masonry Gallery --}}
                     <div class="masonry-gallery w-full">
-                        @foreach($about['gallery'] as $index => $galleryImage)
+                        @foreach($about['gallery'] as $index => $galleryItem)
                             @php
-                                $imageSrc = ($galleryImage !== '' && str_starts_with($galleryImage, '/')) ? $galleryImage : '/media/' . ltrim($galleryImage, '/');
+                                // Support both old format (string) and new format (object)
+                                $imageFile = is_array($galleryItem) ? ($galleryItem['image'] ?? '') : $galleryItem;
+                                $description = is_array($galleryItem) ? ($galleryItem['description'] ?? 'Scene from the Hagenberg Game Jam') : 'Scene from the Hagenberg Game Jam';
+                                
+                                $imageSrc = ($imageFile !== '' && str_starts_with($imageFile, '/')) ? $imageFile : '/media/' . ltrim($imageFile, '/');
                                 // Create masonry pattern: first and every 4th image spans 2 rows
                                 $rowSpan = ($index === 0 || ($index + 1) % 4 === 0) ? 'row-span-2' : 'row-span-1';
+                                
+                                // Use description for both alt and Lightbox
+                                $glightboxData = 'title: ' . $description;
                             @endphp
-                            <div class="masonry-item {{ $rowSpan }}">
+                            <a href="{{ $imageSrc }}" 
+                               class="masonry-item {{ $rowSpan }} glightbox" 
+                               data-glightbox="{{ $glightboxData }}">
                                 <img src="{{ $imageSrc }}" 
-                                     alt="Scene from the Hagenberg Game Jam" 
+                                     alt="{{ $description }}" 
                                      class="masonry-image">
-                            </div>
+                            </a>
                         @endforeach
                     </div>
                 @else
