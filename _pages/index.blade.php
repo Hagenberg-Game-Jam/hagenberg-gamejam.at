@@ -180,81 +180,26 @@
         @if(isset($sponsors['description']) && $sponsors['description'])
         <p class="text-center text-gray-600 dark:text-gray-700 mb-8">{{ $sponsors['description'] }}</p>
         @endif
-        <div class="sponsors-slider glide max-w-6xl mx-auto" style="display: block;">
-            <div class="glide__track" data-glide-el="track">
-                <ul class="glide__slides" style="list-style: none; margin: 0; padding: 0; display: flex;">
-                    @foreach(($sponsors['items'] ?? []) as $sponsor)
-                        @php
-                            $logo = (string) ($sponsor['logo'] ?? '');
-                            $logoSrc = ($logo !== '' && str_starts_with($logo, '/')) ? $logo : '/media/' . ltrim($logo, '/');
-                        @endphp
-                        <li class="glide__slide">
-                            <div class="flex justify-center items-center h-32">
-                                <a href="{{ $sponsor['url'] ?? '#' }}" target="_blank"
-                                   class="opacity-100 hover:opacity-70 transition-opacity">
-                                    <img src="{{ $logoSrc }}" alt="{{ $sponsor['name'] ?? 'Sponsor' }}"
-                                         class="h-16 object-contain">
-                                </a>
-                            </div>
-                        </li>
-                    @endforeach
-                    </ul>
+        <div class="sponsors-slider swiper max-w-6xl mx-auto">
+            <div class="swiper-wrapper">
+                @foreach(($sponsors['items'] ?? []) as $sponsor)
+                    @php
+                        $logo = (string) ($sponsor['logo'] ?? '');
+                        $logoSrc = ($logo !== '' && str_starts_with($logo, '/')) ? $logo : '/media/' . ltrim($logo, '/');
+                    @endphp
+                    <div class="swiper-slide">
+                        <div class="flex justify-center items-center h-32">
+                            <a href="{{ $sponsor['url'] ?? '#' }}" target="_blank"
+                               class="opacity-100 hover:opacity-70 transition-opacity">
+                                <img src="{{ $logoSrc }}" alt="{{ $sponsor['name'] ?? 'Sponsor' }}"
+                                     class="h-16 object-contain">
+                            </a>
+                        </div>
+                    </div>
+                @endforeach
             </div>
         </div>
     </div>
 </section>
 @endsection
 
-@push('styles')
-<style>
-    .masonry-gallery {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 200px;
-        gap: 1rem;
-    }
-    
-    .masonry-item {
-        overflow: hidden;
-        border-radius: 0.5rem;
-        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-        transition: box-shadow 0.3s ease;
-    }
-    
-    .masonry-item:hover {
-        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    }
-    
-    .masonry-item.row-span-2 {
-        grid-row: span 2;
-    }
-    
-    .masonry-image {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 0.3s ease;
-    }
-    
-    .masonry-item:hover .masonry-image {
-        transform: scale(1.05);
-    }
-    
-    @media (max-width: 1024px) {
-        .masonry-gallery {
-            grid-auto-rows: 150px;
-        }
-    }
-    
-    @media (max-width: 640px) {
-        .masonry-gallery {
-            grid-template-columns: 1fr;
-            grid-auto-rows: 200px;
-        }
-        
-        .masonry-item.row-span-2 {
-            grid-row: span 1;
-        }
-    }
-</style>
-@endpush
