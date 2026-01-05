@@ -36,6 +36,8 @@ class ACleanSiteDirectoryBuildTask extends PreBuildTask
             return;
         }
 
+        // Only delete contents, but preserve the directory structure
+        // This ensures media files can be copied after this task runs
         $this->deleteDirectoryContents($sitePath);
         $this->info('Build directory emptied.');
     }
@@ -60,6 +62,12 @@ class ACleanSiteDirectoryBuildTask extends PreBuildTask
             }
 
             $path = $dir . DIRECTORY_SEPARATOR . $file;
+
+            // Skip the media directory - it will be populated by TransferMediaAssets
+            // This prevents deleting media files that were just copied
+            if ($file === 'media' && is_dir($path)) {
+                continue;
+            }
 
             if (is_dir($path)) {
                 $this->deleteDirectoryContents($path);
