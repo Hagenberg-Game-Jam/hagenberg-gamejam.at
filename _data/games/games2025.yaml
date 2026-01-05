@@ -312,6 +312,42 @@
       checksum: 26ddbc2c487ac565578144a9b707f2dafcfcb85bcba50a21abc41bdfbc619ff3
 -
   game:
+    name: 'How to D-AI-TE'
+    players: '1'
+    controls:
+      - keyboard
+      - mouse
+    description: "In this game, you try to date and rizz some people, but as the AI has skipped dating school, it suggests you make really hard choices. Your goal: to get as many dates as possible, and trust me, that ain't easy! Because you are a poor student, you only have the base version of the dating app \"Humble\". That's why you have to play some unskippable ads to burn your last brain cells before it's a match again."
+  team:
+    name: Whimsickal
+    members:
+      - 'Theresa Ebner'
+      - 'Ariana Jicut'
+      - 'Pascal Nowarra'
+      - 'Philipp Plappart'
+      - 'Neo Theissl'
+  winner: 'no'
+  headerimage: how-to-d-ai-te_header.webp
+  images:
+    -
+      file: how-to-d-ai-te_image1_full.webp
+      thumb: how-to-d-ai-te_image1_thumb.webp
+    -
+      file: how-to-d-ai-te_image2_full.webp
+      thumb: how-to-d-ai-te_image2_thumb.webp
+    -
+      file: how-to-d-ai-te_image3_full.webp
+      thumb: how-to-d-ai-te_image3_thumb.webp
+    -
+      file: how-to-d-ai-te_image4_full.webp
+      thumb: how-to-d-ai-te_image4_thumb.webp
+  download:
+    -
+      file: how-to-d-ai-te-Windows.zip
+      platform: Windows
+      checksum: 202b22875fbf45b71895ef74b3e70155f9bbaa6d040b3b2bb895be3159eec49c
+-
+  game:
     name: 'Knight And Squire'
     players: '1'
     controls:
