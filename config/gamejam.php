@@ -50,5 +50,3 @@ return [
         'deadline' => env('GAMEJAM_REGISTRATION_DEADLINE', '2025-12-07T23:59:00'),
     ],
 ];
-
-

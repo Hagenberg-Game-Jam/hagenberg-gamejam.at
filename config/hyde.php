@@ -22,9 +22,9 @@
 |
 */
 
+use Hyde\Enums\Feature;
 use Hyde\Facades\Author;
 use Hyde\Facades\Meta;
-use Hyde\Enums\Feature;
 use Hyde\Facades\Navigation;
 
 return [
@@ -117,7 +117,7 @@ return [
         'filename' => 'feed.xml',
 
         // The channel description.
-        'description' => env('SITE_NAME', 'HydePHP').' RSS Feed',
+        'description' => env('SITE_NAME', 'HydePHP') . ' RSS Feed',
     ],
 
     /*
@@ -219,7 +219,7 @@ return [
     'meta' => [
         // Meta description is now set dynamically per page in layouts/head.blade.php
         Meta::name('keywords', 'Game Jam, Hagenberg, Game Development, Austria, University of Applied Sciences'),
-        Meta::name('generator', 'HydePHP v'.Hyde\Hyde::version()),
+        Meta::name('generator', 'HydePHP v' . Hyde\Hyde::version()),
         Meta::property('site_name', env('SITE_NAME', 'Hagenberg Game Jam')),
     ],
 
