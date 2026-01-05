@@ -482,6 +482,10 @@ return [
     // the build command will prompt for confirmation before emptying it.
     'safe_output_directories' => ['_site', 'docs', 'build'],
 
+    // Should the output directory be emptied before building?
+    // We use our own CleanSiteDirectoryBuildTask which completely empties _site
+    'empty_output_directory' => false,
+
     // Should a JSON build manifest with metadata about the build be generated?
     'generate_build_manifest' => true,
 
