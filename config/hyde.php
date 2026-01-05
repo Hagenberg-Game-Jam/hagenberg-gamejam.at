@@ -483,8 +483,13 @@ return [
     'safe_output_directories' => ['_site', 'docs', 'build'],
 
     // Should the output directory be emptied before building?
-    // We use our own CleanSiteDirectoryBuildTask which completely empties _site
+    // We use our own ACleanSiteDirectoryBuildTask which completely empties _site
     'empty_output_directory' => false,
+
+    // Register our custom clean task first to ensure it runs before TransferMediaAssets
+    'build_tasks' => [
+        \App\Actions\ACleanSiteDirectoryBuildTask::class,
+    ],
 
     // Should a JSON build manifest with metadata about the build be generated?
     'generate_build_manifest' => true,
