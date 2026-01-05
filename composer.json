@@ -30,7 +30,10 @@
         "symfony/yaml": "^7.4"
     },
     "require-dev": {
-        "hyde/realtime-compiler": "^4.0"
+        "hyde/realtime-compiler": "^4.0",
+        "larastan/larastan": "^3.8",
+        "laravel/pint": "^1.26",
+        "phpstan/phpstan": "^2.1"
     },
     "autoload": {
         "psr-4": {
@@ -46,6 +49,19 @@
         "post-autoload-dump": [
             "@php -r \"@unlink('./app/storage/framework/cache/packages.php');\"",
             "@php hyde package:discover --ansi"
+        ],
+        "lint": [
+            "pint --test"
+        ],
+        "lint:fix": [
+            "pint"
+        ],
+        "analyse": [
+            "phpstan analyse --memory-limit=2G"
+        ],
+        "test": [
+            "@lint",
+            "@analyse"
         ]
     },
     "config": {
