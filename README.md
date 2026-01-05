@@ -1,4 +1,4 @@
-# Hagenberg Game Jam Website (HydePHP)
+# Hagenberg Game Jam Website (hagenberg-gamejam.at)
 
 This repository contains the source for the **Hagenberg Game Jam** website, built with **HydePHP** (a Laravel-powered static site generator).
 
@@ -64,7 +64,7 @@ This starts Hyde’s local dev server (with the Hyde realtime compiler enabled i
 If you have Herd set up with a custom driver for HydePHP, you can open the site directly via your Herd domain
 (for example: `http://hagenberg-gamejam.at.test`) without running `php hyde serve`.
 
-For the correct `.env` file to use with Herd, see `ENV_SETUP.md`.
+For the correct `.env` file to use with Herd, see [`ENV_SETUP.md`](ENV_SETUP.md).
 
 ### When do I need npm during development?
 
@@ -99,6 +99,32 @@ During `php hyde build`, a pre-build task generates pages automatically:
 You do **not** need to create `_pages/` files for years/games. The build task is implemented in:
 
 - `app/Actions/GenerateGameJamPagesBuildTask.php`
+
+## Code Quality & Linting
+
+This project uses **Laravel Pint** (code style) and **PHPStan** (static analysis) for code quality.
+
+### Available Commands
+
+```bash
+# Check code style (without making changes)
+composer lint
+
+# Automatically fix code style issues
+composer lint:fix
+
+# Run static analysis
+composer analyse
+
+# Run both linting and analysis
+composer test
+```
+
+**Configuration:**
+- **Pint**: Uses PER-CS standard (configured in `pint.json`)
+- **PHPStan**: Level 9 (strictest) - configured in `phpstan.neon`
+
+For detailed information about automation options (Git hooks, CI/CD, IDE integration), see [`LINTING.md`](LINTING.md).
 
 ## Upgrading dependencies
 
@@ -181,7 +207,6 @@ Topic: Future Worlds
 Start date: 2025-12-12
 End date: 2025-12-14
 Duration in hours: 36
-Logo filename: gamejam2025.svg
 ```
 
 #### Step 2: Prepare game assets
@@ -197,8 +222,8 @@ _input/
 ```
 
 **Image requirements:**
-- Header image: One image file (JPG, PNG) - will be cropped to 1920:520 aspect ratio (if needed) and resized to 1920x520, or left as-is if already correct size
-- Screenshots: Multiple images (JPG, PNG) - will be cropped to 16:9, resized to 1920x1080 (full) and 400x225 (thumb)
+- Header image: One image file (e.g., JPG, PNG) - will be cropped to 1920:520 aspect ratio (if needed) and resized to 1920x520, or left as-is if already correct size
+- Screenshots: Multiple images (e.g., JPG, PNG) - will be cropped to 16:9, resized to 1920x1080 (full) and 400x225 (thumb)
 - All images are automatically converted to WebP format
 
 **Download file processing:**
