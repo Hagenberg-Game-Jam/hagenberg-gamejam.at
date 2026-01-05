@@ -6,14 +6,12 @@
 /.vagrant
 /.cache
 .phpunit.result.cache
+.phpstan
 
 .env
 
 # Do not include built site
 /_site
-
-# Exclude the jekyll worktree
-/jekyll-site
 
 # Exclude input directory (temporary files for game processing)
 /_input
