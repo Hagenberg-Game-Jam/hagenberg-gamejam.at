@@ -187,3 +187,44 @@
       file: the-great-escape-Windows.zip
       platform: Windows
       checksum: bb817abf2a7015fa6b5577df5337965122c1233bf0557bd28b1de2947087080f
+-
+  game:
+    name: Triangloids
+    players: '2'
+    controls:
+      - keyboard
+      - gamepad
+    description: |-
+      Work together to protect the inner core from invading spaceships. Triangle has to shoot enemies, Quad has to collect enemy corpses by holding the action button. Collecting creates an explosion, increases health and sometimes spawns a pickup item. Quad can collect said pickups to change Tri's weapon.
+
+      But beware: the control of Tri and Quad changes randomly between the players!
+  team:
+    name: Heidelbeeren
+    members:
+      - 'David Berger'
+      - 'Benjamin Doppler'
+      - 'Thomas Franz'
+      - 'Peter Kainrad'
+  winner: 'overall'
+  headerimage: triangloids_header.webp
+  images:
+    -
+      file: triangloids_image1_full.webp
+      thumb: triangloids_image1_thumb.webp
+    -
+      file: triangloids_image2_full.webp
+      thumb: triangloids_image2_thumb.webp
+    -
+      file: triangloids_image3_full.webp
+      thumb: triangloids_image3_thumb.webp
+    -
+      file: triangloids_image4_full.webp
+      thumb: triangloids_image4_thumb.webp
+  download:
+    - file: triangloids-Windows.zip
+      platform: Windows
+      checksum: 369f3556e37af6225b8e90aa5f2968d7c4508dd9d4b03e7ab8aa55d345bf6ad6
+    -
+      file: triangloids-macOS.zip
+      platform: macOS
+      checksum: 08e539744587b5f4540de84cfdfbf457b6daecf7284f26e030de25f434653aa0
