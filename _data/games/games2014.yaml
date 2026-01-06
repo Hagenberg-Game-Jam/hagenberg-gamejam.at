@@ -37,3 +37,41 @@
       file: feature-freeze-Windows.zip
       platform: Windows
       checksum: 3ee166053f2cf0a56697c3525ddc89eca0562dfb146906a361f3a67753039be9
+-
+  game:
+    name: "It's a Feature"
+    players: '1'
+    controls:
+      - keyboard
+    description: |-
+      Little robot Chromeo just received his new operating system "Botato" and is amazed by its quality. The developers are constantly creating new features for the software, but new isn't always better...
+
+      Steer Chromeo through a series of challenging levels and avoid dangerous obstacles that could cause new bugs.
+  team:
+    name: 'Logic Bros'
+    members:
+      - 'Simon Böhm'
+      - 'Julian Erhardt'
+      - 'René Goldschmid'
+      - 'Bernhard Matl'
+      - 'Jan Turkiewicz'
+  winner: 'no'
+  headerimage: its-a-feature_header.webp
+  images:
+    -
+      file: its-a-feature_image1_full.webp
+      thumb: its-a-feature_image1_thumb.webp
+    -
+      file: its-a-feature_image2_full.webp
+      thumb: its-a-feature_image2_thumb.webp
+    -
+      file: its-a-feature_image3_full.webp
+      thumb: its-a-feature_image3_thumb.webp
+    -
+      file: its-a-feature_image4_full.webp
+      thumb: its-a-feature_image4_thumb.webp
+  download:
+    -
+      file: its-a-feature-Windows.zip
+      platform: Windows
+      checksum: f388ff8b22378206492a06b2308500f19d7d4cb179e6ecc546f767cc3eb1a9e9
