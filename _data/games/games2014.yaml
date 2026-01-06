@@ -1,3 +1,39 @@
-# Games for 2014 Game Jam
-# Add game entries below using: php hyde gamejam:add-game
+-
+  game:
+    name: 'Feature Freeze'
+    players: '1'
+    controls:
+      - keyboard
+      - mouse
+    description: |-
+      Tomorrow's the release of the company's new AAA title "Creed of Duty". But shortly before the release the middle management decides to add new features. The other developers are already including them even though there's a feature freeze!
 
+      Now it's your turn: Stop the developers committing the features which will inevitable cause new bugs. You're the only hope for the scheduled release!
+  team:
+    name: 'Radiated Pixel'
+    members:
+      - 'Nico Harather'
+      - 'Thomas Heller'
+      - 'Thomas Raffetzeder'
+      - 'Gernot Raudner'
+      - 'Manuel Wieser'
+  winner: 'no'
+  headerimage: feature-freeze_header.webp
+  images:
+    -
+      file: feature-freeze_image1_full.webp
+      thumb: feature-freeze_image1_thumb.webp
+    -
+      file: feature-freeze_image2_full.webp
+      thumb: feature-freeze_image2_thumb.webp
+    -
+      file: feature-freeze_image3_full.webp
+      thumb: feature-freeze_image3_thumb.webp
+    -
+      file: feature-freeze_image4_full.webp
+      thumb: feature-freeze_image4_thumb.webp
+  download:
+    -
+      file: feature-freeze-Windows.zip
+      platform: Windows
+      checksum: 3ee166053f2cf0a56697c3525ddc89eca0562dfb146906a361f3a67753039be9
