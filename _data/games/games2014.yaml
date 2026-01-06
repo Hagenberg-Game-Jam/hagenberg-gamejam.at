@@ -111,3 +111,41 @@
       file: sky-is-the-limit-Windows.zip
       platform: Windows
       checksum: 7d21626d8e67d9d80c03fbf540e8ac3ee98deb3fce444f42b7089554b0763a09
+-
+  game:
+    name: 'The Dark Night'
+    players: '2'
+    controls:
+      - keyboard
+    description: |-
+      Darkness is about to engulf an old house and its two inhabitants. Only light can save them but light bulbs are fragile and flashlight batteries don't last forever.
+
+      Team up and fight the darkness! How long can you both survive?
+  team:
+    name: Lowscore
+    members:
+      - 'Fabian Achammer'
+      - 'Markus Hadinger'
+      - 'Christoph Lendenfeld'
+      - 'Matthias Patscheider'
+      - 'David Weichselbaum'
+  winner: 'no'
+  headerimage: the-dark-night_header.webp
+  images:
+    -
+      file: the-dark-night_image1_full.webp
+      thumb: the-dark-night_image1_thumb.webp
+    -
+      file: the-dark-night_image2_full.webp
+      thumb: the-dark-night_image2_thumb.webp
+    -
+      file: the-dark-night_image3_full.webp
+      thumb: the-dark-night_image3_thumb.webp
+    -
+      file: the-dark-night_image4_full.webp
+      thumb: the-dark-night_image4_thumb.webp
+  download:
+    -
+      file: the-dark-night-Windows.zip
+      platform: Windows
+      checksum: 3da03b329abc2c323cd23f8521c3a330c03bf25252927f99598eeb50a8d242e8
