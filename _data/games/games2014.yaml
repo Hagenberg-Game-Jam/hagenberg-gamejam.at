@@ -75,3 +75,39 @@
       file: its-a-feature-Windows.zip
       platform: Windows
       checksum: f388ff8b22378206492a06b2308500f19d7d4cb179e6ecc546f767cc3eb1a9e9
+-
+  game:
+    name: 'Sky is the Limit'
+    players: '2'
+    controls:
+      - keyboard
+    description: |-
+      It's the ultimate showdown: Two opposing construction cranes are trying to build the highest tower. Grab a random tile from your tile box and try to stack it on top of your existing structure. Or smash down your opponents tower.
+
+      When the time runs out the base platform is leveled to your structure's height. The player with the highest structure after three rounds wins this epic battle.
+  team:
+    name: Bitcrusher
+    members:
+      - 'Lorenz Krautgartner'
+      - 'Philipp Schürz'
+      - 'Philipp Stadler'
+  winner: 'no'
+  headerimage: sky-is-the-limit_header.webp
+  images:
+    -
+      file: sky-is-the-limit_image1_full.webp
+      thumb: sky-is-the-limit_image1_thumb.webp
+    -
+      file: sky-is-the-limit_image2_full.webp
+      thumb: sky-is-the-limit_image2_thumb.webp
+    -
+      file: sky-is-the-limit_image3_full.webp
+      thumb: sky-is-the-limit_image3_thumb.webp
+    -
+      file: sky-is-the-limit_image4_full.webp
+      thumb: sky-is-the-limit_image4_thumb.webp
+  download:
+    -
+      file: sky-is-the-limit-Windows.zip
+      platform: Windows
+      checksum: 7d21626d8e67d9d80c03fbf540e8ac3ee98deb3fce444f42b7089554b0763a09
