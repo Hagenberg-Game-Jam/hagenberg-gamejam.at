@@ -149,3 +149,41 @@
       file: the-dark-night-Windows.zip
       platform: Windows
       checksum: 3da03b329abc2c323cd23f8521c3a330c03bf25252927f99598eeb50a8d242e8
+-
+  game:
+    name: 'The Great EscAPE'
+    players: '1'
+    controls:
+      - keyboard
+    description: |-
+      Your heist got harder than expected. Who would have thought that the assigned co-driver "Maurice" was a chimpanzee?! You still got one chance to escape - by getting to the safe house with your car still operable!
+
+      Use Maurice to destroy and repair it on the fly, causing havoc on the road!
+  team:
+    name: Codelastig
+    members:
+      - 'Eva-Maria Brucker'
+      - 'Alexander Golombek'
+      - 'Benjamin Hofinger'
+      - 'Moritz Kertesz'
+      - 'Christian Winter'
+  winner: 'no'
+  headerimage: the-great-escape_header.webp
+  images:
+    -
+      file: the-great-escape_image1_full.webp
+      thumb: the-great-escape_image1_thumb.webp
+    -
+      file: the-great-escape_image2_full.webp
+      thumb: the-great-escape_image2_thumb.webp
+    -
+      file: the-great-escape_image3_full.webp
+      thumb: the-great-escape_image3_thumb.webp
+    -
+      file: the-great-escape_image4_full.webp
+      thumb: the-great-escape_image4_thumb.webp
+  download:
+    -
+      file: the-great-escape-Windows.zip
+      platform: Windows
+      checksum: bb817abf2a7015fa6b5577df5337965122c1233bf0557bd28b1de2947087080f
