@@ -184,3 +184,42 @@
       file: space-revenge-Windows.zip
       platform: Windows
       checksum: 06c404c4fe4cc958c230d5b54a71fb4b4e68a11a4bf3257d21d443a47b9db287
+-
+  game:
+    name: Venganza
+    players: '1'
+    controls:
+      - keyboard
+    description: |-
+      Two Mexicans are meeting in a bar. Suddenly one of them punches the other. The punched one starts to chase the puncher to get revenge. The chased one throws different obstacles (depending on the surroundings): chairs in the bar, barrels in the city, stones in the desert, as well as chilis.
+
+      If the player gets hit by an obstacle, the chaser slows down. To catch the evil Mexican, the player can collect Tequila bottles, which provide the player with a short boost.
+
+      Catch the evil Mexican and get revenge for being slapped!
+  team:
+    name: 'Robot Unicorn Riders'
+    members:
+      - 'Ilias Koletsis'
+      - 'Georgi Kostov'
+      - 'Helene Lettner'
+      - 'Gaber Šetina'
+  winner: 'no'
+  headerimage: venganza_header.webp
+  images:
+    -
+      file: venganza_image1_full.webp
+      thumb: venganza_image1_thumb.webp
+    -
+      file: venganza_image2_full.webp
+      thumb: venganza_image2_thumb.webp
+    -
+      file: venganza_image3_full.webp
+      thumb: venganza_image3_thumb.webp
+    -
+      file: venganza_image4_full.webp
+      thumb: venganza_image4_thumb.webp
+  download:
+    -
+      file: venganza-Windows.zip
+      platform: Windows
+      checksum: eea6a11af3aa2dbc23786d8d35919322c8123cace17367b873e24a1900cc40d3
