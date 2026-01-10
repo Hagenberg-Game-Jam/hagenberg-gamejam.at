@@ -37,3 +37,39 @@
       file: angry-programmerss-violent-adventures-Windows.zip
       platform: Windows
       checksum: 9d2beb54e5a399e77a16af11cea4f548ce48fcdd712f9fd51627a999ca389f8e
+-
+  game:
+    name: 'Bank Robby'
+    players: '1'
+    controls:
+      - keyboard
+    description: |-
+      Bank Robby is a real Tyrolean lad who's mad at corporate banks-after all they are the ones who waste all his hard-earned money!
+
+      Robby decides to trash the city's largest bank and give the boss a piece of his mind but to do so he has to reach the highest floor quicker than the rampaging horde of girls!
+  team:
+    name: itengy
+    members:
+      - 'Angelika Bugl'
+      - 'Christoph Lipphart'
+      - 'Marc Mühlberger'
+  winner: 'no'
+  headerimage: bank-robby_header.webp
+  images:
+    -
+      file: bank-robby_image1_full.webp
+      thumb: bank-robby_image1_thumb.webp
+    -
+      file: bank-robby_image2_full.webp
+      thumb: bank-robby_image2_thumb.webp
+    -
+      file: bank-robby_image3_full.webp
+      thumb: bank-robby_image3_thumb.webp
+    -
+      file: bank-robby_image4_full.webp
+      thumb: bank-robby_image4_thumb.webp
+  download:
+    -
+      file: bank-robby-Windows.zip
+      platform: Windows
+      checksum: 23f68ce63ca9f969d589346a760a957666eae98a8e9e8a814ebacaf1a49812f0
