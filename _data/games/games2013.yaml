@@ -1,3 +1,39 @@
-# Games for 2013 Game Jam
-# Add game entries below using: php hyde gamejam:add-game
+-
+  game:
+    name: "Angry Programmers's Violent Adventures"
+    players: '1'
+    controls:
+      - keyboard
+      - mouse
+    description: |-
+      Angry Programmer has had enough of big companies' shenanigans at the expense of the general population. When they ultimately started to take away his gaming freedoms, he finally had enough.
 
+      It is time for revenge!
+
+      Follow Angry Programmer through four action-laden levels of a top-down shoot-em-up. Use your trustworthy familiars to support you in combat and take back control from the evil corporations that are threatening the gaming community.
+  team:
+    name: 'Stickman Logic 2.0'
+    members:
+      - 'Oliver Krauss'
+      - 'Christian Ortner'
+      - 'Valentin Winkler'
+  winner: 'no'
+  headerimage: angry-programmerss-violent-adventures_header.webp
+  images:
+    -
+      file: angry-programmerss-violent-adventures_image1_full.webp
+      thumb: angry-programmerss-violent-adventures_image1_thumb.webp
+    -
+      file: angry-programmerss-violent-adventures_image2_full.webp
+      thumb: angry-programmerss-violent-adventures_image2_thumb.webp
+    -
+      file: angry-programmerss-violent-adventures_image3_full.webp
+      thumb: angry-programmerss-violent-adventures_image3_thumb.webp
+    -
+      file: angry-programmerss-violent-adventures_image4_full.webp
+      thumb: angry-programmerss-violent-adventures_image4_thumb.webp
+  download:
+    -
+      file: angry-programmerss-violent-adventures-Windows.zip
+      platform: Windows
+      checksum: 9d2beb54e5a399e77a16af11cea4f548ce48fcdd712f9fd51627a999ca389f8e
