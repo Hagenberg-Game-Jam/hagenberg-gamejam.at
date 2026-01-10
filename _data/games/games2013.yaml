@@ -147,3 +147,40 @@
       file: industree-Windows.zip
       platform: Windows
       checksum: d9c89700c84c220117964bdcece27699c6906346e0cd29c9b95a6b3d5153c743
+-
+  game:
+    name: 'Space Revenge'
+    players: '2'
+    controls:
+      - keyboard
+    description: |-
+      Player one starts as the hunter and player two is the hunted. The hunter starts with a laser gun and his prey has bombs to defend himself. With your weapon you can push your opponent off the platforms and win the round. But be careful- the bombs' detonation radius hurts both of you. Also, the roles change each round. If a player leaves the screen, he automatically forfeits the round and his opponent gets a point.
+
+      Start your vendetta and overwhelm your enemy!
+  team:
+    name: 'Legendary Lava Surfers'
+    members:
+      - 'Teo Babic'
+      - 'Benedict Dietrich'
+      - 'Andreas Friedl'
+      - 'Daniel Wilfinger'
+  winner: 'no'
+  headerimage: space-revenge_header.webp
+  images:
+    -
+      file: space-revenge_image1_full.webp
+      thumb: space-revenge_image1_thumb.webp
+    -
+      file: space-revenge_image2_full.webp
+      thumb: space-revenge_image2_thumb.webp
+    -
+      file: space-revenge_image3_full.webp
+      thumb: space-revenge_image3_thumb.webp
+    -
+      file: space-revenge_image4_full.webp
+      thumb: space-revenge_image4_thumb.webp
+  download:
+    -
+      file: space-revenge-Windows.zip
+      platform: Windows
+      checksum: 06c404c4fe4cc958c230d5b54a71fb4b4e68a11a4bf3257d21d443a47b9db287
