@@ -1,5 +1,41 @@
 -
   game:
+    name: Cataclysm
+    players: '1'
+    controls:
+      - keyboard
+    description: |-
+      Fight as a brave Captain against the world in four amazing levels.
+
+      Hint: Don't miss the ending credits.
+  team:
+    name: 'Stickman Logic'
+    members:
+      - 'Andreas Hölzlwimmer'
+      - 'Oliver Krauss'
+      - 'Christian Ortner'
+  winner: 'no'
+  headerimage: cataclysm_header.webp
+  images:
+    -
+      file: cataclysm_image1_full.webp
+      thumb: cataclysm_image1_thumb.webp
+    -
+      file: cataclysm_image2_full.webp
+      thumb: cataclysm_image2_thumb.webp
+    -
+      file: cataclysm_image3_full.webp
+      thumb: cataclysm_image3_thumb.webp
+    -
+      file: cataclysm_image4_full.webp
+      thumb: cataclysm_image4_thumb.webp
+  download:
+    -
+      file: cataclysm-Windows.zip
+      platform: Windows
+      checksum: 1f64db8328b2908f5b847721f3721eebba16f0d0645085640159229aef69d0b1
+-
+  game:
     name: 'FH Doomsday - Try to Survive'
     players: '1'
     controls:
