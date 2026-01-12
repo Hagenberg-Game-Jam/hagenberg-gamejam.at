@@ -49,7 +49,7 @@
       In keeping with the theme of GameJam2012, "It's the end of the world as we know it," what could be more fitting than the Mayan calendar... and all of this implemented in an action-packed way. Armed with a bamboo Gatling gun, you run through a small temple to shoot down a horde of living Mayan stone statues.
 
       There is only one minute left until December 21, 2012 (the end of the world), and all eight enemies must be eliminated within that minute.
-      
+
       Features: Detailed 3D models, awesome lighting effects, tons of cool animations and sounds!!! Crazy gameplay!
   team:
     name: 'Forever Alone'
@@ -72,3 +72,47 @@
       file: mayaction-Windows.zip
       platform: Windows
       checksum: f3b042d6ce4f833d55e718244f78e020db4379e213f1ef75082b25c15deab13b
+-
+  game:
+    name: 'Route 36'
+    players: '1'
+    controls:
+      - keyboard
+    description: |-
+      Try to destroy the falling asteroids to get points. Shoot at them to eliminate them. If you can't hit them, try to avoid them by moving left and right. If your vehicle gets a hit, it will explode... GAME OVER!
+
+      Evade all obstacles on the ground, jump for your life. You can't destroy them with your gun.
+
+      If you fall into a hole, your car will melt... GAME OVER!
+
+      If you drive into a stone, your car will explode... GAME OVER!
+
+      Don't drive off the screen; you will never survive with that strategy... GAME OVER!
+  team:
+    name: 'Rainbow Colored Unicorns of Death with Laser Guns on a Pirate Ship'
+    members:
+      - 'Benedict Dietrich'
+      - 'Johannes Neuhofer'
+      - 'Werner Reifberger'
+      - 'Manuela Salfer'
+      - 'Daniel Wilfinger'
+  winner: 'no'
+  headerimage: route-36_header.webp
+  images:
+    -
+      file: route-36_image1_full.webp
+      thumb: route-36_image1_thumb.webp
+    -
+      file: route-36_image2_full.webp
+      thumb: route-36_image2_thumb.webp
+    -
+      file: route-36_image3_full.webp
+      thumb: route-36_image3_thumb.webp
+    -
+      file: route-36_image4_full.webp
+      thumb: route-36_image4_thumb.webp
+  download:
+    -
+      file: route-36-Windows.zip
+      platform: Windows
+      checksum: 9c515a08fe502d6a07bd78a486de9ae778577507fbfc4825e49f401707af966d
