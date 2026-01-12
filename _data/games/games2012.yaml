@@ -1,3 +1,33 @@
-# Games for 2012 Game Jam
-# Add game entries below using: php hyde gamejam:add-game
+-
+  game:
+    name: Mayaction
+    players: '1'
+    controls:
+      - keyboard
+      - mouse
+    description: |-
+      In keeping with the theme of GameJam2012, "It's the end of the world as we know it," what could be more fitting than the Mayan calendar... and all of this implemented in an action-packed way. Armed with a bamboo Gatling gun, you run through a small temple to shoot down a horde of living Mayan stone statues.
 
+      There is only one minute left until December 21, 2012 (the end of the world), and all eight enemies must be eliminated within that minute.
+      Features: Detailed 3D models, awesome lighting effects, tons of cool animations and sounds!!! Crazy gameplay!
+  team:
+    name: 'Forever Alone'
+    members:
+      - 'Wolfram Süß'
+  winner: 'no'
+  headerimage: mayaction_header.webp
+  images:
+    -
+      file: mayaction_image1_full.webp
+      thumb: mayaction_image1_thumb.webp
+    -
+      file: mayaction_image2_full.webp
+      thumb: mayaction_image2_thumb.webp
+    -
+      file: mayaction_image3_full.webp
+      thumb: mayaction_image3_thumb.webp
+  download:
+    -
+      file: mayaction-Windows.zip
+      platform: Windows
+      checksum: f3b042d6ce4f833d55e718244f78e020db4379e213f1ef75082b25c15deab13b
