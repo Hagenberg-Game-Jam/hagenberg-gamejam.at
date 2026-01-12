@@ -1,5 +1,43 @@
 -
   game:
+    name: 'Brave New World'
+    players: '1'
+    controls:
+      - keyboard
+    description: |-
+      An Austrian plumber realizes that the world as he knows it is coming to an end. His workplace, a game world in an 8-bit game, is being adapted to the trend of social games!
+
+      He flees and sets out to find an untouched world!
+
+      Note: The game's download is an Adobe Flash SWF File. To play it on a modern-day system, use a Flash emulator like [Ruffle](https://ruffle.rs/).
+  team:
+    name: Wintermute
+    members:
+      - 'Marie Braun'
+      - 'Rene Ksuz'
+      - 'Bernd Sommeregger'
+  winner: 'no'
+  headerimage: brave-new-world_header.webp
+  images:
+    -
+      file: brave-new-world_image1_full.webp
+      thumb: brave-new-world_image1_thumb.webp
+    -
+      file: brave-new-world_image2_full.webp
+      thumb: brave-new-world_image2_thumb.webp
+    -
+      file: brave-new-world_image3_full.webp
+      thumb: brave-new-world_image3_thumb.webp
+    -
+      file: brave-new-world_image4_full.webp
+      thumb: brave-new-world_image4_thumb.webp
+  download:
+    -
+      file: brave-new-world-Web.zip
+      platform: Web
+      checksum: 57cbdafc67569111b6a0a180f19941e3f89491c2d8e614318ba5b486a50d5d60
+-
+  game:
     name: Cataclysm
     players: '1'
     controls:
