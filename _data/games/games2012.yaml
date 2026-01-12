@@ -110,6 +110,49 @@
       checksum: f3b042d6ce4f833d55e718244f78e020db4379e213f1ef75082b25c15deab13b
 -
   game:
+    name: 'Mega Asteroids vs. Giant Cubes'
+    players: 1-2
+    controls:
+      - keyboard
+    description: |-
+      The aim is to protect the world from the meteor storm and either catapult the burning celestial bodies away or deposit them in the designated pit using a net stretched between the players.
+
+      If the players manage to transport a meteorite into the pit, the score is increased accordingly.
+
+      After the Earth has been hit three times, it is finally destroyed, the game ends, and the high score is displayed.
+
+      The score is made up of survival time (in seconds) and collected meteorites (25 points each).
+
+      Note: The game's download is an Adobe Flash SWF File. To play it on a modern-day system, use a Flash emulator like [Ruffle](https://ruffle.rs/).
+  team:
+    name: TatüTata
+    members:
+      - 'Martin Kienmeyer'
+      - 'Marvin Schwoiger'
+      - 'Gerald Wiesinger'
+      - 'Bernadette Zlabinger'
+  winner: overall
+  headerimage: mega-asteroids-vs-giant-cubes_header.webp
+  images:
+    -
+      file: mega-asteroids-vs-giant-cubes_image1_full.webp
+      thumb: mega-asteroids-vs-giant-cubes_image1_thumb.webp
+    -
+      file: mega-asteroids-vs-giant-cubes_image2_full.webp
+      thumb: mega-asteroids-vs-giant-cubes_image2_thumb.webp
+    -
+      file: mega-asteroids-vs-giant-cubes_image3_full.webp
+      thumb: mega-asteroids-vs-giant-cubes_image3_thumb.webp
+    -
+      file: mega-asteroids-vs-giant-cubes_image4_full.webp
+      thumb: mega-asteroids-vs-giant-cubes_image4_thumb.webp
+  download:
+    -
+      file: mega-asteroids-vs-giant-cubes-Web.zip
+      platform: Web
+      checksum: a3a039b6e6f53bd7cefa43b26974d7afecacb66acdf50dc632315e8c8ce92408
+-
+  game:
     name: 'Route 36'
     players: '1'
     controls:
