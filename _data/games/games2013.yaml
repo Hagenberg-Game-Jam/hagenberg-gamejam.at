@@ -1,6 +1,6 @@
 -
   game:
-    name: "Angry Programmers's Violent Adventures"
+    name: "Angry Programmer's Violent Adventures"
     players: '1'
     controls:
       - keyboard
@@ -18,23 +18,23 @@
       - 'Christian Ortner'
       - 'Valentin Winkler'
   winner: 'no'
-  headerimage: angry-programmerss-violent-adventures_header.webp
+  headerimage: angry-programmers-violent-adventures_header.webp
   images:
     -
-      file: angry-programmerss-violent-adventures_image1_full.webp
-      thumb: angry-programmerss-violent-adventures_image1_thumb.webp
+      file: angry-programmers-violent-adventures_image1_full.webp
+      thumb: angry-programmers-violent-adventures_image1_thumb.webp
     -
-      file: angry-programmerss-violent-adventures_image2_full.webp
-      thumb: angry-programmerss-violent-adventures_image2_thumb.webp
+      file: angry-programmers-violent-adventures_image2_full.webp
+      thumb: angry-programmers-violent-adventures_image2_thumb.webp
     -
-      file: angry-programmerss-violent-adventures_image3_full.webp
-      thumb: angry-programmerss-violent-adventures_image3_thumb.webp
+      file: angry-programmers-violent-adventures_image3_full.webp
+      thumb: angry-programmers-violent-adventures_image3_thumb.webp
     -
-      file: angry-programmerss-violent-adventures_image4_full.webp
-      thumb: angry-programmerss-violent-adventures_image4_thumb.webp
+      file: angry-programmers-violent-adventures_image4_full.webp
+      thumb: angry-programmers-violent-adventures_image4_thumb.webp
   download:
     -
-      file: angry-programmerss-violent-adventures-Windows.zip
+      file: angry-programmers-violent-adventures-Windows.zip
       platform: Windows
       checksum: 9d2beb54e5a399e77a16af11cea4f548ce48fcdd712f9fd51627a999ca389f8e
 -
