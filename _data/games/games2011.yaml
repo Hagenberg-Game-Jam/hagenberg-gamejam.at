@@ -72,6 +72,44 @@
       checksum: ff7ddf8de6b8a3c5d7f93c6afe3ce4ac8835a7deda8f5825730ad97bc445b383
 -
   game:
+    name: SP4WN
+    players: '2'
+    controls:
+      - keyboard
+    description: |-
+      The game is a classic beat 'em up for two players, but the abilities change randomly at regular intervals.
+      The attacks available are a melee attack, a range attack, and a shield attack.
+
+      From time to time, (too) small texts flash under the respective player info. While this display is flashing, you must press the corresponding button to trigger an "UBER POWER."
+  team:
+    name: SP4WN
+    members:
+      - 'Tamara Nitsch'
+      - 'Johannes Pfeifer'
+      - 'Stefan Schober'
+      - 'Fabian Wolf'
+  winner: 'no'
+  headerimage: sp4wn_header.webp
+  images:
+    -
+      file: sp4wn_image1_full.webp
+      thumb: sp4wn_image1_thumb.webp
+    -
+      file: sp4wn_image2_full.webp
+      thumb: sp4wn_image2_thumb.webp
+    -
+      file: sp4wn_image3_full.webp
+      thumb: sp4wn_image3_thumb.webp
+    -
+      file: sp4wn_image4_full.webp
+      thumb: sp4wn_image4_thumb.webp
+  download:
+    -
+      file: sp4wn-Windows.zip
+      platform: Windows
+      checksum: 5bebc03e98cff1bf453a67761cbd056bd662d9565ef3807b6825ba809cf54b52
+-
+  game:
     name: 'Super Hangover'
     players: '1'
     controls:
