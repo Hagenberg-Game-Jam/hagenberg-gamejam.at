@@ -1,5 +1,39 @@
 -
   game:
+    name: 'The Holy Hangover'
+    players: '1'
+    controls:
+      - mouse
+    description: 'Jay C. wakes up in a car repair shop after a night of heavy drinking. He has no memory of who he is or what happened last night. But with the help of the Dude, Jay C. finds clues that help him figure out who he is and what happened. His journey takes him across a river to a town where he meets various characters and slowly learns about all the events of the previous night.'
+  team:
+    name: 'BBÖ VT 44'
+    members:
+      - 'Matthäus Baur'
+      - 'David Berger'
+      - 'Markus Oppeneiger'
+      - 'Andreas Volk'
+  winner: 'no'
+  headerimage: the-holy-hangover_header.webp
+  images:
+    -
+      file: the-holy-hangover_image1_full.webp
+      thumb: the-holy-hangover_image1_thumb.webp
+    -
+      file: the-holy-hangover_image2_full.webp
+      thumb: the-holy-hangover_image2_thumb.webp
+    -
+      file: the-holy-hangover_image3_full.webp
+      thumb: the-holy-hangover_image3_thumb.webp
+    -
+      file: the-holy-hangover_image4_full.webp
+      thumb: the-holy-hangover_image4_thumb.webp
+  download:
+    -
+      file: the-holy-hangover-Windows.zip
+      platform: Windows
+      checksum: 9ffb51cdfe33f91fd6c45663b8aefc77ef7d3d8838af5ff53e9aae99533cf369
+-
+  game:
     name: Winterfest
     players: '1'
     controls:
