@@ -34,6 +34,39 @@
       checksum: ff7ddf8de6b8a3c5d7f93c6afe3ce4ac8835a7deda8f5825730ad97bc445b383
 -
   game:
+    name: 'Super Hangover'
+    players: '1'
+    controls:
+      - keyboard
+    description: "Help the main character get rid of his hangover. Try to avoid the red kryptonites. They make the character feel even worse. Try to collect the green kryptonite to increase the character's buzz! The rainbow kryptonite shuffles the controls, but they are also a good source of score."
+  team:
+    name: 'Konttisen vasarateatteri'
+    members:
+      - 'Markku Painomaa'
+      - 'Timo Piippo'
+      - 'Jari Räisänen'
+  winner: 'no'
+  headerimage: super-hangover_header.webp
+  images:
+    -
+      file: super-hangover_image1_full.webp
+      thumb: super-hangover_image1_thumb.webp
+    -
+      file: super-hangover_image2_full.webp
+      thumb: super-hangover_image2_thumb.webp
+    -
+      file: super-hangover_image3_full.webp
+      thumb: super-hangover_image3_thumb.webp
+    -
+      file: super-hangover_image4_full.webp
+      thumb: super-hangover_image4_thumb.webp
+  download:
+    -
+      file: super-hangover-Windows.zip
+      platform: Windows
+      checksum: 5f9b28044bb59e53cf8cdf3468eb2a70aca3dc81a4d4c5dfc49af410dfec432e
+-
+  game:
     name: 'The Holy Hangover'
     players: '1'
     controls:
