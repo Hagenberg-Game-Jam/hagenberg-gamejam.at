@@ -1,3 +1,38 @@
-# Games for 2011 Game Jam
-# Add game entries below using: php hyde gamejam:add-game
-
+-
+  game:
+    name: Winterfest
+    players: '1'
+    controls:
+      - mouse
+    description: "It's Winterfest at Campus Hagenberg, and a group of strangely familiar-looking superheroes are thirsty. Fulfill their orders accurately and promptly to pass."
+  team:
+    name: Bazinga!
+    members:
+      - 'Michael Bauer'
+      - 'Felix Hessenberger'
+      - 'Thomas Kowar'
+      - 'Bernhard Wendt'
+  winner: overall
+  headerimage: winterfest_header.webp
+  images:
+    -
+      file: winterfest_image1_full.webp
+      thumb: winterfest_image1_thumb.webp
+    -
+      file: winterfest_image2_full.webp
+      thumb: winterfest_image2_thumb.webp
+    -
+      file: winterfest_image3_full.webp
+      thumb: winterfest_image3_thumb.webp
+    -
+      file: winterfest_image4_full.webp
+      thumb: winterfest_image4_thumb.webp
+  download:
+    -
+      file: winterfest-Windows.zip
+      platform: Windows
+      checksum: 088198f5fbe53b389eedc6b1089bf37a809e1598028410f08346d66a21e0ae88
+    -
+      file: winterfest-macOS.zip
+      platform: macOS
+      checksum: ae9fa7a93ef4a1ea8dfe407f78b7e0128748372dc5446b35b2d30f4e1f899e6c
