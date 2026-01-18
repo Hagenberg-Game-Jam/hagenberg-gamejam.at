@@ -72,6 +72,50 @@
       checksum: ff7ddf8de6b8a3c5d7f93c6afe3ce4ac8835a7deda8f5825730ad97bc445b383
 -
   game:
+    name: Herocraft
+    players: '1'
+    controls:
+      - mouse
+    description: |-
+      You are the new leader of the League of Superheroes. You are in command of the laboratory and superhero operations worldwide.
+      The goal is to defeat enough villains to stop Dr. Evil's pursuit of world domination.
+
+      If you run out of time, funds, or superheroes, the game is lost. To defeat villains, you have to 'buy' new heroes and equip them with superpowers. Then you send them into combat. Villains are attacking cities around the world at random. Your map helps you keep track of them.
+      The outcome of a fight is determined by the superpowers of both the hero and the villain.
+
+      Which combinations are the most effective is for you to discover. The 'Justice News' newspaper helps you with this task.
+
+      Note: The game's download is an Adobe Flash SWF File. To play it on a modern-day system, use a Flash emulator like [Ruffle](https://ruffle.rs/).
+  team:
+    name: 'Umbono Imboni'
+    members:
+      - 'Thomas Berger'
+      - 'Jürgen Koller'
+      - 'Marko Jelen'
+      - 'David Schedl'
+      - 'Stefan Srb'
+  winner: 'no'
+  headerimage: herocraft_header.webp
+  images:
+    -
+      file: herocraft_image1_full.webp
+      thumb: herocraft_image1_thumb.webp
+    -
+      file: herocraft_image2_full.webp
+      thumb: herocraft_image2_thumb.webp
+    -
+      file: herocraft_image3_full.webp
+      thumb: herocraft_image3_thumb.webp
+    -
+      file: herocraft_image4_full.webp
+      thumb: herocraft_image4_thumb.webp
+  download:
+    -
+      file: herocraft-Web.zip
+      platform: Web
+      checksum: 7c2d65651f4ac1f124b12e0f73b26f0382f5f72cf97fee21a2be2cbcdad10c05
+-
+  game:
     name: SP4WN
     players: '2'
     controls:
