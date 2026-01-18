@@ -1,5 +1,43 @@
 -
   game:
+    name: 'Dude hit Space to Play?!'
+    players: '2'
+    controls:
+      - keyboard
+    description: |-
+      Two hot-headed superhero trainees were fighting over a half-eaten taco using their superhuman strength. The League of Blub intervened and, in their unusual way of dealing with problems, decided to withdraw their superpowers and leave the two of them floating in space.
+
+      They are now tied together with an energy band and left with nothing but their will to survive. Desperate to regain their former powers, they try to collect the might power orbs (yes, the League of Blub ironically left those too) and fight each other in a battle of epic proportions.
+
+      But who will prevail, Blue or Red?
+  team:
+    name: Muljava
+    members:
+      - 'Bernhard Handler'
+      - 'Nico Harather'
+      - 'Gernot Raudner'
+  winner: 'no'
+  headerimage: dude-hit-space-to-play_header.webp
+  images:
+    -
+      file: dude-hit-space-to-play_image1_full.webp
+      thumb: dude-hit-space-to-play_image1_thumb.webp
+    -
+      file: dude-hit-space-to-play_image2_full.webp
+      thumb: dude-hit-space-to-play_image2_thumb.webp
+    -
+      file: dude-hit-space-to-play_image3_full.webp
+      thumb: dude-hit-space-to-play_image3_thumb.webp
+    -
+      file: dude-hit-space-to-play_image4_full.webp
+      thumb: dude-hit-space-to-play_image4_thumb.webp
+  download:
+    -
+      file: dude-hit-space-to-play-Windows.zip
+      platform: Windows
+      checksum: b2be0b276ceb99bd53b5f3fce2c6eb8da06d62abbef683bea97bb4d80dce80c5
+-
+  game:
     name: "Dude, where's my super powers?!"
     players: '1'
     controls:
