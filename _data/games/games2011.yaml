@@ -1,5 +1,39 @@
 -
   game:
+    name: "Dude, where's my super powers?!"
+    players: '1'
+    controls:
+      - keyboard
+    description: "Students have stolen Wilbur's superpowers! Hochi, Schaufi, and Rudi have to make their way through the crowded halls of Hagenberg Campus to get them back. Cross out green students, with Hochi, send sound waves to red students, and put blue students to sleep with Rudi. Switch between your characters to proceed and fulfill Wilbur's task in time."
+  team:
+    name: Dovahkiin
+    members:
+      - 'Peter Grassberger'
+      - 'Andreas Kasch'
+      - 'Julia Nebauer'
+      - 'Martin Staudinger'
+  winner: 'no'
+  headerimage: dude-wheres-my-super-powers_header.webp
+  images:
+    -
+      file: dude-wheres-my-super-powers_image1_full.webp
+      thumb: dude-wheres-my-super-powers_image1_thumb.webp
+    -
+      file: dude-wheres-my-super-powers_image2_full.webp
+      thumb: dude-wheres-my-super-powers_image2_thumb.webp
+    -
+      file: dude-wheres-my-super-powers_image3_full.webp
+      thumb: dude-wheres-my-super-powers_image3_thumb.webp
+    -
+      file: dude-wheres-my-super-powers_image4_full.webp
+      thumb: dude-wheres-my-super-powers_image4_thumb.webp
+  download:
+    -
+      file: dude-wheres-my-super-powers-Windows.zip
+      platform: Windows
+      checksum: ff7ddf8de6b8a3c5d7f93c6afe3ce4ac8835a7deda8f5825730ad97bc445b383
+-
+  game:
     name: 'The Holy Hangover'
     players: '1'
     controls:
