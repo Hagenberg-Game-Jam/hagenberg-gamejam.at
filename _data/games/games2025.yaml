@@ -111,7 +111,7 @@
     -
       file: a-13-un-ivy-Windows.zip
       platform: Windows
-      checksum: 2515b52dead379fdf9276ee0fe15a61c877992a2c42b90849ebc7a4e57002065
+      checksum: b639169da1fc1ade759407db2af2370272fbb3f26d0eab01bb0daa7e0df42dce
 -
   game:
     name: 'Banana Code'
@@ -224,11 +224,11 @@
     -
       file: freindin-keat-zombaut-Windows.zip
       platform: Windows
-      checksum: 8676083056ca72ea23515f6d2c7ee9bda9e24acab174c223c8d97ad2e22319a2
+      checksum: 9ae83696922a193011aeec9879c5ebbc7f16f7dde9f3f29bc22bdf4ae2e4588d
     -
       file: freindin-keat-zombaut-Linux.zip
       platform: Linux
-      checksum: 9ae83696922a193011aeec9879c5ebbc7f16f7dde9f3f29bc22bdf4ae2e4588d
+      checksum: 8676083056ca72ea23515f6d2c7ee9bda9e24acab174c223c8d97ad2e22319a2
 -
   game:
     name: GPS-E
@@ -420,7 +420,7 @@
     -
       file: prove-you-bleed-Windows.zip
       platform: Windows
-      checksum: d650f32aabb33e4d7e5d76ef52d13675e4d37408d00d096e6c0661590413a840
+      checksum: 7f006a3dcd957c740ebe01078ee31aff342ef1937ec370a771f6c154b2fe6510
 -
   game:
     name: 'R.O.B - Royally Ordinary Bot'
