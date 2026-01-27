@@ -184,6 +184,13 @@ php hyde gamejam:add-game
 php hyde gamejam:update-checksums --year=2024
 ```
 
+**4. Generate printable PDF sheets for games:**
+```bash
+php hyde gamejam:print 2025
+# Or for specific games only:
+php hyde gamejam:print 2025 --only="game-slug1,game-slug2"
+```
+
 ### Detailed workflow
 
 #### Step 1: Create a new Game Jam year
@@ -248,6 +255,7 @@ This command will:
    - Game name (used to generate URL slug)
    - Number of players (single number like "1" or "2", or range like "3-8" or "3-5")
    - Controls (keyboard, mouse, gamepad, touch - multi-select)
+   - **Controls text** (optional - detailed control instructions, e.g., "Movement: W, A, S, D\nInteraction: E")
    - Description (multiline input - type `---END---` when finished)
    - Team name
    - Team members (comma/semicolon/line-separated - intelligent parsing with preview)
@@ -305,7 +313,30 @@ The command intelligently parses team members from various formats:
 
 After parsing, you'll see a preview and can confirm or correct.
 
-#### Step 4: Mark the latest Jam (navigation + homepage CTA)
+#### Step 4: Generate printable PDF sheets (optional)
+
+You can generate printable A4 PDF sheets for games to distribute at play events:
+
+```bash
+php hyde gamejam:print 2025
+```
+
+This will create PDF files in `storage/pdfs/2025/` with:
+- Game title and year
+- Team name and members
+- Description (with clickable links converted from Markdown)
+- Controls text (if provided)
+- Input methods and supported platforms
+- Screenshots
+
+To generate PDFs for specific games only:
+```bash
+php hyde gamejam:print 2025 --only="game-slug1,game-slug2"
+```
+
+**Note:** The `storage/` directory is excluded from git, so generated PDFs won't be committed to the repository.
+
+#### Step 5: Mark the latest Jam (navigation + homepage CTA)
 
 Update:
 
@@ -313,7 +344,7 @@ Update:
 
 This controls which year is shown as "latest" in the navigation and which years go under the "Archive" dropdown.
 
-#### Step 5: Update the homepage content (annual)
+#### Step 6: Update the homepage content (annual)
 
 Edit:
 
@@ -327,13 +358,13 @@ This file is intended to be updated yearly and contains:
 
 Note: In templates, `/media/` is prepended automatically for homepage images and sponsor logos.
 
-#### Step 6: Update registration/voting state (optional)
+#### Step 7: Update registration/voting state (optional)
 
 If needed, update:
 
 - `config/gamejam.php` → `registration.*` and `voting.*`
 
-#### Step 7: Build & verify
+#### Step 8: Build & verify
 
 ```bash
 php hyde build

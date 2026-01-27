@@ -15,3 +15,6 @@
 
 # Exclude input directory (temporary files for game processing)
 /_input
+
+# Exclude storage directory (generated PDFs and other temporary files)
+/storage
