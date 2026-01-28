@@ -9,6 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     name: Build and Deploy
+    environment: hagenberg-gamejam-at (Production)
     permissions:
       contents: read
       deployments: write
