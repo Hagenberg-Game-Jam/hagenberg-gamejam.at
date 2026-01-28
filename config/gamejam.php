@@ -49,4 +49,16 @@ return [
         'url' => env('GAMEJAM_REGISTRATION_URL', 'https://forms.office.com/e/J0cpwNdunh'),
         'deadline' => env('GAMEJAM_REGISTRATION_DEADLINE', '2025-12-07T23:59:00'),
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Game download base URL (e.g. Cloudflare R2 public bucket)
+    |--------------------------------------------------------------------------
+    |
+    | When set, download links point to {base}/games/{year}/{file} instead of
+    | /games/{year}/{file}. Use for production when games are served from R2.
+    | Leave empty for local or same-origin /games/.
+    |
+    */
+    'games_base_url' => env('GAMES_BASE_URL', null),
 ];
