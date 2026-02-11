@@ -34,7 +34,8 @@ jobs:
 
       # Build the static site using Hyde
       # GAMES_BASE_URL from Repository Variables (Settings → Actions → Variables)
-      # so download links point to R2; empty = same-origin /games/
+      # Set to https://files.hagenberg-gamejam.at for R2 custom domain
+      # Empty = same-origin /games/
       - name: Build Site
         run: php hyde build
         env:
