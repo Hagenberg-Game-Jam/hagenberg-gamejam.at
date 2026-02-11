@@ -60,23 +60,35 @@ sponsors:
       name: 'Digital Media Campus Hagenberg'
       url: 'https://fh-ooe.at/campus-hagenberg/personen-kontakt/departments'
       logo: gamejam_logo_digital-media.svg
+      width: 287
+      height: 64
     -
       name: 'University of Applied Sciences Logo'
       url: 'https://www.fh-ooe.at/campus-hagenberg/'
       logo: gamejam_logo_fhooe.svg
+      width: 236
+      height: 64
     -
       name: 'Freistädter Bier Logo'
       url: 'https://www.freistaedter-bier.at/'
       logo: sponsor_freistaedter.webp
+      width: 110
+      height: 64
     -
       name: 'KEBA Logo'
       url: 'https://www.keba.com/'
       logo: sponsor_keba.svg
+      width: 247
+      height: 64
     -
       name: 'LIWEST Logo'
       url: 'https://www.liwest.at/'
       logo: sponsor_liwest.svg
+      width: 357
+      height: 64
     -
       name: 'RISC Software Logo'
       url: 'https://www.risc-software.at/'
       logo: sponsor_risc-software.svg
+      width: 196
+      height: 64

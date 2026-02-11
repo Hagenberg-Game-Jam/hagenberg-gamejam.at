@@ -36,10 +36,13 @@ jobs:
       # GAMES_BASE_URL from Repository Variables (Settings → Actions → Variables)
       # Set to https://files.hagenberg-gamejam.at for R2 custom domain
       # Empty = same-origin /games/
+      # SITE_URL and GAMEJAM_WEBSITE ensure canonical URLs and sitemap use production domain
       - name: Build Site
         run: php hyde build
         env:
           GAMES_BASE_URL: ${{ vars.GAMES_BASE_URL }}
+          SITE_URL: https://hagenberg-gamejam.at
+          GAMEJAM_WEBSITE: https://hagenberg-gamejam.at
 
       # Deploy the generated '_site' folder to Cloudflare Pages
       - name: Publish to Cloudflare Pages

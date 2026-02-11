@@ -1,5 +1,3 @@
 User-agent: *
 Allow: /
-
-# Sitemap location
 Sitemap: https://hagenberg-gamejam.at/sitemap.xml

@@ -195,13 +195,15 @@
                     @php
                         $logo = (string) ($sponsor['logo'] ?? '');
                         $logoSrc = ($logo !== '' && str_starts_with($logo, '/')) ? $logo : '/media/' . ltrim($logo, '/');
+                        $logoWidth = (int) ($sponsor['width'] ?? 200);
+                        $logoHeight = (int) ($sponsor['height'] ?? 64);
                     @endphp
                     <div class="swiper-slide">
                         <div class="flex justify-center items-center h-32">
                             <a href="{{ $sponsor['url'] ?? '#' }}" target="_blank"
                                class="opacity-100 hover:opacity-70 transition-opacity">
                                 <img src="{{ $logoSrc }}" alt="{{ $sponsor['name'] ?? 'Sponsor' }}"
-                                     class="h-16 object-contain">
+                                     width="{{ $logoWidth }}" height="{{ $logoHeight }}" class="h-16 object-contain">
                             </a>
                         </div>
                     </div>
