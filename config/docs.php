@@ -25,7 +25,7 @@ return [
 
     'sidebar' => [
         // The title in the sidebar header
-        'header' => (string) (env('SITE_NAME', 'HydePHP') ?? 'HydePHP') . ' Docs',
+        'header' => (is_string($v = env('SITE_NAME', 'HydePHP')) ? $v : 'HydePHP') . ' Docs',
 
         // When using a grouped sidebar, should the groups be collapsible?
         'collapsible' => true,

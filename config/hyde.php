@@ -117,7 +117,7 @@ return [
         'filename' => 'feed.xml',
 
         // The channel description.
-        'description' => (string) (env('SITE_NAME', 'HydePHP') ?? 'HydePHP') . ' RSS Feed',
+        'description' => (is_string($v = env('SITE_NAME', 'HydePHP')) ? $v : 'HydePHP') . ' RSS Feed',
     ],
 
     /*
@@ -220,7 +220,7 @@ return [
         // Meta description is now set dynamically per page in layouts/head.blade.php
         Meta::name('keywords', 'Game Jam, Hagenberg, Game Development, Austria, University of Applied Sciences'),
         Meta::name('generator', 'HydePHP v' . Hyde\Hyde::version()),
-        Meta::property('site_name', (string) (env('SITE_NAME', 'Hagenberg Game Jam') ?? 'Hagenberg Game Jam')),
+        Meta::property('site_name', is_string($sn = env('SITE_NAME', 'Hagenberg Game Jam')) ? $sn : 'Hagenberg Game Jam'),
     ],
 
     /*
