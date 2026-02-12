@@ -14,7 +14,7 @@
       - 'Nori Greinecker'
       - 'Justus Warm'
       - 'Elias Wolschlager'
-  winner: 'no'
+  winner: masterminds
   headerimage: 2fail_header.webp
   images:
     -
@@ -89,7 +89,7 @@
       - 'Quirin Pöchhacker'
       - 'Martin Prommegger'
       - 'Markus Timotheus Strasser'
-  winner: 'no'
+  winner: youngblood
   headerimage: a-13-un-ivy_header.webp
   images:
     -
@@ -125,7 +125,7 @@
       - 'Conny Pleichl'
       - 'Alexander Strauss'
       - 'Edim Zdralovic'
-  winner: 'no'
+  winner: risingstars
   headerimage: banana-code_header.webp
   images:
     -
@@ -275,7 +275,7 @@
       - 'Thomas Scherleithner'
       - 'Lena Schweighofer'
       - 'Julian Stögmüller'
-  winner: 'no'
+  winner: masterminds
   headerimage: he-moasta_header.webp
   images:
     -
