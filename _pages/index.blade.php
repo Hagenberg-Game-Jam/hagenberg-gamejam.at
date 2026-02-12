@@ -121,6 +121,12 @@
                                 $description = is_array($galleryItem) ? ($galleryItem['description'] ?? 'Scene from the Hagenberg Game Jam') : 'Scene from the Hagenberg Game Jam';
                                 
                                 $imageSrc = ($imageFile !== '' && str_starts_with($imageFile, '/')) ? $imageFile : '/media/' . ltrim($imageFile, '/');
+                                // Responsive variants (400w, 800w) generated at build time
+                                $variants = \App\Services\OptimizeImagesService::getResponsiveVariants($imageFile);
+                                $imgSrc = !empty($variants[400]) ? '/media/' . $variants[400] : $imageSrc;
+                                $srcset = !empty($variants)
+                                    ? implode(', ', array_map(fn ($w, $v) => '/media/' . $v . ' ' . $w . 'w', array_keys($variants), $variants))
+                                    : null;
                                 // Create masonry pattern: first and every 4th image spans 2 rows
                                 $rowSpan = ($index === 0 || ($index + 1) % 4 === 0) ? 'row-span-2' : 'row-span-1';
                                 
@@ -130,7 +136,9 @@
                             <a href="{{ $imageSrc }}" 
                                class="masonry-item {{ $rowSpan }} glightbox" 
                                data-glightbox="{{ $glightboxData }}">
-                                <img src="{{ $imageSrc }}" 
+                                <img src="{{ $imgSrc }}" 
+                                     @if($srcset)srcset="{{ $srcset }}"
+                                     sizes="(max-width: 768px) 100vw, 356px"@endif
                                      alt="{{ $description }}" 
                                      class="masonry-image">
                             </a>
