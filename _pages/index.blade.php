@@ -63,8 +63,9 @@
 @section('content')
 
 <!-- Categories Section -->
-<section class="py-16 bg-gray-50 dark:bg-gray-800">
+<section class="py-16 bg-gray-50 dark:bg-gray-800" aria-labelledby="categories-heading">
     <div class="container mx-auto px-4">
+        <h2 id="categories-heading" class="sr-only">What makes the Hagenberg Game Jam special</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Category 1 -->
             <div class="bg-gray-200 dark:bg-gray-700 p-8 rounded-lg shadow-lg text-center">
