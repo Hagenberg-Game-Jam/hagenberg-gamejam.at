@@ -21,17 +21,17 @@
             <div>
                 <div class="space-y-4">
                     @foreach(array_slice($rules, 0, $columnSize) as $index => $rule)
-                    <div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden" x-data="{ open: false }">
-                        <button @click="open = !open" class="w-full px-6 py-4 text-left flex items-center justify-between bg-gray-200 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                    <details class="group border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+                        <summary class="list-none cursor-pointer px-6 py-4 flex items-center justify-between bg-gray-200 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors [&::-webkit-details-marker]:hidden">
                             <span class="font-semibold text-lg dark:text-white">{{ $rule['question'] ?? '' }}</span>
-                            <svg class="w-5 h-5 transform transition-transform" :class="open ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 transform transition-transform group-open:rotate-180 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                             </svg>
-                        </button>
-                        <div x-show="open" x-collapse class="px-6 py-4 prose dark:prose-invert max-w-none">
+                        </summary>
+                        <div class="px-6 py-4 prose dark:prose-invert max-w-none border-t border-gray-200 dark:border-gray-700">
                             {!! $rule['answer'] ?? '' !!}
                         </div>
-                    </div>
+                    </details>
                     @endforeach
                 </div>
             </div>
@@ -40,17 +40,17 @@
             <div>
                 <div class="space-y-4">
                     @foreach(array_slice($rules, $columnSize) as $index => $rule)
-                    <div class="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden" x-data="{ open: false }">
-                        <button @click="open = !open" class="w-full px-6 py-4 text-left flex items-center justify-between bg-gray-200 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                    <details class="group border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+                        <summary class="list-none cursor-pointer px-6 py-4 flex items-center justify-between bg-gray-200 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors [&::-webkit-details-marker]:hidden">
                             <span class="font-semibold text-lg dark:text-white">{{ $rule['question'] ?? '' }}</span>
-                            <svg class="w-5 h-5 transform transition-transform" :class="open ? 'rotate-180' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 transform transition-transform group-open:rotate-180 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                             </svg>
-                        </button>
-                        <div x-show="open" x-collapse class="px-6 py-4 prose dark:prose-invert max-w-none">
+                        </summary>
+                        <div class="px-6 py-4 prose dark:prose-invert max-w-none border-t border-gray-200 dark:border-gray-700">
                             {!! $rule['answer'] ?? '' !!}
                         </div>
-                    </div>
+                    </details>
                     @endforeach
                 </div>
             </div>
