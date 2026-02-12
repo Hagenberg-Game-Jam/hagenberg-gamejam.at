@@ -169,14 +169,29 @@
             </div>
         </div>
         <div class="max-w-4xl mx-auto">
-            <div class="relative rounded-lg overflow-hidden shadow-2xl" style="padding-bottom: 56.25%; height: 0; position: relative;">
-                <iframe 
-                    class="absolute top-0 left-0 w-full h-full border-0" 
-                    src="https://www.youtube.com/embed/{{ $video['youtube_id'] ?? 'S4UBw5cPjfY' }}" 
-                    title="Hagenberg Game Jam Intro Video" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-                </iframe>
+            @php
+                $youtubeId = $video['youtube_id'] ?? 'S4UBw5cPjfY';
+                $thumbnailUrl = "https://img.youtube.com/vi/{$youtubeId}/maxresdefault.jpg";
+            @endphp
+            <div class="relative rounded-lg overflow-hidden shadow-2xl youtube-click-to-play" style="padding-bottom: 56.25%; height: 0; position: relative;" data-youtube-id="{{ $youtubeId }}">
+                {{-- Placeholder: loaded on page load, no third-party cookies --}}
+                <div class="youtube-placeholder absolute inset-0 flex items-center justify-center bg-gray-800 cursor-pointer group" role="button" tabindex="0" aria-label="Play Hagenberg Game Jam Intro Video">
+                    <img src="{{ $thumbnailUrl }}" alt="" class="absolute inset-0 w-full h-full object-cover" loading="lazy" width="1280" height="720"
+                         onerror="this.src='https://img.youtube.com/vi/{{ $youtubeId }}/hqdefault.jpg'">
+                    <div class="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors"></div>
+                    <div class="relative z-10 w-20 h-20 flex items-center justify-center rounded-full bg-red-600 group-hover:bg-red-700 group-hover:scale-110 transition-all shadow-lg">
+                        <svg class="w-10 h-10 text-white ml-1" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                    </div>
+                </div>
+                {{-- iframe: loaded only on click, uses privacy-enhanced youtube-nocookie.com --}}
+                <div class="youtube-iframe-container absolute inset-0 hidden">
+                    <iframe class="absolute top-0 left-0 w-full h-full border-0"
+                            title="Hagenberg Game Jam Intro Video"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </div>
@@ -213,4 +228,32 @@
     </div>
 </section>
 @endsection
+
+@push('scripts')
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.youtube-click-to-play').forEach(function (container) {
+        var placeholder = container.querySelector('.youtube-placeholder');
+        var iframeContainer = container.querySelector('.youtube-iframe-container');
+        var iframe = iframeContainer.querySelector('iframe');
+        var youtubeId = container.getAttribute('data-youtube-id');
+
+        if (placeholder && iframeContainer && iframe && youtubeId) {
+            function loadVideo() {
+                placeholder.classList.add('hidden');
+                iframeContainer.classList.remove('hidden');
+                iframe.src = 'https://www.youtube-nocookie.com/embed/' + youtubeId + '?autoplay=1';
+            }
+            placeholder.addEventListener('click', loadVideo);
+            placeholder.addEventListener('keydown', function (e) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    loadVideo();
+                }
+            });
+        }
+    });
+});
+</script>
+@endpush
 
