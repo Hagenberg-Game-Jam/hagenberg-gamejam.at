@@ -162,7 +162,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-end mb-12">
             <div class="text-right">
                 <span class="text-indigo-400 uppercase tracking-wide text-sm">{{ $video['eyebrow'] ?? 'intro video' }}</span>
-                <h2 class="text-4xl md:text-5xl font-bold text-white mt-2">{!! nl2br(e($video['title'] ?? "Hagenberg Game Jam\nin a Nutshell")) !!}</h2>
+                <h2 class="text-4xl md:text-5xl font-bold text-white mt-2">{!! nl2br(e($video['title'] ?? "Hagenberg Game Jam\nin a Nutshell"), false) !!}</h2>
             </div>
             <div>
                 <p class="text-gray-200 text-lg">{{ $video['description'] ?? 'Experience the feeling of a Hagenberg Game Jam in this short clip from 2019.' }}</p>
@@ -171,10 +171,9 @@
         <div class="max-w-4xl mx-auto">
             <div class="relative rounded-lg overflow-hidden shadow-2xl" style="padding-bottom: 56.25%; height: 0; position: relative;">
                 <iframe 
-                    class="absolute top-0 left-0 w-full h-full" 
+                    class="absolute top-0 left-0 w-full h-full border-0" 
                     src="https://www.youtube.com/embed/{{ $video['youtube_id'] ?? 'S4UBw5cPjfY' }}" 
                     title="Hagenberg Game Jam Intro Video" 
-                    frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowfullscreen>
                 </iframe>
