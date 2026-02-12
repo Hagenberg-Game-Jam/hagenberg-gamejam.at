@@ -491,9 +491,10 @@ return [
     // We use our own ACleanSiteDirectoryBuildTask which completely empties _site
     'empty_output_directory' => false,
 
-    // Register our custom clean task first to ensure it runs before TransferMediaAssets
+    // Register our custom tasks. TransferMediaAssets replaces Hyde's to optimize images before copy.
     'build_tasks' => [
         \App\Actions\ACleanSiteDirectoryBuildTask::class,
+        \App\Actions\PreBuildTasks\TransferMediaAssets::class,
     ],
 
     // Should a JSON build manifest with metadata about the build be generated?
