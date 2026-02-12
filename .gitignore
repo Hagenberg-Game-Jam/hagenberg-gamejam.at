@@ -13,8 +13,21 @@
 # Do not include built site
 /_site
 
-# Exclude input directory (temporary files for game processing)
-/_input
+# Exclude input directory contents (temporary files; keep structure via .gitkeep)
+/_input/*
+!/_input/.gitkeep
+!/_input/sponsor/
+/_input/sponsor/*
+!/_input/sponsor/.gitkeep
+!/_input/header/
+/_input/header/*
+!/_input/header/.gitkeep
+!/_input/screenshots/
+/_input/screenshots/*
+!/_input/screenshots/.gitkeep
+!/_input/download/
+/_input/download/*
+!/_input/download/.gitkeep
 
 # Exclude storage directory (generated PDFs and other temporary files)
 /storage
