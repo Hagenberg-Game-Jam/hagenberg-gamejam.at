@@ -42,6 +42,16 @@
             <a href="https://www.fh-ooe.at/en/data-protection" class="text-indigo-600 dark:text-indigo-400 hover:underline" target="_blank">Data Protection Policy</a>.
         </p>
 
+        <h2 id="youtube">YouTube Embeds</h2>
+        <p>
+            This website embeds videos from YouTube. When you play a video, YouTube (operated by Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA) may set cookies and collect data about your visit. This includes your IP address, the pages you visit, and interactions with the video. The data is processed according to Google's 
+            <a href="https://policies.google.com/privacy" class="text-indigo-600 dark:text-indigo-400 hover:underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and 
+            <a href="https://policies.google.com/terms" class="text-indigo-600 dark:text-indigo-400 hover:underline" target="_blank" rel="noopener noreferrer">Terms of Service</a>.
+        </p>
+        <p>
+            We use YouTube's privacy-enhanced mode (youtube-nocookie.com), which delays cookie placement until you start playing a video. However, data may still be transferred to Google when you watch. We obtain your consent via a cookie banner before enabling video playback. If you reject cookies, the video on this site cannot be played.
+        </p>
+
         <h2>Disclaimer</h2>
         <p>
             The information on this website has been carefully checked and is updated regularly. 

@@ -156,8 +156,8 @@
     </div>
 </section>
 
-<!-- Video Section -->
-<section class="relative py-16 bg-gray-900 dark:bg-gray-800">
+<!-- Video Section (always visible; video or placeholder depending on cookie consent) -->
+<section id="youtube-video-section" class="relative py-16 bg-gray-900 dark:bg-gray-800">
     <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-end mb-12">
             <div class="text-right">
@@ -169,12 +169,21 @@
             </div>
         </div>
         <div class="max-w-4xl mx-auto">
-            @php
-                $youtubeId = $video['youtube_id'] ?? 'S4UBw5cPjfY';
-                $thumbnailUrl = "https://img.youtube.com/vi/{$youtubeId}/maxresdefault.jpg";
-            @endphp
-            <div class="relative rounded-lg overflow-hidden shadow-2xl youtube-click-to-play" style="padding-bottom: 56.25%; height: 0; position: relative;" data-youtube-id="{{ $youtubeId }}">
-                {{-- Placeholder: loaded on page load, no third-party cookies --}}
+            {{-- Shown when cookies rejected or no choice: placeholder with Accept button --}}
+            <div id="youtube-cookie-placeholder" class="relative rounded-lg overflow-hidden shadow-2xl" style="padding-bottom: 56.25%; height: 0; position: relative;">
+                <div class="absolute inset-0 flex flex-col items-center justify-center bg-gray-800 gap-4 p-8">
+                    <p class="text-gray-300 text-center text-lg">To watch the video, please accept YouTube cookies.</p>
+                    <button type="button" id="youtube-accept-cookies" class="px-6 py-3 rounded-lg font-semibold bg-indigo-600 text-white hover:bg-indigo-700 transition-colors">
+                        Accept cookies
+                    </button>
+                </div>
+            </div>
+            {{-- Shown when cookies accepted: video player --}}
+            <div id="youtube-video-container" class="relative rounded-lg overflow-hidden shadow-2xl youtube-click-to-play hidden" style="padding-bottom: 56.25%; height: 0; position: relative;" data-youtube-id="{{ $video['youtube_id'] ?? 'S4UBw5cPjfY' }}">
+                @php
+                    $youtubeId = $video['youtube_id'] ?? 'S4UBw5cPjfY';
+                    $thumbnailUrl = "https://img.youtube.com/vi/{$youtubeId}/maxresdefault.jpg";
+                @endphp
                 <div class="youtube-placeholder absolute inset-0 flex items-center justify-center bg-gray-800 cursor-pointer group" role="button" tabindex="0" aria-label="Play Hagenberg Game Jam Intro Video">
                     <img src="{{ $thumbnailUrl }}" alt="" class="absolute inset-0 w-full h-full object-cover" loading="lazy" width="1280" height="720"
                          onerror="this.src='https://img.youtube.com/vi/{{ $youtubeId }}/hqdefault.jpg'">
@@ -185,7 +194,6 @@
                         </svg>
                     </div>
                 </div>
-                {{-- iframe: loaded only on click, uses privacy-enhanced youtube-nocookie.com --}}
                 <div class="youtube-iframe-container absolute inset-0 hidden">
                     <iframe class="absolute top-0 left-0 w-full h-full border-0"
                             title="Hagenberg Game Jam Intro Video"
@@ -195,7 +203,7 @@
             </div>
         </div>
     </div>
-                </section>
+</section>
 
 <!-- Sponsors Section -->
 <section class="py-16 bg-gray-50 dark:bg-gray-200">
@@ -240,6 +248,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (placeholder && iframeContainer && iframe && youtubeId) {
             function loadVideo() {
+                if (localStorage.getItem('cookie-consent-youtube') !== 'accepted') {
+                    return;
+                }
                 placeholder.classList.add('hidden');
                 iframeContainer.classList.remove('hidden');
                 iframe.src = 'https://www.youtube-nocookie.com/embed/' + youtubeId + '?autoplay=1';
