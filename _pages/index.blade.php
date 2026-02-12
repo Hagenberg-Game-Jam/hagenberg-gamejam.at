@@ -14,7 +14,15 @@
     $about = $homepage['about'] ?? [];
     $video = $homepage['video'] ?? [];
     $sponsors = $homepage['sponsors'] ?? [];
+
+    $firstHeroImage = ($heroImages[0] ?? '') ? (str_starts_with($heroImages[0], '/') ? $heroImages[0] : '/media/' . ltrim($heroImages[0], '/')) : '';
 @endphp
+
+@section('head')
+@if($firstHeroImage)
+    <link rel="preload" as="image" href="{{ $firstHeroImage }}" fetchpriority="high">
+@endif
+@endsection
 
 <!-- Hero Section with Slider -->
 @section('header')
@@ -25,7 +33,12 @@
                 @php
                     $imageSrc = str_starts_with($image, '/') ? $image : '/media/' . ltrim($image, '/');
                 @endphp
-                <div class="hero-slide {{ $index === 0 ? 'active' : '' }}" data-slide="{{ $index }}" style="background-image: url('{{ $imageSrc }}');"></div>
+                <div class="hero-slide {{ $index === 0 ? 'active' : '' }}" data-slide="{{ $index }}" @if($index !== 0) style="background-image: url('{{ $imageSrc }}');" @endif>
+                    @if($index === 0)
+                        {{-- LCP: use <img> for first slide so it's discoverable in HTML, with fetchpriority=high --}}
+                        <img src="{{ $imageSrc }}" alt="" class="hero-slide-img" fetchpriority="high" loading="eager" width="1920" height="1080">
+                    @endif
+                </div>
             @endforeach
         </div>
         <div class="absolute inset-0 flex items-center justify-center z-20 pointer-events-none">
