@@ -228,6 +228,7 @@
       You are an expert hacker who a mysterious stranger contacts for contract work. You are asked to infiltrate an enemy system without asking any questions. However, it soon becomes clear that the stranger is willing to go to extreme lengths to achieve his goals.
 
       As you finish contracts, you earn money to upgrade your systems. Play multiple times to solve even the most challenging objectives.
+    controls_text: "Move - WASD\nShoot - Left Click / Space\nPause - ESC"
   team:
     name: Sboonorp
     members:
@@ -255,7 +256,7 @@
     -
       file: hackit.zip
       platform: Windows
-      checksum: 2dd852d8c3c6b643d024e132b759e9504dd060b9be9c60e6f49a17854a5321ed
+      checksum: 79fbf7d6dffdafa77eb367b9359e2f6a16eb74cf4f8a1a6673c87a8b371b1821
 -
   game:
     name: Rotzbuab

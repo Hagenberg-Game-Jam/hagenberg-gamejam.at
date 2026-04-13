@@ -578,6 +578,7 @@
       For more games and maybe an updated version of the game, please check out the portfolio of [danielk0703](https://danielk0703.itch.io/).
       For more amazing music please check out the YouTube channel of our audio engineer [CyberFreak44](https://www.youtube.com/@cyberfreak44music).
       For more great artworks and models, check out the ArtStation profile of [Milenia](https://www.artstation.com/milenia).
+    controls_text: "Move - WASD or Arrow Keys\nDash - Shift Key\nLook Around - Move Mouse to rotate\nZoom - Mouse Wheel\nInteract and Destroy - E or F Keys\nDrop Item - Q Key\nPause - ESC"
   team:
     name: VoidSupport
     members:
@@ -605,7 +606,7 @@
     -
       file: roombasrevenge.zip
       platform: Windows
-      checksum: 8850b9d5644ad646c0b58d07726d7655eaff31220f2893defca55fb1473b000f
+      checksum: 6d246674e0fceb554b210270b7a8c17310106d16e96d968591c1274cae60e630
 -
   game:
     name: 'Salty Robots'
