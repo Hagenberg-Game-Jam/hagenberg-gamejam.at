@@ -5,6 +5,15 @@
 /.vscode
 /.vagrant
 /.cache
+
+# LLM tooling
+/.claude
+/CLAUDE.md
+/.cursor
+/.cursorrules
+/.github/copilot-instructions.md
+/.aider*
+/.continue
 .phpunit.result.cache
 .phpstan
 
